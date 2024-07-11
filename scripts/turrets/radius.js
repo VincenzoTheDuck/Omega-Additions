@@ -1,11 +1,11 @@
-/*const radiusHit = new Effect(20, e => {
+const radiusHit = new Effect(20, e => {
 	Draw.color(Pal.lancerLaser);
   Lines.stroke(e.fout() * 3);
   Lines.circle(e.x, e.y, 4 + e.finpow() * 10);
 
   for(let i = 0; i < 4; i++){
       Drawf.tri(e.x, e.y, 15, 4 * e.fout(), i*90);
-  }
+  };
 
   Draw.color();
   for(let i = 0; i < 4; i++){
@@ -26,16 +26,16 @@ const radiusStar = extend(BasicBulletType, {
 
     for(let i = 0; i < 4; i++){
         Drawf.tri(e.x, e.y, 4, 9, (i*90) + Time.time);
-    }
+    };
 
     Draw.color();
     for(let i = 0; i < 4; i++){
         Drawf.tri(e.x, e.y, 2, 6), (i*90) + Time.time);
-    }
+    };
     
 		Draw.reset();
 	}
-});*/
+});
 
 const radius = extend(PowerTurret, "radius", {});
 radius.range = 120;
