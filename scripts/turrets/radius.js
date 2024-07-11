@@ -1,23 +1,17 @@
-/*const radiusHit = new Effect(20, e => {
+const radiusHit = new Effect(20, e => {
 	Draw.color(Pal.lancerLaser);
-  Lines.stroke(e.fout() * 3);
-  Lines.circle(e.x, e.y, 4 + e.finpow() * 10);
-
-  for(let i = 0; i < 4; i++){
-      Drawf.tri(e.x, e.y, 15, 4 * e.fout(), i*90);
-  };
-
-  Draw.color();
-  for(let i = 0; i < 4; i++){
-      Drawf.tri(e.x, e.y, 15, 2 * e.fout(), i*90);
-  }
-});*/
+	Lines.stroke(e.fout() * 1.5)
+	
+	Fill.circle(b.x, b.y, e.fout() * 3);
+	
+	Lines.circle(b.x, b.y, (e.fout() * 10) + 6);
+});
 
 const radiusStar = extend(BasicBulletType, {
 	damage: 95,
 	speed: 3,
 	lifetime: 40,
-	hitEffect: Fx.hitLancer,
+	hitEffect: radiusHit,
 	homingPower: 0.08,
 	despawnHit: true,
 	ammoMultiplier: 1,
