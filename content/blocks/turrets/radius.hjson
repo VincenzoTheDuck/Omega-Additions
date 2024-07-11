@@ -3,7 +3,7 @@ copper/85
 silicon/40
 terralite-alloy/25
 ]
-category: turrets
+category: turret
 smokeEffect: smeltsmoke
 shootEffect: hitLancer
 reload: 80
