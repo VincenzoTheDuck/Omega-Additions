@@ -1,3 +1,4 @@
 require("blocks/production");
-require("blocks/turrets");
+// turrets
+require("blocks/turrets/radius");
 require("items");
