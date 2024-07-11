@@ -1,10 +1,16 @@
-const radiusHit = new Effect(20, e => {
+const radiusHit = new Effect(15, e => {
 	Draw.color(Pal.lancerLaser);
 	Lines.stroke(e.fout() * 1.5)
 	
 	Fill.circle(e.x, e.y, e.fout() * 3);
 	
-	Lines.circle(e.x, e.y, (e.fout() * 10) + 6);
+	Lines.circle(e.x, e.y, (e.fin() * 10) + 3);
+});
+
+const radiusTrail = new Effect(30, e => {
+	Draw.color(Pal.lancerLaser);
+	
+	Fill.circle(e.x, e.y, e.fout() * 3);
 });
 
 const radiusStar = extend(BasicBulletType, {
@@ -12,12 +18,12 @@ const radiusStar = extend(BasicBulletType, {
 	speed: 3,
 	lifetime: 40,
 	hitEffect: radiusHit,
-	homingPower: 0.08,
+	trailEffect: radiusTrail,
+	trailInterval: 5
+	despawnEffect: none,
 	despawnHit: true,
 	ammoMultiplier: 1,
 	trailColor: Pal.lancerLaser,
-	trailWidth: 3,
-	trailLength: 20,
 	draw(b){
 		Draw.color(Pal.lancerLaser);
 		Fill.circle(b.x, b.y, 3);
