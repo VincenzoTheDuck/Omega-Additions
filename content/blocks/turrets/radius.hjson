@@ -6,6 +6,7 @@ terralite-alloy/25
 category: turret
 smokeEffect: smeltsmoke
 shootEffect: hitLancer
+shootSound: flame2
 reload: 80
 recoil: 1.2
 shake: 2
