@@ -1,0 +1,25 @@
+requirements: [
+copper/60
+graphite/45
+silicon/20
+]
+category: crafting
+craftEffect: smeltsmoke
+outputItem: terralite-alloy/1
+craftTime: 45
+size: 2
+hasPower: true
+drawer: [DrawDefault, DrawFlame]
+ambientSound: smelter
+ambientSoundVolume: 0.07
+consumes: {
+power: 0.7
+items: {
+items: [
+graphite/1
+lead/2
+silicon/2
+]
+}
+}
+research: graphite-press
