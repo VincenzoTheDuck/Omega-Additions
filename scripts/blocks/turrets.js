@@ -25,12 +25,12 @@ const radiusStar = extend(BasicBulletType, {
 		Draw.color(Pal.lancerLaser);
 
     for(let i = 0; i < 4; i++){
-        Drawf.tri(e.x, e.y, 4, 15, (i*90) + Time.time);
+        Drawf.tri(e.x, e.y, 4, 9, (i*90) + Time.time);
     }
 
     Draw.color();
     for(let i = 0; i < 4; i++){
-        Drawf.tri(e.x, e.y, 2, 10), (i*90) + Time.time);
+        Drawf.tri(e.x, e.y, 2, 6), (i*90) + Time.time);
     }
     
 		Draw.reset();
