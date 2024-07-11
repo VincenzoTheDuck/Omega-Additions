@@ -1,4 +1,4 @@
-const radiusHit = new Effect(20, e => {
+/*const radiusHit = new Effect(20, e => {
 	Draw.color(Pal.lancerLaser);
   Lines.stroke(e.fout() * 3);
   Lines.circle(e.x, e.y, 4 + e.finpow() * 10);
@@ -11,7 +11,7 @@ const radiusHit = new Effect(20, e => {
   for(let i = 0; i < 4; i++){
       Drawf.tri(e.x, e.y, 15, 2 * e.fout(), i*90);
   }
-});
+});*/
 
 const radiusStar = extend(BasicBulletType, {
   damage: 100,
