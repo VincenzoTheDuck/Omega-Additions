@@ -17,7 +17,7 @@ const radiusStar = extend(BasicBulletType, {
   damage: 100,
 	speed: 4.5,
 	lifetime: 30,
-	hitEffect: radiusHit,
+	hitEffect: /*radiusHit*/ Fx.hitLancer,
 	homingPower: 0.08,
 	despawnHit: true,
 	ammoMultiplier: 1,
