@@ -1,4 +1,4 @@
-/*const radiusHit = new Effect(20, e => {
+const radiusHit = new Effect(20, e => {
 	Draw.color(Pal.lancerLaser);
   Lines.stroke(e.fout() * 3);
   Lines.circle(e.x, e.y, 4 + e.finpow() * 10);
@@ -15,8 +15,8 @@
 
 const radiusStar = extend(BasicBulletType, {
   damage: 100,
-	speed: 4.5,
-	lifetime: 30,
+	speed: 3,
+	lifetime: 40,
 	hitEffect: radiusHit,
 	homingPower: 0.08,
 	despawnHit: true,
@@ -25,18 +25,18 @@ const radiusStar = extend(BasicBulletType, {
 		Draw.color(Pal.lancerLaser);
 
     for(let i = 0; i < 4; i++){
-        Drawf.tri(e.x, e.y, 4, 9, (i*90) + Time.time);
+        Drawf.tri(e.x, e.y, 4, 9, i*90);
     };
 
     Draw.color();
     for(let i = 0; i < 4; i++){
-        Drawf.tri(e.x, e.y, 2, 6), (i*90) + Time.time);
+        Drawf.tri(e.x, e.y, 2, 6), i*90);
     };
     
 		Draw.reset();
 	}
-});*/
+});
 
 const radius = extend(PowerTurret, "radius", {});
 radius.range = 120;
-/*radius.shootType = radiusStar*/
+radius.shootType = radiusStar
