@@ -39,4 +39,4 @@ const radiusStar = extend(BasicBulletType, {
 
 const radius = extend(PowerTurret, "radius", {});
 radius.range = 120;
-radius.shootType = radiusStarrrrrrrrr
+radius.shootType = radiusStar
