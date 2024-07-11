@@ -1,1 +1,2 @@
-require("items"),
+require("items");
+require("blocks/production");
