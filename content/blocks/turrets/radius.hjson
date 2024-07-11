@@ -1,0 +1,19 @@
+requirements: [
+copper/85
+silicon/40
+terralite-alloy/25
+]
+category: turrets
+smokeEffect: smeltsmoke
+shootEffect: hitLancer
+reload: 80
+recoil: 1.2
+shake: 2
+size: 1
+consumes: {
+power: 0.7
+coolant: {
+amount: 0.1
+}
+}
+research: arc
