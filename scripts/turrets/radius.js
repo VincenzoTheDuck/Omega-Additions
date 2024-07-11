@@ -1,4 +1,4 @@
-/*const radiusHit = new Effect(20, e => {
+const radiusHit = new Effect(20, e => {
 	Draw.color(Pal.lancerLaser);
   Lines.stroke(e.fout() * 3);
   Lines.circle(e.x, e.y, 4 + e.finpow() * 10);
@@ -35,8 +35,8 @@ const radiusStar = extend(BasicBulletType, {
     
 		Draw.reset();
 	}
-});*/
+});
 
 const radius = extend(PowerTurret, "radius", {});
 radius.range = 120;
-//radius.shootType = radiusStar
+radius.shootType = radiusStar
