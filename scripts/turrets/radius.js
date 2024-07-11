@@ -14,27 +14,21 @@
 });*/
 
 const radiusStar = extend(BasicBulletType, {
-  damage: 100,
+	damage: 95,
 	speed: 3,
 	lifetime: 40,
 	hitEffect: Fx.hitLancer,
 	homingPower: 0.08,
 	despawnHit: true,
 	ammoMultiplier: 1,
-	/*draw(b){
+	trailColor: Pal.lancerLaser,
+	trailWidth: 3,
+	trailLength: 9,
+	draw(b){
 		Draw.color(Pal.lancerLaser);
-
-    for(let i = 0; i < 4; i++){
-        Drawf.tri(e.x, e.y, 4, 9, i*90);
-    };
-
-    Draw.color();
-    for(let i = 0; i < 4; i++){
-        Drawf.tri(e.x, e.y, 2, 6), i*90);
-    };
-    
+		Fill.circle(b.x, b.y, 3);
 		Draw.reset();
-	}*/
+	}
 });
 
 const radius = extend(PowerTurret, "radius", {});
