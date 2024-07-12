@@ -29,7 +29,7 @@ const leadBullet = extend(BasicBulletType, {
   pierceCap: 2,
 	speed: 6,
 	lifetime: 17,
-  drag: 0.01
+  drag: 0.01,
 	hitEffect: leadHit,
 	despawnEffect: leadDespawn,
 	despawnHit: true,
@@ -77,7 +77,7 @@ const scrapBullet = extend(BasicBulletType, {
   pierceCap: 4,
 	speed: 6,
 	lifetime: 17,
-  drag: 0.01
+  drag: 0.01,
 	hitEffect: scrapHit,
 	despawnEffect: scrapDespawn,
 	despawnHit: true,
