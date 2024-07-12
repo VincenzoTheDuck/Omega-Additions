@@ -4,10 +4,10 @@ const leadHit = new Effect(17, e => {
 
 	const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-      lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
+      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
 	}});
 	
-	Angles.randLenVectors(e.id, 2, e.finpow() * 17.0, e.rotation, 60.0, hj);
+	Angles.randLenVectors(e.id, 7, e.finpow() * 17.0, e.rotation, 360.0, hj);
 });
 
 const leadDespawn = new Effect(15, e => {
@@ -21,10 +21,10 @@ const leadDespawn = new Effect(15, e => {
 
 	const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-      lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
+      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
 	}});
 	
-	Angles.randLenVectors(e.id, 2, e.finpow() * 17.0, e.rotation, 60.0, hj);
+	Angles.randLenVectors(e.id, 4, e.finpow() * 17.0, e.rotation, 360.0, hj);
 });
 
 const leadBullet = extend(BasicBulletType, {
@@ -51,10 +51,10 @@ const scrapHit = new Effect(17, e => {
 
 	const hj = new Floatc2({get: function(x, y){
 		 var ang = Mathf.angle(x, y);
-      lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
+      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
 	}});
 	
-	Angles.randLenVectors(e.id, 2, e.finpow() * 17.0, e.rotation, 60.0, hj);
+	Angles.randLenVectors(e.id, 7, e.finpow() * 17.0, e.rotation, 360.0, hj);
 });
 
 const scrapDespawn = new Effect(15, e => {
@@ -68,10 +68,10 @@ const scrapDespawn = new Effect(15, e => {
 
 	const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-      lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
+      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
 	}});
 	
-	Angles.randLenVectors(e.id, 2, e.finpow() * 17.0, e.rotation, 60.0, hj);
+	Angles.randLenVectors(e.id, 4, e.finpow() * 17.0, e.rotation, 360.0, hj);
 });
 
 const scrapBullet = extend(BasicBulletType, {
