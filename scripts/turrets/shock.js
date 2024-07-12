@@ -42,7 +42,7 @@ const shock = extend(PowerTurret, "shock", {
 shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
 	updateTile(){
         this.super$updateTile();
-		shock.rot += (this.shootWarmup * 0.5);
+		shock.rot ++ (this.shootWarmup * 0.5);
 
     shock.a = Mathf.clamp(this.shootWarmup, 0, shock.maxA);
 
