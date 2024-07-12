@@ -33,14 +33,10 @@ const leadBullet = extend(BasicBulletType, {
   drag: 0.01,
 	hitEffect: leadHit,
 	despawnEffect: leadDespawn,
-	trailColor: Pal.bulletYellow,
-  trailWidth: 1.7,
-  trailLength: 10,
 	draw(b){
 		Draw.color(Pal.bulletYellow);
 		Fill.circle(b.x, b.y, 1.7);
-    drawTrail();
-		Draw.reset();
+		Draw.reset()
 	}
 });
 
@@ -80,14 +76,10 @@ const scrapBullet = extend(BasicBulletType, {
   drag: 0.01,
 	hitEffect: scrapHit,
 	despawnEffect: scrapDespawn,
-	trailColor: Color.valueOf("e0b28d"),
-  trailWidth: 1.7,
-  trailLength: 10,
 	draw(b){
 		Draw.color(Color.valueOf("e0b28d"));
 		Fill.circle(b.x, b.y, 1.7);
-    drawTrail();
-		Draw.reset();
+		Draw.reset()
 	}
 });
 
