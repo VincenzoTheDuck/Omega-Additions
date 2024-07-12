@@ -41,37 +41,49 @@ const shock = extend(PowerTurret, "shock", {
 });
 shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
 	updateTile(){
-        this.super$updateTile();
+      		this.super$updateTile();
+		/*shock.rot = shock.rot + (this.shootWarmup * 0.5);
+
+    		shock.a = Mathf.clamp(this.shootWarmup, 0, shock.maxA);
+
+        	if(this.isShooting() && this.isActive() && this.hasAmmo() && Mathf.chance(shock.a)){
+            		shockBullet.create(this, this.team, this.x, this.y, Mathf.random(360));
+            		Sounds.spark.at(this);
+            		shockShoot.at(this.x, this.y)
+        	}*/
+    	};
+	draw(){
+     		 Draw.rect(shock.baseRegion, this.x, this.y, 0);
+      
+      		Draw.z(Layer.turret);
+      
+      		//Draw.rect(shock.outlines[0], this.x, this.y, 0);
+      
+      		//Drawf.shadow(shock.outlines[0], this.x - (teslaStorm.size / 2), this.y - (teslaStorm.size / 2), -this.rotation + 90);
+      		Draw.rect(shock.spinnerRegion, this.x, this.y, shock.rot);
+      
+      		Draw.rect(shock.region, this.x, this.y, 0);
+      
+      		if(this.heat > 0.00001){
+        		Draw.blend(Blending.additive);
+        		Draw.color(shock.heatColor, this.heat);
+        		Draw.rect(shock.heatRegion, this.x, this.y, 0);
+        		Draw.blend();
+        		Draw.color();
+      		}
+    	}
+	updateTile(){
+      		this.super$updateTile();
 		shock.rot = shock.rot + (this.shootWarmup * 0.5);
 
-    shock.a = Mathf.clamp(this.shootWarmup, 0, shock.maxA);
+    		shock.a = Mathf.clamp(this.shootWarmup, 0, shock.maxA);
 
-        if(this.isShooting() && this.isActive() && this.hasAmmo() && Mathf.chance(shock.a)){
-            shockBullet.create(this, this.team, this.x, this.y, Mathf.random(360));
-            Sounds.spark.at(this);
-            shockShoot.at(this.x, this.y)
-        }
-	};
-	draw(){
-      Draw.rect(shock.baseRegion, this.x, this.y, 0);
-      
-      Draw.z(Layer.turret);
-      
-      //Draw.rect(shock.outlines[0], this.x, this.y, 0);
-      
-      //Drawf.shadow(shock.outlines[0], this.x - (teslaStorm.size / 2), this.y - (teslaStorm.size / 2), -this.rotation + 90);
-      Draw.rect(shock.spinnerRegion, this.x, this.y, shock.rot);
-      
-      Draw.rect(shock.region, this.x, this.y, 0);
-      
-      if(this.heat > 0.00001){
-        Draw.blend(Blending.additive);
-        Draw.color(shock.heatColor, this.heat);
-        Draw.rect(shock.heatRegion, this.x, this.y, 0);
-        Draw.blend();
-        Draw.color();
-      }
-    }
+        	if(this.isShooting() && this.isActive() && this.hasAmmo() && Mathf.chance(shock.a)){
+            		shockBullet.create(this, this.team, this.x, this.y, Mathf.random(360));
+            		Sounds.spark.at(this);
+            		shockShoot.at(this.x, this.y)
+        	}
+    	};
 });
 shock.heatColor = Color.valueOf("ff9885");
 shock.targetAir = false;
