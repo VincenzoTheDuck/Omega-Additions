@@ -51,7 +51,7 @@ shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
             Sounds.spark.at(this);
             shockShoot.at(this.x, this.y)
         }
-	}};
+	}});
 	draw(){
       Draw.rect(shock.baseRegion, this.x, this.y, 0);
       
