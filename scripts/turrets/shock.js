@@ -44,14 +44,14 @@ shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
         this.super$updateTile();
 		shock.rot += (this.shootWarmup * 0.5);
 
-    shock.a = Mathf.clamp(this.shootWarmup, 0, shock.maxA);
+    /*shock.a = Mathf.clamp(this.shootWarmup, 0, shock.maxA);
 
         if(this.isShooting() && this.isActive() && this.hasAmmo() && Mathf.chance(this.a)){
             shockBullet.create(this, this.team, this.x, this.y, Mathf.random(360));
             Sounds.spark.at(this);
             shockShoot.at(this.x, this.y)
-        }
-	}});
+        }*/
+	};
 	draw(){
       Draw.rect(shock.baseRegion, this.x, this.y, 0);
       
@@ -71,7 +71,7 @@ shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
         Draw.blend();
         Draw.color();
       }
-    },
+    }
 });
 shock.heatColor = Color.valueOf("ff9885");
 shock.targetAir = false;
