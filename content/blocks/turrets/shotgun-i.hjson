@@ -1,0 +1,19 @@
+requirements: [
+copper/60
+lead/55
+]
+category: turret
+smokeEffect: shootBigSmoke
+shootEffect: shootBig
+shootSound: shotgun
+reload: 75
+recoil: 1.7
+shake: 3.5
+size: 1
+consumes: {
+coolant: {
+amount: 0.18
+}
+}
+coolantMultiplier: 7
+research: duo
