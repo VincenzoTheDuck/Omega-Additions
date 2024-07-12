@@ -4,7 +4,7 @@ const shockShoot = new Effect(17, e => {
 	color(Color.white, Pal.surge, e.fout());
   stroke(e.fout() * 1.5);
 
-  randLenVectors(e.id, 5, e.finpow() * 12, (x, y) -> {
+  randLenVectors(e.id, 5, e.finpow() * 12, (x, y) => {
       float ang = Mathf.angle(x, y);
       lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
   });
