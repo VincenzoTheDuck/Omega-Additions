@@ -25,6 +25,7 @@ const leadDespawn = new Effect(15, e => {
 
 const leadBullet = extend(BasicBulletType, {
 	damage: 9,
+	collidesAir: false,
   ammoMultiplier: 3,
   pierceCap: 2,
 	speed: 6,
@@ -70,6 +71,7 @@ const scrapDespawn = new Effect(15, e => {
 
 const scrapBullet = extend(BasicBulletType, {
 	damage: 14,
+	collidesAir: false,
   ammoMultiplier: 2,
   reloadMultiplier: 0.84,
   pierceCap: 4,
