@@ -91,8 +91,9 @@ const scrapBullet = extend(BasicBulletType, {
 
 const shotgunI = extend(ItemTurret, "shotgun-i", {});
 shotgunI.range = 90;
-shotgunI.inaccuracy: 19;
-shotgunI.shootCone: 23;
+shotgunI.inaccuracy = 19;
+shotgunI.shootCone = 23;
+shotgunI.shoot.shots = 7;
 shotgunI.ammo(
   Items.lead, leadBullet,
   Items.scrap, scrapBullet
