@@ -1,0 +1,21 @@
+requirements: [
+copper/75
+lead/90
+graphite/55
+]
+category: turret
+smokeEffect: shootBigSmoke
+shootEffect: shootBig
+shootSound: shotgun
+targetAir: false
+reload: 100
+recoil: 2.5
+shake: 5
+size: 2
+consumes: {
+coolant: {
+amount: 0.3
+}
+}
+coolantMultiplier: 6.6
+research: shotgun-i
