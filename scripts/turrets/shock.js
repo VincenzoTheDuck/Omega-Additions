@@ -40,8 +40,8 @@ const shock = extend(PowerTurret, "shock", {
 	}
 });
 shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
-	updateTile(){
-        /*this.super$updateTile();
+	/*updateTile(){
+        this.super$updateTile();
 		shock.rot += (this.shootWarmup * 0.5);
 
     shock.a = Mathf.clamp(this.shootWarmup, 0, shock.maxA);
@@ -50,8 +50,8 @@ shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
             shockBullet.create(this, this.team, this.x, this.y, Mathf.random(360));
             Sounds.spark.at(this);
             shockShoot.at(this.x, this.y)
-        }*/
-	};
+        }
+	};*/
 	draw(){
       Draw.rect(shock.baseRegion, this.x, this.y, 0);
       
