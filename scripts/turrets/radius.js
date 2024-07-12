@@ -19,7 +19,7 @@ const radiusStar = extend(BasicBulletType, {
 	lifetime: 40,
 	hitEffect: radiusHit,
 	trailEffect: radiusTrail,
-	trailInterval: 5,
+	trailInterval: 2,
 	despawnEffect: Fx.none,
 	despawnHit: true,
 	ammoMultiplier: 1,
