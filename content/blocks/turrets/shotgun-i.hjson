@@ -6,6 +6,7 @@ category: turret
 smokeEffect: shootBigSmoke
 shootEffect: shootBig
 shootSound: shotgun
+targetGround: false
 reload: 75
 recoil: 1.7
 shake: 3.5
