@@ -12,9 +12,10 @@ recoil: 1.2
 shake: 2
 size: 1
 consumes: {
-power: 0.7
+power: 7
 coolant: {
 amount: 0.1
 }
 }
+coolantMultiplier: 8
 research: arc
