@@ -1,0 +1,14 @@
+requirements: [
+copper/90
+silicon/65
+lead/40
+]
+category: turret
+shootSound: none
+recoil: 0
+shake: 0
+size: 1
+consumes: {
+power: 5.5
+}
+research: arc
