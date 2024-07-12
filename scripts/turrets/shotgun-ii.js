@@ -139,12 +139,12 @@ const scrapBullet = extend(BasicBulletType, {
 	}
 });
 
-const shotgunI = extend(ItemTurret, "shotgun-i", {});
-shotgunI.range = 135;
-shotgunI.inaccuracy = 21;
-shotgunI.shootCone = 27;
-shotgunI.shoot.shots = 10;
-shotgunI.ammo(
+const shotgunII = extend(ItemTurret, "shotgun-ii", {});
+shotgunII.range = 135;
+shotgunII.inaccuracy = 21;
+shotgunII.shootCone = 27;
+shotgunII.shoot.shots = 10;
+shotgunII.ammo(
   Items.lead, leadBullet,
   Items.scrap, scrapBullet,
   Items.graphite, graphiteBullet
