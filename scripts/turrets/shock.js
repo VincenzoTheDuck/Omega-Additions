@@ -47,7 +47,7 @@ shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
     shock.a = Mathf.clamp(this.shootWarmup, 0, shock.maxA)
 
         if(this.isShooting() && this.isActive() && this.hasAmmo() && Mathf.chance(this.a)){
-            shockBullet.create(this, this.team, this.x, this.y, Mathf.random(360);)
+            shockBullet.create(this, this.team, this.x, this.y, Mathf.random(360))
             Sounds.spark.at(this)
             shockShoot.at(this.x, this.y)
         }
