@@ -41,10 +41,10 @@ const shock = extend(PowerTurret, "shock", {
 });
 shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
 	updateTile(){
-        this.super$updateTile();
+        /*this.super$updateTile();
 		shock.rot += (this.shootWarmup * 0.5);
 
-    /*shock.a = Mathf.clamp(this.shootWarmup, 0, shock.maxA);
+    shock.a = Mathf.clamp(this.shootWarmup, 0, shock.maxA);
 
         if(this.isShooting() && this.isActive() && this.hasAmmo() && Mathf.chance(this.a)){
             shockBullet.create(this, this.team, this.x, this.y, Mathf.random(360));
