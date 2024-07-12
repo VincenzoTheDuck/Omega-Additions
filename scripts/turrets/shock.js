@@ -21,6 +21,7 @@ const shock = extend(PowerTurret, "shock", {
   setStats(){
         this.super$setStats();
     this.stats.remove(Stat.inaccuracy);
+	  this.stats.remove(Stat.reload);
         this.stats.remove(Stat.ammo);
         this.super$setStats();
 		this.stats.remove(Stat.reload);
