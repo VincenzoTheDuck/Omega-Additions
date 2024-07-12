@@ -2,10 +2,12 @@ const leadHit = new Effect(17, e => {
 	Draw.color(Pal.bulletYellow, Pal.bulletYellowBack, e.fout());
   Lines.stroke(e.fout() * 1.5);
 
-  randLenVectors(e.id, 5, e.finpow() * 10, (x, y) => {
-      var ang = Mathf.angle(x, y);
+	const hj = new Floatc2({get: function(x, y){
+		var ang = Mathf.angle(x, y);
       lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
-  });
+	}});
+	
+	Angles.randLenVectors(e.id, 2, e.finpow() * 17.0, e.rotation, 60.0, hj);
 });
 
 const leadDespawn = new Effect(15, e => {
@@ -17,10 +19,12 @@ const leadDespawn = new Effect(15, e => {
 
   Draw.color(Pal.bulletYellow, Pal.bulletYellowBack, e.fout());
 
-  randLenVectors(e.id, 3, e.finpow() * 13, (x, y) => {
-      var ang = Mathf.angle(x, y);
+	const hj = new Floatc2({get: function(x, y){
+		var ang = Mathf.angle(x, y);
       lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
-  });
+	}});
+	
+	Angles.randLenVectors(e.id, 2, e.finpow() * 17.0, e.rotation, 60.0, hj);
 });
 
 const leadBullet = extend(BasicBulletType, {
@@ -44,10 +48,13 @@ const scrapHit = new Effect(17, e => {
 	Draw.color(Color.valueOf("e0b28d"), Color.valueOf("9b928b"), e.fout());
   Lines.stroke(e.fout() * 1.5);
 
-  randLenVectors(e.id, 5, e.finpow() * 10, (x, y) => {
-      var ang = Mathf.angle(x, y);
+
+	const hj = new Floatc2({get: function(x, y){
+		 var ang = Mathf.angle(x, y);
       lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
-  });
+	}});
+	
+	Angles.randLenVectors(e.id, 2, e.finpow() * 17.0, e.rotation, 60.0, hj);
 });
 
 const scrapDespawn = new Effect(15, e => {
@@ -59,10 +66,12 @@ const scrapDespawn = new Effect(15, e => {
 
   Draw.color(Color.valueOf("e0b28d"), Color.valueOf("9b928b"), e.fout());
 
-  randLenVectors(e.id, 3, e.finpow() * 13, (x, y) => {
-      var ang = Mathf.angle(x, y);
+	const hj = new Floatc2({get: function(x, y){
+		var ang = Mathf.angle(x, y);
       lineAngle(e.x + x, e.y + y, ang, e.fout() * 4 + 1);
-  });
+	}});
+	
+	Angles.randLenVectors(e.id, 2, e.finpow() * 17.0, e.rotation, 60.0, hj);
 });
 
 const scrapBullet = extend(BasicBulletType, {
