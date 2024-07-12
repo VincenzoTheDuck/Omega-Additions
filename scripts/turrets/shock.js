@@ -51,7 +51,7 @@ shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
             Sounds.spark.at(this);
             shockShoot.at(this.x, this.y)
         }
-    };
+	}};
 	draw(){
       Draw.rect(shock.baseRegion, this.x, this.y, 0);
       
@@ -60,7 +60,7 @@ shock.buildType = () => extend(PowerTurret.PowerTurretBuild, shock, {
       //Draw.rect(shock.outlines[0], this.x, this.y, 0);
       
       //Drawf.shadow(shock.outlines[0], this.x - (teslaStorm.size / 2), this.y - (teslaStorm.size / 2), -this.rotation + 90);
-      Draw.rect(shock.spinnerRegion, this.x, this.y, this.rot);
+      Draw.rect(shock.spinnerRegion, this.x, this.y, shock.rot);
       
       Draw.rect(shock.region, this.x, this.y, 0);
       
