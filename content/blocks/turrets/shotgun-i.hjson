@@ -2,6 +2,10 @@ requirements: [
 copper/60
 lead/55
 ]
+name: "Shotgun Mk-1"
+description: '''
+Fires blasts of shrapnel at enemies.
+'''
 category: turret
 smokeEffect: shootBigSmoke
 shootEffect: shootBig
