@@ -2,7 +2,7 @@ name: "Terralite Alloy"
 description: '''
 Used for energy structures, power generation and resource synthesis.
 '''
-research: lead
+research: heavy-alloy
 healthScaling: 1.2
 cost: 1
 charge: 0.2
