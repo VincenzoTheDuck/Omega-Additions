@@ -12,7 +12,6 @@ description: '''
 Charges and fires 7 piercing plasma bolts at enemies. Extremely devastating at close range.
 '''
 category: turret
-heatColor: ff886f
 smokeEffect: smokeCloud
 shootEffect: none
 shootSound: shootBig
