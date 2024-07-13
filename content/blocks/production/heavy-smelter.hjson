@@ -12,7 +12,7 @@ craftEffect: smeltsmoke
 outputItem: heavy-alloy/1
 craftTime: 55
 size: 2
-hasPower: true
+hasPower: false
 drawer: [
   DrawDefault
   {
