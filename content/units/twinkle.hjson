@@ -1,3 +1,7 @@
+name: "Twinkle"
+desription: '''
+Fires small healing bolts at enemy targets and allied blocks.
+'''
 flying: true
 health: 220
 rotateSpeed: 11
@@ -17,8 +21,9 @@ weapons: [
 name: blue-laser-mount
 mirror: true
 alternate: true
-x: 2
-y: 3
+x: 3
+y: 4.5
+top: false
 shootY: 3
 reload: 23
 recoil: 1
