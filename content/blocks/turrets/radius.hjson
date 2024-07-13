@@ -3,6 +3,10 @@ copper/85
 silicon/40
 terralite-alloy/25
 ]
+name: "Radius"
+description: '''
+Fires small plasma orbs at enemies.
+'''
 category: turret
 smokeEffect: smeltsmoke
 shootEffect: hitLancer
