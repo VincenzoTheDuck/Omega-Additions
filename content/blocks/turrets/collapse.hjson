@@ -19,6 +19,7 @@ reload: 100
 recoil: 6
 cooldownTime: 90
 recoilTime: 85
+rotateSpeed: 0.9
 shake: 7
 size: 8
 consumes: {
