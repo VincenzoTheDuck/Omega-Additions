@@ -22,7 +22,7 @@ name: blue-laser-mount
 mirror: true
 alternate: true
 x: 3
-y: 4.5
+y: 2
 top: false
 shootY: 3
 reload: 23
