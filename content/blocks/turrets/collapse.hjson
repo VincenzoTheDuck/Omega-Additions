@@ -27,4 +27,5 @@ coolant: {
 amount: 2
 }
 }
+coolantMultiplier: 6
 research: meltdown
