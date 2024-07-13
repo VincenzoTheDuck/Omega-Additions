@@ -97,7 +97,6 @@ const addition = extend(PowerTurret, "addition", {
         this.stats.add(Stat.ammo, StatValues.ammo(ObjectMap.of(this, additionShell)));
     }
 });
-});
 addition.range = 320;
 addition.shootType = additionBolt;
 addition.shoot = new ShootAlternate(){{
