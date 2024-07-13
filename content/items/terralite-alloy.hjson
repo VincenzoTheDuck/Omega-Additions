@@ -3,6 +3,7 @@ description: '''
 Used for energy structures, power generation and resource synthesis.
 '''
 research: heavy-alloy
+color: 8aa3f4
 healthScaling: 1.2
 cost: 1
 charge: 0.2
