@@ -94,7 +94,7 @@ const additionCharge = extend(ArtilleryBulletType, {
 const addition = extend(PowerTurret, "addition", {
   setStats(){
         this.super$setStats();
-        this.stats.add(Stat.ammo, StatValues.ammo(ObjectMap.of(this, additionShell)));
+        this.stats.add(Stat.ammo, StatValues.ammo(ObjectMap.of(this, additionCharge)));
     }
 });
 addition.range = 320;
@@ -108,7 +108,7 @@ addition.buildType = () => extend(PowerTurret.PowerTurretBuild, addition, {
 
         if(this.isShooting() && this.isActive() && this.hasAmmo() && this.creload >= 120){
             this.creload = 0
-            additionShell.create(this, this.team, this.x, this.y, this.rotation)
+            additionCharge.create(this, this.team, this.x, this.y, this.rotation)
             Sounds.artillery.at(this)
             Fx.shootBigColor.at(this.x, this.y)
         }
