@@ -99,8 +99,8 @@ const addition = extend(PowerTurret, "addition", {
 });
 addition.range = 320;
 addition.shootType = additionBolt;
-addition.targetAir: false;
-addition.targetHealing: true;
+addition.targetAir = false;
+addition.targetHealing = true;
 addition.buildType = () => extend(PowerTurret.PowerTurretBuild, addition, {
 	creload : 0,
     updateTile(){
