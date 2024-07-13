@@ -4,7 +4,7 @@ Fires small healing bolts and missiles at enemy targets and allied blocks.
 '''
 flying: true
 health: 390
-rotateSpeed: 7
+rotateSpeed: 4
 buildSpeed: 1
 engineOffset: 4.5
 speed: 1.9
@@ -81,11 +81,13 @@ shootY: 3
 reload: 18
 recoil: 1.5
 shootSound: missile
+rotate: true
 ejectEffect: none
 shake: 0.5
 bullet: {
 type: MissileBulletType
 healPercent: 6.5
+trailColor: 8aa3f4
 collidesTeam: true
 damage: 22
 reflectable: false
