@@ -120,10 +120,11 @@ strokeTo: 0
 ]
 range: 270
 research: {
-parent: assembler
+parent: support-reassembler
 requirements: [
-silicon/175
-lead/150
-terralite-alloy/120
+silicon/220
+lead/300
+titanium/230
+terralite-alloy/250
 ]
 }
