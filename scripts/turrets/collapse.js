@@ -29,6 +29,7 @@ const collapseBolt = extend(ContinuousLaserBulletType, {
 
 const collapse = extend(PowerTurret, "collapse", {});
 collapse.range = 280;
+collapse.heatColor = Pal.meltdownHit;
 collapse.shootType = collapseBolt;
 collapse.shoot.shots = 7;
 collapse.inaccuracy = 17;
