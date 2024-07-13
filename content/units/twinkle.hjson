@@ -1,0 +1,74 @@
+flying: true
+health: 220
+rotateSpeed: 11
+buildSpeed: 0.65
+engineOffset: 4.5
+lowAltitude: true
+speed: 2.5
+accel: 0.7
+drag: 0.05
+controller: repairAI
+lightRadius: 45
+lightColor: 8aa3f4
+hitSize: 10
+itemCapacity: 15
+weapons: [
+{
+name: blue-laser-mount
+mirror: true
+alternate: true
+x: 2
+y: 3
+shootY: 3
+reload: 23
+recoil: 1
+shootSound: lasershoot
+ejectEffect: none
+shake: 1
+bullet: {
+type: LaserBoltBulletType
+healPercent: 6.5
+collidesTeam: true
+damage: 7
+reflectable: false
+speed: 6
+frontColor: ffffff
+backColor: 8aa3f4
+collidesTeam: true
+lifetime: 35
+healPercent: 4
+lightColor: 8aa3f4
+shootEffect: {
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 10
+colorFrom: 8aa3f4
+colorTo: 8aa3f4
+lifetime: 17
+strokeFrom: 1.5
+strokeTo: 0
+}
+smokeEffect: none
+hitEffect: none
+despawnEffect: {
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 10
+colorFrom: 8aa3f4
+colorTo: 8aa3f4
+lifetime: 17
+strokeFrom: 1.5
+strokeTo: 0
+}
+}
+}
+]
+range: 210
+research: {
+parent: assembler
+requirements: [
+silicon/175
+lead/150
+terralite-alloy/120
+]
+}
