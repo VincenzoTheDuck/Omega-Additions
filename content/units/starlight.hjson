@@ -6,7 +6,7 @@ flying: true
 health: 390
 rotateSpeed: 7
 buildSpeed: 1
-engineOffset: 6
+engineOffset: 4.5
 speed: 1.9
 accel: 0.03
 wobble: false
@@ -15,6 +15,7 @@ controller: repairAI
 lightRadius: 60
 lightColor: 8aa3f4
 engineColor: 8aa3f4
+trailColor: 8aa3f4
 trailLength: 20
 hitSize: 15
 itemCapacity: 35
