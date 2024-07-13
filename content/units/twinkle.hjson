@@ -9,11 +9,14 @@ buildSpeed: 0.65
 engineOffset: 4.5
 lowAltitude: true
 speed: 2.5
-accel: 0.08
+accel: 0.03
+wobble: false
 drag: 0.05
 controller: repairAI
 lightRadius: 45
 lightColor: 8aa3f4
+engineColor: 8aa3f4
+trailLength: 13
 hitSize: 10
 itemCapacity: 15
 weapons: [
