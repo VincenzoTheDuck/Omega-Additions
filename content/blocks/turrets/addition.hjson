@@ -8,6 +8,12 @@ name: "Addition"
 description: '''
 Rapidly fires energy orbs and shells that deal huge damage to ground enemy targets and repair allied structures.
 '''
+shoot: {
+type: ShootAlternate
+spread: 3.8
+shots: 4
+barrels: 4
+}
 category: turret
 smokeEffect: none
 shootEffect: hitLancer
