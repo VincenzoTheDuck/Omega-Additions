@@ -13,7 +13,7 @@ const additionBoltDespawn = new Effect(12, e => {
 	Draw.color(Pal.lancerLaser);
 	Lines.stroke(e.fout() * 3)
 	
-	Fill.circle(e.x, e.y, e.fout() * 2.5);
+	Fill.circle(e.x, e.y, e.fout() * 3.5);
 	
 	Lines.circle(e.x, e.y, e.fin() * 14);
 
@@ -45,7 +45,7 @@ const additionBolt = extend(BasicBulletType, {
 	ammoMultiplier: 1,
 	draw(b){
 		Draw.color(Pal.lancerLaser);
-		Fill.circle(b.x, b.y, 2.5);
+		Fill.circle(b.x, b.y, 3.5);
 		Draw.reset();
 	}
 });
@@ -72,11 +72,12 @@ const additionChargeTrail = new Effect(80, e => {
 	Fill.circle(e.x, e.y, e.fout() * 4.5);
 });
 
-const additionCharge = extend(ArtilleryBulletType, {
+const additionCharge = extend(BasicBulletType, {
 	splashDamage: 120,
   splashDamageRadius: 55,
   healingPercent: 6,
   collidesTeam: true,
+	collidesAir: false,
 	speed: 5,
 	lifetime: 64,
 	hitEffect: additionBoltHit,
@@ -113,7 +114,7 @@ addition.buildType = () => extend(PowerTurret.PowerTurretBuild, addition, {
             Fx.shootBigColor.at(this.x, this.y)
         }
         else{
-            if(this.creload < 160){this.creload += 1} 
+            if(this.creload < 400){this.creload += 1} 
         }
     },
 });
