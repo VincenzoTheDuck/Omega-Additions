@@ -1,0 +1,30 @@
+requirements: [
+copper/200
+heavy-alloy/185
+titanium/110
+thorium/150
+surge-alloy/250
+plastanium/300
+phase-fabric/120
+]
+name: "Collapse"
+description: '''
+Charges and fires 7 piercing plasma bolts at enemies. Extremely devastating at close range.
+'''
+category: turret
+smokeEffect: smokeCloud
+shootEffect: none
+shootSound: shootBig
+reload: 100
+recoil: 6
+cooldownTime: 90
+recoilTime: 85
+shake: 7
+size: 8
+consumes: {
+power: 25
+coolant: {
+amount: 2
+}
+}
+research: meltdown
