@@ -3,6 +3,10 @@ copper/75
 lead/90
 graphite/55
 ]
+name: "Shotgun Mk-2"
+description: '''
+Fires blasts of shrapnel at enemies.
+'''
 category: turret
 smokeEffect: shootBigSmoke
 shootEffect: shootBig
