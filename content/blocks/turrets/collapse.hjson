@@ -15,10 +15,10 @@ category: turret
 smokeEffect: smokeCloud
 shootEffect: none
 shootSound: shootBig
-reload: 100
-recoil: 6
-cooldownTime: 90
-recoilTime: 85
+reload: 120
+recoil: 8
+cooldownTime: 100
+recoilTime: 60
 rotateSpeed: 0.9
 shake: 7
 size: 8
@@ -28,5 +28,6 @@ coolant: {
 amount: 2
 }
 }
-coolantMultiplier: 6
+liquidCapacity: 200
+coolantMultiplier: 1.27
 research: meltdown
