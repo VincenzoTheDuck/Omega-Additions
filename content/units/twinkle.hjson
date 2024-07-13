@@ -1,5 +1,5 @@
 name: "Twinkle"
-desription: '''
+description: '''
 Fires small healing bolts at enemy targets and allied blocks.
 '''
 flying: true
@@ -9,7 +9,7 @@ buildSpeed: 0.65
 engineOffset: 4.5
 lowAltitude: true
 speed: 2.5
-accel: 0.22
+accel: 0.08
 drag: 0.05
 controller: repairAI
 lightRadius: 45
@@ -25,7 +25,7 @@ x: 3
 y: 2
 top: false
 shootY: 3
-reload: 23
+reload: 14
 recoil: 1
 shootSound: lasershoot
 ejectEffect: none
@@ -34,7 +34,8 @@ bullet: {
 type: LaserBoltBulletType
 healPercent: 6.5
 collidesTeam: true
-damage: 7
+damage: 19
+recoil: 0.35
 reflectable: false
 speed: 6
 frontColor: ffffff
