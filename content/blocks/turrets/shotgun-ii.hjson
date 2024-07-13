@@ -2,6 +2,7 @@ requirements: [
 copper/75
 lead/90
 graphite/55
+heavy-alloy/85
 ]
 name: "Shotgun Mk-2"
 description: '''
