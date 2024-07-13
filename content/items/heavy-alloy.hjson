@@ -3,6 +3,7 @@ description: '''
 Used for strong structures.
 '''
 research: lead
+color: 989aa4
 healthScaling: 1
 cost: 0.7
 hiddenOnPlanets: [erekir]
