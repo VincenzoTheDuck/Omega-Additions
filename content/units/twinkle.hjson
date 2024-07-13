@@ -45,7 +45,6 @@ frontColor: ffffff
 backColor: 8aa3f4
 collidesTeam: true
 lifetime: 35
-healPercent: 4
 lightColor: 8aa3f4
 shootEffect: {
 type: WaveEffect
