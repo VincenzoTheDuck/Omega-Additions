@@ -1,0 +1,129 @@
+name: "Starlight"
+description: '''
+Fires small healing bolts and missiles at enemy targets and allied blocks.
+'''
+flying: true
+health: 390
+rotateSpeed: 7
+buildSpeed: 1
+engineOffset: 6
+speed: 1.9
+accel: 0.03
+wobble: false
+drag: 0.04
+controller: repairAI
+lightRadius: 60
+lightColor: 8aa3f4
+engineColor: 8aa3f4
+trailLength: 20
+hitSize: 15
+itemCapacity: 35
+weapons: [
+{
+name: starlight-weapon
+x: 0
+y: 3
+reload: 40
+shootSound: bang
+ejectEffect: none
+shake: 2
+bullet: {
+type: BasicBulletType
+sprite: circle-bullet
+shrinkX: 0
+shrinkY: 0
+width: 3
+height: 3
+trailWidth: 1.5
+trailLength: 10
+trailColor: 8aa3f4
+healPercent: 8
+collidesTeam: true
+damage: 22
+reflectable: false
+speed: 6
+frontColor: ffffff
+backColor: 8aa3f4
+collidesTeam: true
+lifetime: 30
+lightColor: 8aa3f4
+smokeEffect: {
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 6
+colorFrom: 8aa3f4
+colorTo: 8aa3f4
+lifetime: 10
+strokeFrom: 1
+strokeTo: 0
+}
+hitEffect: none
+despawnEffect: {
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 14
+colorFrom: 8aa3f4
+colorTo: 8aa3f4
+lifetime: 17
+strokeFrom: 1.5
+strokeTo: 0
+}
+}
+}
+{
+name: blue-laser-mount
+mirror: true
+alternate: true
+x: 4.5
+y: -5
+shootY: 3
+reload: 18
+recoil: 1.5
+shootSound: missile
+ejectEffect: none
+shake: 0.5
+bullet: {
+type: MissileBulletType
+healPercent: 6.5
+collidesTeam: true
+damage: 22
+reflectable: false
+speed: 4
+frontColor: ffffff
+backColor: 8aa3f4
+collidesTeam: true
+lifetime: 30
+lightColor: 8aa3f4
+smokeEffect: {
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 6
+colorFrom: 8aa3f4
+colorTo: 8aa3f4
+lifetime: 10
+strokeFrom: 1
+strokeTo: 0
+}
+hitEffect: none
+despawnEffect: {
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 14
+colorFrom: 8aa3f4
+colorTo: 8aa3f4
+lifetime: 17
+strokeFrom: 1.5
+strokeTo: 0
+}
+}
+}
+]
+range: 270
+research: {
+parent: assembler
+requirements: [
+silicon/175
+lead/150
+terralite-alloy/120
+]
+}
