@@ -99,11 +99,6 @@ const addition = extend(PowerTurret, "addition", {
 });
 addition.range = 320;
 addition.shootType = additionBolt;
-addition.shoot = new ShootAlternate(){{
-  spread: 3.8,
-  shots: 4,
-  barrels: 4
-}};
 addition.targetAir: false;
 addition.targetHealing: true;
 addition.buildType = () => extend(PowerTurret.PowerTurretBuild, addition, {
