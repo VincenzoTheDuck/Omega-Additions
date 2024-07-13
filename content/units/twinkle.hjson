@@ -16,6 +16,7 @@ controller: repairAI
 lightRadius: 45
 lightColor: 8aa3f4
 engineColor: 8aa3f4
+trailColor: 8aa3f4
 trailLength: 13
 hitSize: 10
 itemCapacity: 15
