@@ -1,0 +1,8 @@
+name: "Heavy Alloy"
+description: '''
+Used for strong structures.
+'''
+research: lead
+healthScaling: 1
+cost: 0.7
+hiddenOnPlanets: [erekir]
