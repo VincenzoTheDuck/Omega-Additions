@@ -1,6 +1,7 @@
 require("items");
 require("units");
 require("production");
+require("unitBlocks");
 
 // turrets
 require("turrets/shotgun-i");
