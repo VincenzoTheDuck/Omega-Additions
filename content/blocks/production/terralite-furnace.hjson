@@ -3,6 +3,10 @@ copper/60
 graphite/45
 silicon/20
 ]
+name: "Terralite Furnace"
+description: '''
+Melts lead, graphite and silicon to produce terralite alloy.
+'''
 category: crafting
 craftEffect: smeltsmoke
 outputItem: terralite-alloy/1
