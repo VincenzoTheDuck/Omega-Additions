@@ -1,0 +1,27 @@
+requirements: [
+copper/90
+silicon/65
+titanium/85
+terralite-alloy/100
+]
+name: "Linear"
+description: '''
+Fires powerful plasma orbs at enemies.
+'''
+category: turret
+smokeEffect: smeltsmoke
+shootEffect: hitLancer
+shootSound: bolt
+reload: 100
+recoil: 2.3
+cooldownTime: 65
+recoilTime: 85
+shake: 3.5
+size: 2
+consumes: {
+power: 11
+coolant: {
+amount: 0.3
+}
+}
+research: radius
