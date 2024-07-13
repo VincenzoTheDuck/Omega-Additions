@@ -1,6 +1,6 @@
 requirements: [
 copper/60
-graphite/45
+heavy-alloy/45
 silicon/20
 ]
 name: "Terralite Furnace"
