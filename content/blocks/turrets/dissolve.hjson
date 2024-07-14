@@ -1,0 +1,39 @@
+requirements: [
+heavy-alloy/85
+izomite/90
+plastanium/100
+titanium/50
+]
+name: "Dissolve"
+description: '''
+Fires highly corrosive missiles at enemies.
+'''
+range: 300
+category: turret
+smokeEffect: shootBigSmoke
+shootEffect: shootBig
+shootSound: missile
+reload: 60
+shoot: {
+type: ShootAlternate
+barrels: 2
+spread: 5
+}
+recoil: 4
+shake: 4.5
+rotateSpeed: 1.8
+size: 4
+ammoCapacity: 15
+ammoPerShot: 3
+liquidCapacity: 45
+research: ester
+consumes: {
+coolant: {
+amount: 0.6
+}
+liquid: {
+liquid: acid
+amount: 0.6
+}
+}
+coolantMultiplier: 2.5
