@@ -4,7 +4,7 @@ graphite/55
 ]
 name: "Sulfur Extractor"
 description: '''
-Using coal as a fuel, melts copper and lead into heavy alloy.
+Extracts sulfur from coal.
 '''
 category: crafting
 craftEffect: none
