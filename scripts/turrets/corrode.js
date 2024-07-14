@@ -42,5 +42,5 @@ const corrode = extend(LiquidTurret, "corrode", {});
 corrode.range = 150;
 corrode.shootCone = 4;
 corrode.ammo(
-  Liquids.water, corrodeShell
+  Vars.content.getByName(ContentType.liquid, "water"), corrodeShell
 );
