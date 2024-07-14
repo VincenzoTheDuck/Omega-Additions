@@ -7,7 +7,9 @@ description: '''
 Extracts sulfur from coal.
 '''
 category: crafting
-craftEffect: none
+craftEffect: plasticburn
+updateEffect: coalSmeltsmoke
+updateEffectChance: 0.07
 outputItem: sulfur/1
 craftTime: 60
 size: 2
