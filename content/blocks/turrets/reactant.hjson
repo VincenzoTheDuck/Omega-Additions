@@ -1,6 +1,8 @@
 requirements: [
-heavy-alloy/45
-izomite/75
+heavy-alloy/60
+izomite/90
+graphite/55
+silicon/40
 ]
 name: "Reactant"
 description: '''
