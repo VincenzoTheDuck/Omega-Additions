@@ -1,5 +1,6 @@
 trailColor: 96f58c
 engineColor: 96f58c
+trailLength: 25
 rotateSpeed: 1
 missileAccelTime: 60
 engineSize: 2
