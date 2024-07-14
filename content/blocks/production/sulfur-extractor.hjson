@@ -1,0 +1,23 @@
+requirements: [
+copper/85
+graphite/55
+]
+name: "Sulfur Extractor"
+description: '''
+Using coal as a fuel, melts copper and lead into heavy alloy.
+'''
+category: crafting
+craftEffect: none
+outputItem: sulfur/1
+craftTime: 60
+size: 2
+hasPower: true
+consumes: {
+items: {
+power: 0.6
+items: [
+coal/3
+]
+}
+}
+research: pyratite-press
