@@ -1,0 +1,44 @@
+requirements: [
+heavy-alloy/85
+izomite/100
+plastanium/60
+thorium/55
+]
+name: "Ester"
+description: '''
+Fires barrages of corrosive bullets at enemies.
+'''
+category: turret
+smokeEffect: shootBigSmoke
+shootEffect: shootBig
+shootSound: shootBig
+reload: 85
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-wing"
+mirror: true
+layerOffset: 0.001
+progress: warmup
+moveX: 0.5
+moveRot: -18
+}
+{
+suffix: "-barrel"
+progress: recoil
+moveY: -2
+}
+]
+}
+recoil: 1.5
+shake: 4.5
+size: 3
+liquidCapacity: 30
+research: reactant
+consumes: {
+liquid: {
+liquid: acid
+amount: 0.2
+}
+}
