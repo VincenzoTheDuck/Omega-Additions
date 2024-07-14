@@ -10,5 +10,5 @@ module.exports = {
   heavyAlloy: heavyAlloy,
   terraliteAlloy: terraliteAlloy,
   sulfur: sulfur,
-  izomite: izomite,
+  izomite: izomite
 }
