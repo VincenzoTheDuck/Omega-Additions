@@ -1,6 +1,4 @@
-const missile = extend(MissileUnitType, "decomposition-missile", {
-engineLayer: Layer.effect,
-});
+const missile = extend(MissileUnitType, "decomposition-missile", {});
 
 const bullet = extend(BulletType, {
 	speed: 0,
