@@ -1,0 +1,49 @@
+requirements: [
+heavy-alloy/130
+izomite/185
+plastanium/250
+thorium/140
+surge-alloy/100
+]
+name: "Decomposition"
+description: '''
+Fires 3 highly corrosive missiles at enemies.
+'''
+range: 500
+category: turret
+smokeEffect: shootBigSmoke
+shootEffect: shootBig
+shootSound: missileLarge
+reload: 180
+shoot: {
+type: ShootAlternate
+barrels: 3
+spread: 6
+shots: 3
+shotDelay: 20
+}
+recoil: 5
+shake: 6
+rotateSpeed: 0.4
+size: 5
+ammoCapacity: 30
+ammoPerShot: 10
+liquidCapacity: 60
+research: {
+parent: dissolve
+objectives: [
+redox
+exothermic
+endothermic
+]
+}
+consumes: {
+coolant: {
+amount: 0.7
+}
+liquid: {
+liquid: acid
+amount: 0.85
+}
+}
+coolantMultiplier: 1.7
