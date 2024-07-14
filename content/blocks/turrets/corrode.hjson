@@ -29,8 +29,8 @@ speed: 3.5
 lifetime: 51
 width: 5
 height: 5
-shrinkX: 1.5
-shrinkY: 1.5
+shrinkX: 0.35
+shrinkY: 0.35
 damage: 0
 splashDamage: 33
 splashDamageRadius: 45
