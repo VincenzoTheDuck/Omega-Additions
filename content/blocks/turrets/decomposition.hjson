@@ -13,14 +13,14 @@ range: 500
 category: turret
 smokeEffect: shootBigSmoke
 shootEffect: shootBig
-shootSound: missileLarge
+shootSound: missileLaunch
 reload: 180
 shoot: {
 type: ShootAlternate
 barrels: 3
-spread: 6
+spread: 5.5
 shots: 3
-shotDelay: 20
+shotDelay: 10
 }
 recoil: 5
 shake: 6
