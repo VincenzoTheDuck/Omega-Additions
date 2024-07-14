@@ -11,7 +11,7 @@ Fires barrages of corrosive missiles at enemies.
 category: turret
 smokeEffect: shootBigSmoke
 shootEffect: shootBig
-shootSound: shootBig
+shootSound: missile
 reload: 60
 shoot: {
 type: ShootAlternate
@@ -29,5 +29,8 @@ consumes: {
 liquid: {
 liquid: acid
 amount: 0.25
+}
+coolant: {
+amount: 0.4
 }
 }
