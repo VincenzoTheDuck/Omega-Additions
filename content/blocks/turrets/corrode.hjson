@@ -1,0 +1,21 @@
+requirements: [
+heavy-alloy/45
+izomite/75
+]
+name: "Corrode"
+description: '''
+Fires short-range acid shells at ground enemies.
+'''
+category: turret
+smokeEffect: shootBigSmoke
+shootEffect: shootBig
+shootSound: artillery
+loopSound: none
+targetAir: false
+reload: 40
+recoil: 1.5
+shake: 2.2
+size: 1
+ammoPerShot: 5
+liquidCapacity: 25
+research: hail
