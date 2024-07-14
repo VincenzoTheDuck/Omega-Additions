@@ -9,6 +9,6 @@ const bullet = extend(BulletType, {
 });
 
 const exothermic = extend(ItemTurret, "exothermic", {});
-redox.ammo(
+exothermic.ammo(
   Items.pyratite, bullet
 );
