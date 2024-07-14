@@ -12,4 +12,5 @@ require("turrets/linear");
 const corrode = extend(LiquidTurret, "corrode", {});
 const reactant = extend(LiquidTurret, "reactant", {});
 require("turrets/ester");
+require("turrets/redox");
 require("turrets/collapse");
