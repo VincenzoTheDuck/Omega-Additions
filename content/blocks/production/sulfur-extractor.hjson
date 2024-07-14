@@ -15,8 +15,8 @@ craftTime: 60
 size: 2
 hasPower: true
 consumes: {
-items: {
 power: 0.6
+items: {
 items: [
 coal/3
 ]
