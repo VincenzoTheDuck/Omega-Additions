@@ -1,0 +1,5 @@
+name: "Dissolving"
+damage: 0.35
+healthMultiplier: 0.8
+speedMultiplier: 0.7
+color: 73d188
