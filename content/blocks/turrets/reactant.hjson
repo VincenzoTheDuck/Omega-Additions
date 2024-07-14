@@ -53,7 +53,9 @@ drawer: {
 type: DrawTurret
 parts: [
 {
-
+suffix: "-barrel"
+progress: recoil
+moveY: 1.5
 }
 ]
 }
