@@ -1,4 +1,4 @@
-const items = require("items");
+const liquids = require("liquids");
 
 const corrodeHit = new Effect(15, e => {
 	Lines.stroke(e.fout() * 1.5);
@@ -32,10 +32,10 @@ const corrodeShell = extend(ArtilleryBulletType, {
 	lifetime: 30,
 	hitEffect: Fx.none,
 	despawnEffect: corrodeHit,
-  trailColor: Color.valueOf("96f58c"),
+  backColor: Color.valueOf("96f58c"),
 	draw(b){
 		Draw.color(Color.valueOf("96f58c"));
-		Fill.circle(b.x, b.y, 1.5);
+		Fill.circle(b.x, b.y, 2.5);
 		Draw.reset()
 	}
 });
@@ -44,5 +44,5 @@ const corrode = extend(LiquidTurret, "corrode", {});
 corrode.range = 150;
 corrode.shootCone = 4;
 corrode.ammo(
-  Liquids.water, corrodeShell
+  liquids.acid, corrodeShell
 );
