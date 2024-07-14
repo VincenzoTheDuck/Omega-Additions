@@ -1,0 +1,9 @@
+name: "Acid"
+description: '''
+Used for resource synthesis and ammunition.
+'''
+research: water
+color: 96f58c
+heatCapacity: 0.33
+boilPoint: 0.5
+effect: corroded
