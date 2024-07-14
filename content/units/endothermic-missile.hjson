@@ -14,6 +14,7 @@ shootOnDeath: true
 mirror: false
 reload: 1
 shootCone: 360
+shootSound: none
 bullet: {
 type: ExplosionBulletType
 splashDamage: 122
