@@ -42,5 +42,5 @@ const corrode = extend(LiquidTurret, "corrode", {});
 corrode.range = 150;
 corrode.shootCone = 4;
 corrode.ammo(
-  Vars.content.getByName(ContentType.liquid, "omega-adds-acid"), corrodeShell
+  Liquids.water, corrodeShell
 );
