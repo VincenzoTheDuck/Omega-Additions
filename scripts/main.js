@@ -10,4 +10,5 @@ require("turrets/shotgun-ii");
 require("turrets/radius");
 require("turrets/linear");
 const corrode = extend(LiquidTurret, "corrode", {});
+const reactant = extend(LiquidTurret, "reactant", {});
 require("turrets/collapse");
