@@ -1,4 +1,4 @@
-const missile = extend(MissileUnitType, "exothermic-missile", {
+const missile = extend(MissileUnitType, "decomposition-missile", {
 engineLayer: Layer.effect,
 });
 
