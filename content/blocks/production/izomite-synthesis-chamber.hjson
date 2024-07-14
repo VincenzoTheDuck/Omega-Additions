@@ -1,0 +1,47 @@
+requirements: [
+titanium/90
+heavy-alloy/100
+silicon/60
+graphite/45
+]
+name: "Izomite Synthesis Chamber"
+description: '''
+Produces izomite from acid, copper and lead.
+'''
+category: crafting
+craftEffect: none
+craftTime: 60
+size: 2
+hasPower: true
+hasLiquids: true
+outputItem: izomite/1
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: acid
+}
+{
+type: DrawCrucibleFlame
+flameColor: 96f58c
+midColor: 62ae7f
+}
+DrawDefault
+]
+consumes: {
+power: 1.5
+liquid: {
+liquid: acid
+amount: 0.7
+}
+items: {
+items: [
+copper/2
+lead/2
+]
+}
+}
+research: sulfur-extractor
