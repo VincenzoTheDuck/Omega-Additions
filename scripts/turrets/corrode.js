@@ -1,4 +1,4 @@
-const corrodeHit = new Effect(15, e => {
+const corrodeHit = new Effect(21, e => {
 	Lines.stroke(e.fout() * 1.5);
 
   Draw.color(Color.valueOf("96f58c"));
@@ -14,7 +14,7 @@ const corrodeHit = new Effect(15, e => {
 
   const hj1 = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-      Fill.circle(e.x + x, e.y + y, 1);
+      Fill.circle(e.x + x, e.y + y, e.fout() * 1.5);
 	}});
 	
 	Angles.randLenVectors(e.id, 4, e.finpow() * 30.0, e.rotation, 360.0, hj1);
@@ -42,5 +42,5 @@ const corrode = extend(LiquidTurret, "corrode", {});
 corrode.range = 150;
 corrode.shootCone = 4;
 corrode.ammo(
-  Vars.content.getByName(ContentType.liquid, "water"), corrodeShell
+  Vars.content.getByName(ContentType.liquid, "omega-adds-acid"), corrodeShell
 );
