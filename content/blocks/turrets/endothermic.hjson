@@ -8,6 +8,7 @@ name: "Endothermic"
 description: '''
 Fires barrages of freezing missiles at enemies.
 '''
+range: 400
 category: turret
 smokeEffect: shootBigSmoke
 shootEffect: shootBig
