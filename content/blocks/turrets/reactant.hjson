@@ -7,6 +7,8 @@ silicon/40
 name: "Reactant"
 description: '''
 Fires powerful acid shells at ground enemies.
+
+[accent]Faction:[] Acid
 '''
 extinguish: false
 category: turret
