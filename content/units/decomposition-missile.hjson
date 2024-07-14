@@ -1,0 +1,44 @@
+trailColor: 96f58c
+engineColor: 96f58c
+rotateSpeed: 0.75
+missileAccelTime: 60
+engineSize: 1.5
+engineOffset: 2.5
+speed: 3.5
+maxRange: 10
+lifetime: 142
+health: 240
+lowAltitude: true
+outlineColor: 565666
+weapons: [
+{
+shootOnDeath: true
+mirror: false
+reload: 1
+shootCone: 360
+shootSound: none
+bullet: {
+type: ExplosionBulletType
+splashDamage: 240
+status: dissolving
+statusDuration: 400
+splashDamageRadius: 67
+shootEffect: [blastExplosion,
+{
+type: ExplosionEffect
+waveRad: 60
+waveLife: 20
+waveColor: 96f58c
+sparks: 6
+sparkColor: 96f58c
+sparkRad: 73
+sparkStroke: 3
+sparkLen: 10
+smokes: 9
+smokeSize: 8
+smokeRad: 55
+smokeColor: 3a4939
+}]
+}
+}
+]
