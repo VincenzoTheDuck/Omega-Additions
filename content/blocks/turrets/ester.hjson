@@ -7,6 +7,8 @@ thorium/55
 name: "Ester"
 description: '''
 Fires barrages of corrosive bullets at enemies.
+
+[accent]Faction:[] Acid
 '''
 category: turret
 smokeEffect: shootBigSmoke
