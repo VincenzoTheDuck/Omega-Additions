@@ -1,0 +1,64 @@
+requirements: [
+heavy-alloy/45
+izomite/75
+]
+name: "Reactant"
+description: '''
+Fires powerful acid shells at ground enemies.
+'''
+extinguish: false
+category: turret
+smokeEffect: shootBigSmoke
+shootEffect: shootBig
+shootSound: artillery
+loopSound: none
+targetAir: false
+reload: 75
+range: 260
+ammoTypes: {
+acid: {
+type: ArtilleryBulletType
+sprite: "circle-bullet"
+backColor: 73d188
+frontColor: 96f58c
+trailEffect: none
+trailColor: 73d188
+trailWidth: 2.5
+trailLength: 19
+speed: 5
+lifetime: 52
+width: 7
+height: 7
+shrinkX: 0.4
+shrinkY: 0.4
+damage: 0
+splashDamage: 87
+splashDamageRadius: 65
+status: corroded
+statusDuration: 200
+hitEffect: none
+despawnEffect: {
+type: ExplosionEffect
+waveRad: 65
+waveStroke: 2.5
+waveColor: 629d5b
+smokes: 10
+smokeColor: 737c72
+sparks: 7
+sparkColor: 9fe597
+}
+}
+}
+drawer: {
+type: DrawTurret
+parts: [
+{
+
+}
+]
+}
+recoil: 1
+shake: 3
+size: 2
+liquidCapacity: 5
+research: hail
