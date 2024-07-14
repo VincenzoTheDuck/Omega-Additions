@@ -6,12 +6,9 @@ const sulfur = extend(Item, "sulfur", {});
 
 const izomite = extend(Item, "izomite", {});
 
-const acid = extend(Liquid, "acid", {});
-
 module.exports = {
   heavyAlloy: heavyAlloy,
   terraliteAlloy: terraliteAlloy,
   sulfur: sulfur,
   izomite: izomite,
-  acid: acid,
 }
