@@ -4,7 +4,7 @@ trailLength: 25
 rotateSpeed: 1
 missileAccelTime: 60
 engineSize: 2
-engineOffset: 3.5
+engineOffset: 5
 speed: 3.5
 maxRange: 10
 lifetime: 202
