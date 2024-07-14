@@ -3,6 +3,8 @@ description: '''
 Used for making acid, power production, and incendiary ammunition.
 '''
 research: coal
+flammability: 1.25
+explosiveness: 0.4
 color: fcf387
 buildable: false
 hiddenOnPlanets: [erekir]
