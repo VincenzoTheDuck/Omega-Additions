@@ -6,6 +6,7 @@ name: "Corrode"
 description: '''
 Fires short-range acid shells at ground enemies.
 '''
+extinguish: false
 category: turret
 smokeEffect: shootBigSmoke
 shootEffect: shootBig
