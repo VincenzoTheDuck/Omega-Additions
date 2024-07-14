@@ -1,0 +1,9 @@
+name: "Izomite"
+description: '''
+Used for chemical-based structures.
+'''
+research: sulfur
+color: 73d188
+healthScaling: 1.7
+cost: 1.5
+hiddenOnPlanets: [erekir]
