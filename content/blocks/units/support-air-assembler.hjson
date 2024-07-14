@@ -3,9 +3,9 @@ copper/40
 lead/50
 graphite/40
 ]
-name: "Support Assembler"
+name: "Support Air Assembler"
 description: '''
-Using coal as a fuel, melts copper and lead into heavy alloy.
+Builds support air units.
 '''
 configurable: false
 plans: [
@@ -21,8 +21,6 @@ terralite-alloy/60
 ]
 category: units
 size: 2
-ambientSound: smelter
-ambientSoundVolume: 0.07
 consumes: {
 power: 2.5
 }
