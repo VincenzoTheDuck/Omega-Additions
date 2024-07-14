@@ -13,10 +13,42 @@ shootEffect: shootBig
 shootSound: artillery
 loopSound: none
 targetAir: false
-reload: 40
+reload: 60
+ammoTypes: {
+acid: {
+type: ArtilleryBulletType
+sprite: "circle-bullet"
+backColor: 73d188
+frontColor: 96f58c
+trailEffect: none
+trailColor: 73d188
+trailWidth: 1.5
+trailLength: 13
+width: 3
+height: 3
+shrinkX: 0
+shrinkY: 0
+damage: 0
+splashDamage: 33
+splashDamageRadius: 45
+status: corroded
+statusDuration: 150
+hitEffect: none
+despawnEffect: {
+type: ExplosionEffect
+waveRad: 45
+waveStroke: 1.5
+waveColor: 629d5b
+smokes: 7
+smokeColor: 737c72
+sparks: 4
+sparkColor: 9fe597
+}
+}
+}
 recoil: 1.5
 shake: 2.2
 size: 1
-ammoPerShot: 5
+ammoPerShot: 20
 liquidCapacity: 25
 research: hail
