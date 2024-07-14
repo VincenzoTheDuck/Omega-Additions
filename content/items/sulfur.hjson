@@ -1,0 +1,8 @@
+name: "Sulfur"
+description: '''
+Used for making acid, power production, and incendiary ammunition.
+'''
+research: coal
+color: fcf387
+buildable: false
+hiddenOnPlanets: [erekir]
