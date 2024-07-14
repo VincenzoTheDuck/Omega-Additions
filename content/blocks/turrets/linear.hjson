@@ -7,6 +7,8 @@ terralite-alloy/100
 name: "Linear"
 description: '''
 Fires powerful plasma orbs at enemies.
+
+[accent]Faction:[] Blue
 '''
 category: turret
 smokeEffect: smeltsmoke
