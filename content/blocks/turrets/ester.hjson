@@ -41,4 +41,7 @@ liquid: {
 liquid: acid
 amount: 0.2
 }
+coolant: {
+amount: 0.3
+}
 }
