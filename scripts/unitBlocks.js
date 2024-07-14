@@ -1,1 +1,1 @@
-const supportAssembler = extend(UnitFactory, "support-assembler", {});
+const supportAirAssembler = extend(UnitFactory, "support-air-assembler", {});
