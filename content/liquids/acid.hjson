@@ -3,6 +3,7 @@ description: '''
 Used for resource synthesis and ammunition.
 '''
 research: water
+coolant: false
 color: 96f58c
 heatCapacity: 0.33
 boilPoint: 0.5
