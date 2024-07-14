@@ -1,0 +1,44 @@
+requirements: [
+copper/85
+heavy-alloy/60
+silicon/45
+]
+name: "Acid Mixer"
+description: '''
+Produces acid from water and sulfur.
+'''
+category: crafting
+craftEffect: none
+outputLiquid: acid/0.2
+craftTime: 85
+size: 2
+hasPower: true
+hasLiquids: true
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: water
+}
+{
+type: DrawLiquidTile
+drawLiquid: acid
+}
+DrawDefault
+]
+consumes: {
+power: 0.5
+liquid: {
+liquid: water
+amount: 0.2
+}
+items: {
+items: [
+sulfur/1
+]
+}
+}
+research: sulfur-extractor
