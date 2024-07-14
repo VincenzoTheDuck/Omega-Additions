@@ -53,5 +53,5 @@ recoil: 1.5
 shake: 2.2
 size: 1
 ammoPerShot: 20
-liquidCapacity: 25
+liquidCapacity: 3
 research: hail
