@@ -7,6 +7,8 @@ titanium/40
 name: "Redox"
 description: '''
 Fires barrages of corrosive missiles at enemies.
+
+[accent]Faction:[] Acid
 '''
 category: turret
 smokeEffect: shootBigSmoke
