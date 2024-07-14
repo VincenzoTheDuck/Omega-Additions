@@ -7,6 +7,8 @@ thorium/110
 name: "Endothermic"
 description: '''
 Fires barrages of freezing missiles at enemies.
+
+[accent]Faction:[] Acid
 '''
 range: 400
 category: turret
