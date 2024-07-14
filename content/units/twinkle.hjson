@@ -73,11 +73,7 @@ strokeTo: 0
 }
 ]
 range: 210
+researchCostMultiplier: 0
 research: {
 parent: support-assembler
-requirements: [
-silicon/175
-lead/150
-terralite-alloy/120
-]
 }
