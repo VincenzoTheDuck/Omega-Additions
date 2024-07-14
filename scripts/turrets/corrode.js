@@ -1,5 +1,3 @@
-const liquids = require("liquids");
-
 const corrodeHit = new Effect(15, e => {
 	Lines.stroke(e.fout() * 1.5);
 
@@ -44,5 +42,5 @@ const corrode = extend(LiquidTurret, "corrode", {});
 corrode.range = 150;
 corrode.shootCone = 4;
 corrode.ammo(
-  liquids.acid, corrodeShell
+  Vars.content.getByName(ContentType.liquid, "omega-adds-acid"), corrodeShell
 );
