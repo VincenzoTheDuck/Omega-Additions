@@ -86,6 +86,8 @@ ejectEffect: none
 shake: 0.5
 bullet: {
 type: MissileBulletType
+weaveScl: 1
+weaveMag: 3
 healPercent: 6.5
 trailColor: 8aa3f4
 collidesTeam: true
@@ -121,6 +123,16 @@ strokeTo: 0
 }
 }
 ]
+abilities: [
+{
+type: RepairFieldAbility
+amount: 15
+reload: 120
+range: 80
+}
+]
+mineTier: 3
+mineSpeed: 2.5
 range: 270
 researchCostMultiplier: 0
 research: {
