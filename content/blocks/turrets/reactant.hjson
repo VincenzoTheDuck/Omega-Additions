@@ -13,7 +13,7 @@ shootEffect: shootBig
 shootSound: artillery
 loopSound: none
 targetAir: false
-reload: 75
+reload: 90
 range: 260
 ammoTypes: {
 acid: {
@@ -55,7 +55,7 @@ parts: [
 {
 suffix: "-barrel"
 progress: recoil
-moveY: 1.5
+moveY: -2
 }
 ]
 }
