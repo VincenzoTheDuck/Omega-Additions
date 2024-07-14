@@ -43,6 +43,6 @@ const corrodeShell = extend(ArtilleryBulletType, {
 const corrode = extend(LiquidTurret, "corrode", {});
 corrode.range = 150;
 corrode.shootCone = 4;
-/*corrode.ammo(
-  items.acid, corrodeShell
-);*/
+corrode.ammo(
+  Liquids.water, corrodeShell
+);
