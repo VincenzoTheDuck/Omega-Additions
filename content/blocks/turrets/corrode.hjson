@@ -23,7 +23,7 @@ backColor: 73d188
 frontColor: 96f58c
 trailEffect: none
 trailColor: 73d188
-trailWidth: 4
+trailWidth: 2
 trailLength: 19
 speed: 3.5
 lifetime: 51
