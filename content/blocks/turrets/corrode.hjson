@@ -5,6 +5,8 @@ izomite/75
 name: "Corrode"
 description: '''
 Fires acid shells at ground enemies.
+
+[accent]Faction:[] Acid
 '''
 extinguish: false
 category: turret
