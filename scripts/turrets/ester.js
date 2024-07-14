@@ -50,6 +50,5 @@ ester.shootCone = 4;
 ester.shoot.shots = 5;
 ester.shoot.shotDelay = 4;
 ester.ammo(
-  Items.lead, leadBullet,
-  Items.scrap, scrapBullet
+  Items.plastanium, plastBullet
 );
