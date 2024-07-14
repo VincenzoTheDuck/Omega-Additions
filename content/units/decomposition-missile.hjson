@@ -2,11 +2,11 @@ trailColor: 96f58c
 engineColor: 96f58c
 rotateSpeed: 0.75
 missileAccelTime: 60
-engineSize: 1.5
+engineSize: 2
 engineOffset: 2.5
 speed: 3.5
 maxRange: 10
-lifetime: 142
+lifetime: 202
 health: 240
 lowAltitude: true
 outlineColor: 565666
