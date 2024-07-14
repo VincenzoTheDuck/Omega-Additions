@@ -1,4 +1,5 @@
 require("items");
+require("liquids");
 require("units");
 require("production");
 require("unitBlocks");
