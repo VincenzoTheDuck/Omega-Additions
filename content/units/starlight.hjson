@@ -122,12 +122,7 @@ strokeTo: 0
 }
 ]
 range: 270
+researchCostMultiplier: 0
 research: {
 parent: support-reassembler
-requirements: [
-silicon/220
-lead/300
-titanium/230
-terralite-alloy/250
-]
 }
