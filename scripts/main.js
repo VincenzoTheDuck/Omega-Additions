@@ -13,4 +13,6 @@ const corrode = extend(LiquidTurret, "corrode", {});
 const reactant = extend(LiquidTurret, "reactant", {});
 require("turrets/ester");
 require("turrets/redox");
+require("turrets/exothermic");
+require("turrets/endothermic");
 require("turrets/collapse");
