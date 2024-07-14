@@ -27,7 +27,6 @@ const plastDespawn = new Effect(15, e => {
 
 const plastBullet = extend(BasicBulletType, {
 	damage: 44,
-	collidesAir: false,
   ammoMultiplier: 3,
   pierceCap: 5,
   status: StatusEffects.corroded,
