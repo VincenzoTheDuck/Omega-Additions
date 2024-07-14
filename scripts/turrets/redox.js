@@ -14,6 +14,7 @@ const plastDespawn = new Effect(15, e => {
 });
 
 const plastBullet = extend(MissileBulletType, {
+	damage: 22,
 	splashDamage: 64,
   splashDamageRadius: 40,
   ammoMultiplier: 5,
