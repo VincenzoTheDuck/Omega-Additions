@@ -8,6 +8,8 @@ surge-alloy/100
 name: "Decomposition"
 description: '''
 Fires 3 highly corrosive missiles at enemies.
+
+[accent]Faction:[] Acid
 '''
 range: 500
 category: turret
