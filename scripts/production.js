@@ -1,3 +1,9 @@
 const heavySmelter = extend(GenericCrafter, "heavy-smelter", {});
 
 const terraliteFurnace = extend(GenericCrafter, "terralite-furnace", {});
+
+const sulfurExtractor = extend(GenericCrafter, "sulfur-extractor", {});
+
+const acidMixer = extend(GenericCrafter, "acid-mixer", {});
+
+const izomiteSynthesisChamber = extend(GenericCrafter, "izomite-synthesis-chamber", {});
