@@ -17,7 +17,7 @@ reload: 120
 shoot: {
 type: ShootAlternate
 barrels: 4
-spread: 4
+spread: 6
 shots: 4
 shotDelay: 6
 }
