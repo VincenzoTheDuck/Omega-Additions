@@ -1,4 +1,5 @@
 require("items");
+require("statuses");
 require("liquids");
 require("units");
 require("production");
