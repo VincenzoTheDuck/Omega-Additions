@@ -1,0 +1,33 @@
+requirements: [
+heavy-alloy/95
+izomite/75
+plastanium/85
+titanium/40
+]
+name: "Redox"
+description: '''
+Fires barrages of corrosive missiles at enemies.
+'''
+category: turret
+smokeEffect: shootBigSmoke
+shootEffect: shootBig
+shootSound: shootBig
+reload: 60
+shoot: {
+type: ShootAlternate
+barrels: 2
+spread: 4
+shots: 4
+shotDelay: 3
+}
+recoil: 1.5
+shake: 2.5
+size: 2
+liquidCapacity: 55
+research: reactant
+consumes: {
+liquid: {
+liquid: acid
+amount: 0.25
+}
+}
