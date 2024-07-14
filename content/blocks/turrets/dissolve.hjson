@@ -7,6 +7,8 @@ titanium/50
 name: "Dissolve"
 description: '''
 Fires highly corrosive missiles at enemies.
+
+[accent]Faction:[] Acid
 '''
 range: 300
 category: turret
