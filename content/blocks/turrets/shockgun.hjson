@@ -10,8 +10,8 @@ Fires blasts of electric shrapnel at enemies.
 '''
 category: turret
 smokeEffect: shootBigSmoke
-shootEffect: bigshot
-shootSound: bang
+shootEffect: shootBig
+shootSound: bigshot
 reload: 45
 recoil: 2.5
 shake: 4.5
