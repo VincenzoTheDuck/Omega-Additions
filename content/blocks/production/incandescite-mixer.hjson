@@ -1,0 +1,52 @@
+requirements: [
+graphtie/120
+heavy-alloy/95
+surge-alloy/85
+thorium/60
+]
+name: "Incandescite Mixer"
+description: '''
+Produces incandescite from slag, thorium and surge alloy.
+'''
+category: crafting
+craftEffect: none
+craftTime: 90
+size: 2
+hasPower: true
+hasLiquids: true
+outputLiquid: incandescite/0.3
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: slag
+}
+{
+type: DrawLiquidTile
+drawLiquid: incandescite
+}
+{
+type: DrawRegion
+suffix: "-spinner"
+spinSprite: true
+rotateSpeed: 3
+}
+DrawDefault
+]
+consumes: {
+power: 2
+items: {
+items: [
+thorium/4
+surge-alloy/2
+]
+}
+liquid: {
+liquid: slag
+amount: 0.27
+}
+}
+research: sulfur-extractor
