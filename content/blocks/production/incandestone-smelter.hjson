@@ -28,7 +28,7 @@ drawLiquid: incandescite
 {
 type: DrawSoftParticles
 alpha: 0.3
-particleRad: 20
+particleRad: 8
 particleSize: 7.5
 particleLife: 95
 particles: 19
@@ -39,6 +39,8 @@ DrawDefault
 {
 type: DrawFlame
 flameColor: fc8e6c
+flameRadius: 1.85
+flameRadiusIn: 0.4
 }
 ]
 consumes: {
