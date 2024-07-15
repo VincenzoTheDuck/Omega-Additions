@@ -5,7 +5,7 @@ const bullet = extend(BasicBulletType, {
   ammoMultiplier: 1
 });
 
-const arcII = extend(ItemTurret, "arc-ii", {});
+const arcII = extend(PowerTurret, "arc-ii", {});
 arcII.range = 180;
 arcII.inaccuracy = 5;
 arcII.shootCone = 8;
