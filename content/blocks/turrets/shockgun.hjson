@@ -1,0 +1,24 @@
+requirements: [
+copper/110
+heavy-alloy/85
+graphite/40
+silicon/65
+]
+name: "Shockgun"
+description: '''
+Fires blasts of electric shrapnel at enemies.
+'''
+category: turret
+smokeEffect: shootBigSmoke
+shootEffect: bigshot
+shootSound: bang
+reload: 45
+recoil: 2.5
+shake: 4.5
+size: 2
+consumes: {
+coolant: {
+amount: 0.3
+}
+}
+research: shotgun-ii
