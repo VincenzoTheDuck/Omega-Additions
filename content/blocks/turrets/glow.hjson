@@ -41,6 +41,7 @@ loopSound: torch
 loopSoundVolume: 1
 recoil: 1.5
 size: 2
+range: 180
 consumes: {
 power: 13
 }
