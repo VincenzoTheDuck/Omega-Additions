@@ -35,6 +35,18 @@ spinSprite: true
 rotateSpeed: 3
 }
 DrawDefault
+{
+type: DrawFade
+alpha: 1
+scale: 6
+}
+{
+type: DrawGlowRegion
+alpha: 0.75
+glowScale: 7.5
+glowIntensity: 0.75
+color: fc8e6c
+}
 ]
 consumes: {
 power: 2
