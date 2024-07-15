@@ -21,3 +21,4 @@ require("turrets/exothermic");
 require("turrets/endothermic");
 require("turrets/decomposition");
 require("turrets/collapse");
+require("turrets/glow");
