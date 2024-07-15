@@ -135,5 +135,5 @@ mineSpeed: 2.5
 range: 270
 researchCostMultiplier: 0
 research: {
-parent: support-reassembler
+parent: support-air-reassembler
 }
