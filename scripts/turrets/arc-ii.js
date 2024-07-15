@@ -1,4 +1,4 @@
-const bullet = extend(BasicBulletType, {
+const bullet = extend(LightningBulletType, {
 	damage: 45,
 	lightningLength: 50,
   collidesAir: false,
