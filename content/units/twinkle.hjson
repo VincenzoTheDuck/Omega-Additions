@@ -75,5 +75,5 @@ strokeTo: 0
 range: 210
 researchCostMultiplier: 0
 research: {
-parent: support-assembler
+parent: support-air-assembler
 }
