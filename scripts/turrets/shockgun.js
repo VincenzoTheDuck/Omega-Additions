@@ -47,11 +47,11 @@ const leadBullet = extend(BasicBulletType, {
 	}
 });
 
-const shotgunII = extend(ItemTurret, "shotgun-ii", {});
-shotgunII.range = 200;
-shotgunII.inaccuracy = 30;
-shotgunII.shootCone = 37;
-shotgunII.shoot.shots = 15;
-shotgunII.ammo(
+const shockgun = extend(ItemTurret, "shockgun", {});
+shockgun.range = 200;
+shockgun.inaccuracy = 30;
+shockgun.shootCone = 37;
+shockgun.shoot.shots = 15;
+shockgun.ammo(
   Items.lead, leadBullet
 );
