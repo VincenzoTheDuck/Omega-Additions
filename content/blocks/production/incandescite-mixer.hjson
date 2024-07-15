@@ -42,9 +42,9 @@ scale: 6
 }
 {
 type: DrawGlowRegion
-alpha: 0.75
-glowScale: 7.5
-glowIntensity: 0.75
+alpha: 0.8
+glowScale: 15
+glowIntensity: 1
 color: fc8e6c
 }
 ]
