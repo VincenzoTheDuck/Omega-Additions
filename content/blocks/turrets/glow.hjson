@@ -12,7 +12,8 @@ Fires a continuous single-target beam of extremely hot ionized air at enemies.
 [accent]Faction:[] Flame
 '''
 rotateSpeed: 1.5
-aimChangeSpeed: 3
+aimChangeSpeed: 1.5
+shootY: 0.5
 drawer: {
 type: DrawTurret
 parts: [
