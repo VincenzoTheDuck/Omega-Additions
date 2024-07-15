@@ -1,0 +1,24 @@
+requirements: [
+copper/85
+lead/60
+silicon/30
+]
+name: "Arc Mk-2"
+description: '''
+Fires 6 arcs of lightning at ground enemies.
+'''
+category: turret
+smokeEffect: shootBigSmoke
+shootEffect: shootBig
+shootSound: bigshot
+targetAir: false
+reload: 45
+recoil: 2
+shake: 5
+size: 2
+consumes: {
+coolant: {
+amount: 0.27
+}
+}
+research: arc
