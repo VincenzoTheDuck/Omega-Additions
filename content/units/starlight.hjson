@@ -21,7 +21,6 @@ hitSize: 15
 itemCapacity: 35
 weapons: [
 {
-name: starlight-weapon
 x: 0
 y: 3
 reload: 40
@@ -72,7 +71,7 @@ strokeTo: 0
 }
 }
 {
-name: blue-laser-mount
+name: blue-laser-weapon-mount
 mirror: true
 alternate: true
 x: 4.5
