@@ -7,3 +7,7 @@ const sulfurExtractor = extend(GenericCrafter, "sulfur-extractor", {});
 const acidMixer = extend(GenericCrafter, "acid-mixer", {});
 
 const izomiteSynthesisChamber = extend(GenericCrafter, "izomite-synthesis-chamber", {});
+
+const incandesciteMixer = extend(GenericCrafter, "incandescite-mixer", {});
+
+const incandestoneSmelter = extend(GenericCrafter, "incandestone-smelter", {});
