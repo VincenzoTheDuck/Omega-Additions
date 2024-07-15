@@ -8,6 +8,7 @@ require("unitBlocks");
 // turrets
 require("turrets/shotgun-i");
 require("turrets/shotgun-ii");
+require("turrets/arc-ii");
 require("turrets/shockgun");
 require("turrets/radius");
 require("turrets/linear");
