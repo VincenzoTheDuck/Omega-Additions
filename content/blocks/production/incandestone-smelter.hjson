@@ -27,7 +27,7 @@ drawLiquid: incandescite
 }
 {
 type: DrawSoftParticles
-alpha = 0.3
+alpha: 0.3
 particleRad: 20
 particleSize: 7.5
 particleLife: 95
