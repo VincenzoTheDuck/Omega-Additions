@@ -1,0 +1,10 @@
+name: "Incandestone"
+description: '''
+Used for high-tier ammunition and structures. Glows with a burning heat.
+'''
+research: thorium
+color: e46b58
+radioactivity: 2.2
+healthScaling: 2.5
+cost: 3
+hiddenOnPlanets: [erekir]
