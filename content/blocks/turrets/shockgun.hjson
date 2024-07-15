@@ -17,6 +17,7 @@ recoil: 2.5
 shake: 4.5
 size: 2
 consumes: {
+power: 4
 coolant: {
 amount: 0.3
 }
