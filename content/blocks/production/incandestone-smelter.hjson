@@ -10,7 +10,7 @@ description: '''
 Smelts incandestone from incandescite and sand.
 '''
 category: crafting
-craftEffect: smeltSmoke
+craftEffect: smeltsmoke
 craftTime: 70
 size: 2
 hasPower: true
