@@ -1,0 +1,56 @@
+requirements: [
+thorium/110
+surge-alloy/100
+heavy-alloy/55
+silicon/95
+graphite/60
+]
+name: "Incandestone Smelter"
+description: '''
+Smelts incandestone from incandescite and sand.
+'''
+category: crafting
+craftEffect: smeltSmoke
+craftTime: 70
+size: 2
+hasPower: true
+hasLiquids: true
+outputItem: incandestone/2
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: incandescite
+}
+{
+type: DrawSoftParticles
+alpha = 0.3
+particleRad: 20
+particleSize: 7.5
+particleLife: 95
+particles: 19
+color: fc8e6c
+color2: bc5452
+}
+DrawDefault
+{
+type: DrawFlame
+flameColor: fc8e6c
+}
+]
+consumes: {
+power: 4
+liquid: {
+liquid: incandescite
+amount: 0.17
+}
+items: {
+items: [
+sand/3
+]
+}
+}
+research: incandescite-mixer
