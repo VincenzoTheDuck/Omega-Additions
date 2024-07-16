@@ -12,7 +12,7 @@ Fires barrages of corrosive bullets at enemies.
 '''
 category: turret
 shootEffect: shootTitan
-smokeEffect: smokeTitan
+smokeEffect: titanSmoke
 minWarmup: 0.99
 shootEffect: none
 shootY: 3
