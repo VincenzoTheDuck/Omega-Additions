@@ -31,9 +31,9 @@ const excaliburBullet = extend(BasicBulletType, {
 	ammoMultiplier: 1,
 	draw(b){
 		Draw.color(Color.white);
-		Fill.circle(b.x, b.y, 5);
+		Fill.circle(b.x, b.y, 5 * b.fout());
     Lines.stroke(3)
-	  Lines.circle(e.x, e.y, e.fin() * 10);
+	  Lines.circle(b.x, b.y, b.fout() * 10);
 		Draw.reset();
 	}
 });
