@@ -1,0 +1,64 @@
+requirements: [
+thorium/85
+graphite/95
+heavy-alloy/60
+silicon/100
+surge-alloy/70
+]
+name: "Diamond Press"
+description: '''
+Compresses graphite under kilotons of pressure and massive amounts of heat. Requires a lot of water as coolant.
+'''
+category: crafting
+craftEffect: smeltsmoke
+updateEffect: coalSmeltsmoke
+updateEffectChance: 0.06
+craftTime: 120
+size: 3
+hasPower: true
+hasLiquids: true
+outputItem: diamond/3
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawSoftParticles
+alpha: 0.22
+particleRad: 12
+particleSize: 8
+particleLife: 140
+particles: 13
+color: ff9393
+color2: d44d4d
+}
+DrawDefault
+{
+type: DrawFade
+alpha: 0.4
+scale: 10
+}
+{
+type: DrawGlowRegion
+alpha: 0.65
+glowScale: 25
+glowIntensity: 1
+color: ff8383
+}
+]
+itemCapacity: 30
+liquidCapacity: 80
+consumes: {
+power: 6
+liquid: {
+liquid: water
+amount: 0.5
+}
+items: {
+items: [
+graphite/10
+]
+}
+}
+research: incandescite-mixer
