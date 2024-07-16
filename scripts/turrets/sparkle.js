@@ -40,5 +40,5 @@ sparkle.range = 160;
 sparkle.inaccuracy = 7;
 sparkle.shootCone = 10;
 sparkle.ammo(
-  Vars.content.getByName(ContentType.item, "omega-adds-diamond"), diaBullet
+  items.diamond, diaBullet
 );
