@@ -2,7 +2,7 @@ const items = require("items/items")
 
 const diaHit = new Effect(27, e => {
 	Draw.color(Color.white);
-	Lines.stroke(e.fout() + 2)
+	Lines.stroke(e.fout() * 2)
 	
 	Lines.circle(e.x, e.y, e.fin() * 35);
 
