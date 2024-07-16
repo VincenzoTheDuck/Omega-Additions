@@ -56,8 +56,8 @@ shapes: 3
 haloRotateSpeed: 0.75
 triLength: 0
 triLengthTo: 4
-radius: 2.5
-haloRadius: 6
+radius: 0
+radiusTo: 2.5
 progress: warmup
 }
 {
@@ -67,12 +67,12 @@ color: ffffff
 haloRotation: 90
 shapeRotation: 180
 tri: true
-shapes: 2.5
+shapes: 3
 haloRotateSpeed: 0.75
 triLength: 0
 triLengthTo: 2.5
-radius: 2.5
-haloRadius: 6
+radius: 0
+radiusTo: 2.5
 progress: warmup
 }
 ]
