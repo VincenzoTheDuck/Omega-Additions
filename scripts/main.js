@@ -22,4 +22,6 @@ require("turrets/endothermic");
 require("turrets/decomposition");
 require("turrets/collapse");
 require("turrets/glow");
+require("turrets/sparkle");
+require("turrets/cut");
 require("turrets/excalibur");
