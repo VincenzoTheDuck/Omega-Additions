@@ -11,3 +11,5 @@ const izomiteSynthesisChamber = extend(GenericCrafter, "izomite-synthesis-chambe
 const incandesciteMixer = extend(GenericCrafter, "incandescite-mixer", {});
 
 const incandestoneSmelter = extend(GenericCrafter, "incandestone-smelter", {});
+
+const diamondPress = extend(GenericCrafter, "diamond-press", {});
