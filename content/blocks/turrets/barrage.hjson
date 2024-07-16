@@ -1,0 +1,70 @@
+requirements: [
+heavy-alloy/100
+diamond/110
+thorium/85
+surge-alloy/85
+lead/100
+]
+name: "Barrages"
+description: '''
+Fires barrages of diamond shards at enemies.
+
+[accent]Faction:[] Light
+'''
+category: turret
+shootEffect: [
+hitLancer
+{
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 8
+colorFrom: ffffff
+colorTo: ffffff
+lifetime: 15
+strokeFrom: 1.5
+strokeTo: 0
+}
+]
+smokeEffect: none
+shootWarmupSpeed: 0.15
+minWarmup: 0.9
+shootY: 5
+shootSound: shootBig
+reload: 50
+shoot: {
+shots: 5
+shotDelay: 2
+}
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: "-barrel"
+progress: recoil
+moveY: -3
+children: [
+{
+type: RegionPart
+suffix: "-barrel-crystals"
+progress: recoil
+mirror: true
+moveX: 1.5
+moveY: -1.5
+}
+] 
+}
+]
+}
+recoil: 1.5
+shake: 3
+size: 3
+liquidCapacity: 45
+ammoCapacity: 20
+research: cut
+coolantMultiplier: 3
+consumes: {
+coolant: {
+amount: 0.6
+}
+}
