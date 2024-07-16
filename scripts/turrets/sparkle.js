@@ -39,6 +39,6 @@ const sparkle = extend(ItemTurret, "sparkle", {});
 sparkle.range = 300;
 sparkle.inaccuracy = 7;
 sparkle.shootCone = 10;
-redox.ammo(
+sparkle.ammo(
   items.diamond, diaBullet
 );
