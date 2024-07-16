@@ -7,3 +7,5 @@ const sulfur = extend(Item, "sulfur", {});
 const izomite = extend(Item, "izomite", {});
 
 const incandestone = extend(Item, "incandestone", {});
+
+const diamond = extend(Item, "diamond", {});
