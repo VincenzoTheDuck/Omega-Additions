@@ -25,9 +25,13 @@ particles: 10
 color: ff9393
 color2: d44d4d
 }
-DrawDefault
+{
+type: DrawRegion
+suffix: "-top"
+}
 {
 type: DrawFade
+suffix: "-top2"
 alpha: 0.27
 scale: 15
 }
