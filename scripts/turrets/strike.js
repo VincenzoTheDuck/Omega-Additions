@@ -31,10 +31,8 @@ const strikeBullet = extend(ArtilleryBulletType, {
   backColor: Color.valueOf("c1c3d4"),
   frontColor: Color.valueOf("f4f4f4"),
   trailColor: Color.valueOf("c1c3d4"),
-  trailWidth: 4,
-  trailLength: 50,
-  trailSinScl: 2.5,
-  trailSinMag: 0.5
+  trailWidth: 2,
+  trailLength: 50
 });
 
 const strike = extend(PowerTurret, "strike", {});
