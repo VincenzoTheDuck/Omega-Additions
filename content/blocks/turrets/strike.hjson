@@ -36,7 +36,7 @@ category: turret
 smokeEffect: fluxVapor
 shootEffect: hitLancer
 shootSound: mediumCannon
-reload: 140
+reload: 220
 recoil: 0
 shootY: 0
 shake: 6
