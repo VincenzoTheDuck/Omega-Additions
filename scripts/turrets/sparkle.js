@@ -1,4 +1,4 @@
-const items = require("items")
+const items = require("items/items")
 
 const diaHit = new Effect(40, e => {
 	Draw.color(Color.white);
