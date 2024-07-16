@@ -23,10 +23,10 @@ const excaliburBullet = extend(BasicBulletType, {
   splashDamageRadius: 65,
 	speed: 6,
 	lifetime: 60,
-	hitEffect: Fx.none,
+	despawnEffect: Fx.none,
 	trailEffect: excaliburTrail,
 	trailInterval: 5,
-	despawnEffect: excaliburHit,
+	hitEffect: excaliburHit,
 	despawnHit: true,
 	ammoMultiplier: 1,
 	draw(b){
