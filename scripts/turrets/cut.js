@@ -34,10 +34,10 @@ const diaBullet = extend(MissileBulletType, {
   trailColor: Color.valueOf("c1c3d4")
 });
 
-const sparkle = extend(ItemTurret, "sparkle", {});
-sparkle.range = 200;
-sparkle.inaccuracy = 13;
-sparkle.shootCone = 15;
-sparkle.ammo(
+const cut = extend(ItemTurret, "cut", {});
+cut.range = 200;
+cut.inaccuracy = 13;
+cut.shootCone = 15;
+cut.ammo(
   items.diamond, diaBullet
 );
