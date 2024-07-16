@@ -25,8 +25,8 @@ const diaBullet = extend(MissileBulletType, {
   width: 5,
   height: 8,
   statusDuration: 80,
-	speed: 6,
-	lifetime: 50,
+	speed: 5,
+	lifetime: 32,
 	hitEffect: diaHit,
   despawnHit: true,
 	despawnEffect: Fx.none,
@@ -36,9 +36,9 @@ const diaBullet = extend(MissileBulletType, {
 });
 
 const sparkle = extend(ItemTurret, "sparkle", {});
-sparkle.range = 300;
+sparkle.range = 160;
 sparkle.inaccuracy = 7;
 sparkle.shootCone = 10;
 sparkle.ammo(
-  items.diamond, diaBullet
+  Vars.content.getByName(ContentType.item, "omega-adds-diamond"), diaBullet
 );
