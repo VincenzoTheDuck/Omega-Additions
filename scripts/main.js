@@ -1,6 +1,6 @@
-require("items");
+require("items/items");
 require("statuses");
-require("liquids");
+require("items/liquids");
 require("units");
 require("production");
 require("unitBlocks");
