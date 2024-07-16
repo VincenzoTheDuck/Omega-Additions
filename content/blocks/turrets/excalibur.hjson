@@ -12,7 +12,8 @@ Fires barrages of corrosive bullets at enemies.
 '''
 category: turret
 shootEffect: shootTitan
-smokeEffect: titanSmoke
+smokeEffect: fluxVapor
+warmupSpeed: 0.04
 minWarmup: 0.99
 shootEffect: none
 shootY: 3
@@ -71,7 +72,7 @@ haloRotation: 90
 tri: true
 hollow: true
 shapes: 4
-haloRotateSpeed: -2
+haloRotateSpeed: -0.5
 triLength: 0
 triLengthTo: 7
 radius: 4
