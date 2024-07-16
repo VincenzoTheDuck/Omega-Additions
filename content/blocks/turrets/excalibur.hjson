@@ -14,8 +14,7 @@ category: turret
 shootEffect: shootTitan
 smokeEffect: fluxVapor
 shootWarmupSpeed: 0.033
-minWarmup: 0.99
-shootEffect: none
+minWarmup: 0.95
 shootY: 3
 shootSound: shootSmite
 reload: 75
