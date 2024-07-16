@@ -9,3 +9,12 @@ const izomite = extend(Item, "izomite", {});
 const incandestone = extend(Item, "incandestone", {});
 
 const diamond = extend(Item, "diamond", {});
+
+module.exports = {
+  heavyAlloy: heavyAlloy,
+  terraliteAlloy: terraliteAlloy,
+  sulfur: sulfur,
+  izomite: izomite,
+  incandestone: incandestone,
+  diamond: diamond,
+}
