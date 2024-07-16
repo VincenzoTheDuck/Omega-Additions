@@ -13,8 +13,8 @@ Fires barrages of corrosive bullets at enemies.
 category: turret
 shootEffect: shootTitan
 smokeEffect: fluxVapor
-shootWarmupSpeed: 0.033
-minWarmup: 0.95
+shootWarmupSpeed: 0.065
+minWarmup: 0.9
 shootY: 3
 shootSound: shootSmite
 reload: 75
@@ -128,7 +128,7 @@ shake: 6
 size: 4
 liquidCapacity: 45
 research: cut
-coolantMultiplier: 2
+coolantMultiplier: 1.5
 consumes: {
 power: 20
 coolant: {
