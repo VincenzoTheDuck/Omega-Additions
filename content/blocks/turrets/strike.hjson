@@ -1,0 +1,50 @@
+requirements: [
+copper/120
+diamond/75
+thorium/75
+surge-alloy/50
+]
+name: "Strike"
+description: '''
+Fires long-range energy shells at ground targets.
+
+[accent]Faction:[] Light
+'''
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawSoftParticles
+alpha: 0.1
+particleRad: 8
+particleSize: 10
+particleLife: 200
+particles: 10
+color: ff9393
+color2: d44d4d
+}
+DrawDefault
+{
+type: DrawFade
+alpha: 0.27
+scale: 15
+}
+]
+category: turret
+smokeEffect: fluxVapor
+shootEffect: hitLancer
+shootSound: mediumCannon
+reload: 140
+recoil: 0
+shake: 6
+size: 2
+consumes: {
+power: 12
+coolant: {
+amount: 0.7
+}
+}
+coolantMultiplier: 2
+research: cut
