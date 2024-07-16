@@ -57,7 +57,7 @@ haloRotateSpeed: 0.75
 triLength: 0
 triLengthTo: 4
 radius: 2.5
-haloRadius: 10
+haloRadius: 6
 progress: warmup
 }
 {
@@ -71,8 +71,8 @@ shapes: 2.5
 haloRotateSpeed: 0.75
 triLength: 0
 triLengthTo: 2.5
-radius: 5
-haloRadius: 10
+radius: 2.5
+haloRadius: 6
 progress: warmup
 }
 ]
