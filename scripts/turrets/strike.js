@@ -11,7 +11,7 @@ const strikeHit = new Effect(30, e => {
       Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 6);
 	}});
 
-  Angles.randLenVectors(e.id, 9, e.finpow() * 40.0, e.rotation, 360.0, hj);
+  Angles.randLenVectors(e.id, 9, e.finpow() * 115.0, e.rotation, 360.0, hj);
 });
 
 const strikeBullet = extend(ArtilleryBulletType, {
@@ -19,10 +19,8 @@ const strikeBullet = extend(ArtilleryBulletType, {
 	splashDamage: 350,
   splashDamageRadius: 85,
   ammoMultiplier: 1,
-  weaveScl: 8,
-  weaveMag: 10,
-  width: 6,
-  height: 8,
+  width: 10,
+  height: 14,
   shrinkX: 0.1,
   shrinkY: 0.2,
 	speed: 3,
@@ -33,14 +31,14 @@ const strikeBullet = extend(ArtilleryBulletType, {
   backColor: Color.valueOf("c1c3d4"),
   frontColor: Color.valueOf("f4f4f4"),
   trailColor: Color.valueOf("c1c3d4"),
-  trailWidth: 2,
-  trailLength: 20,
+  trailWidth: 4,
+  trailLength: 50,
   trailSinScl: 2.5,
   trailSinMag: 0.5
 });
 
 const strike = extend(PowerTurret, "strike", {});
 strike.range = 350;
-strike.rotateSpeed = 0;
+strike.rotateSpeed = Infinity;
 strike.shootCone = 360;
 strike.shootType = strikeBullet;
