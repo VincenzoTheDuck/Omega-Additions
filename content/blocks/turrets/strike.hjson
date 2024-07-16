@@ -38,6 +38,7 @@ shootEffect: hitLancer
 shootSound: mediumCannon
 reload: 140
 recoil: 0
+shootY: 0
 shake: 6
 size: 2
 consumes: {
