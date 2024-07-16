@@ -43,4 +43,4 @@ const strike = extend(PowerTurret, "strike", {});
 strike.range = 350;
 strike.rotateSpeed = 0;
 strike.shootCone = 360;
-strike.shootType = strikeBullet,
+strike.shootType = strikeBullet;
