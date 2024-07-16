@@ -1,0 +1,77 @@
+requirements: [
+heavy-alloy/120
+diamond/85
+thorium/40
+copper/80
+]
+name: "Sparkle"
+description: '''
+Fires barrages of diamond missiles at enemies.
+
+[accent]Faction:[] Light
+'''
+category: turret
+shootEffect: hitLancer
+smokeEffect: vapor
+shootWarmupSpeed: 0.065
+minWarmup: 0.9
+shootY: 10
+shootSound: missile
+reload: 60
+shoot: {
+shots: 3
+shotDelay: 4
+}
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: ShapePart
+y: 10
+color: ffffff
+radius: 3.5
+circle: true
+progress: warmup
+}
+{
+type: HaloPart
+y: 10
+color: ffffff
+haloRotation: 90
+tri: true
+shapes: 3
+haloRotateSpeed: 0.75
+triLength: 0
+triLengthTo: 4
+radius: 5
+haloRadius: 10
+progress: warmup
+}
+{
+type: HaloPart
+y: 10
+color: ffffff
+haloRotation: 90
+shapeRotation: 180
+tri: true
+shapes: 3
+haloRotateSpeed: 0.75
+triLength: 0
+triLengthTo: 2.5
+radius: 5
+haloRadius: 10
+progress: warmup
+}
+]
+}
+recoil: 1.2
+shake: 3
+size: 1
+liquidCapacity: 20
+research: swarmer
+coolantMultiplier: 4
+consumes: {
+coolant: {
+amount: 0.33
+}
+}
