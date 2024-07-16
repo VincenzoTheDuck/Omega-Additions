@@ -25,9 +25,9 @@ strokeTo: 0
 }
 ]
 smokeEffect: none
-shootWarmupSpeed: 0.065
+shootWarmupSpeed: 0.15
 minWarmup: 0.9
-shootY: 7
+shootY: 5
 shootSound: missile
 reload: 60
 shoot: {
@@ -39,16 +39,16 @@ type: DrawTurret
 parts: [
 {
 type: ShapePart
-y: 7
+y: 5
 color: ffffff
 radius: 0
-radiusTo: 2
+radiusTo: 1.5
 circle: true
 progress: warmup
 }
 {
 type: HaloPart
-y: 7
+y: 5
 color: ffffff
 haloRotation: 90
 tri: true
@@ -56,18 +56,18 @@ shapes: 3
 haloRotateSpeed: 0.75
 triLength: 0
 triLengthTo: 4
-radius: 5
+radius: 2.5
 haloRadius: 10
 progress: warmup
 }
 {
 type: HaloPart
-y: 7
+y: 5
 color: ffffff
 haloRotation: 90
 shapeRotation: 180
 tri: true
-shapes: 3
+shapes: 2.5
 haloRotateSpeed: 0.75
 triLength: 0
 triLengthTo: 2.5
