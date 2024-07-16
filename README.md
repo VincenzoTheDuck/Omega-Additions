@@ -1,2 +1,2 @@
 # Omega-Additions
-ok this one will be better i promise
+planning document: https://docs.google.com/document/d/1J7xpbitguVtPJJqBw9GGUJzbtfaArs1Hi7Omuh23yLs/edit?usp=sharing
