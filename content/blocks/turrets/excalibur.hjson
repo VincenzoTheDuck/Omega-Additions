@@ -1,0 +1,98 @@
+requirements: [
+heavy-alloy/120
+diamond/160
+surge-alloy/140
+thorium/75
+]
+name: "Excalibur"
+description: '''
+Fires barrages of corrosive bullets at enemies.
+
+[accent]Faction:[] Light
+'''
+category: turret
+shootEffect: shootTitan
+smokeEffect: smokeTitan
+minWarmup: 0.99
+shootEffect: none
+shootY: 3
+shootSound: shootSmite
+reload: 75
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-side"
+mirror: true
+under: true
+progress: warmup
+moveX: 2
+moveY: -2
+moveRot: -5
+}
+{
+type: ShapePart
+y: 3
+color: ffffff
+radius: 10
+circle: true
+hollow: true
+stroke: 0
+strokeTo: 2.5
+progress: {
+type: warmup
+op: delay
+amount: 0.25
+}
+}
+{
+type: HaloPart
+y: 3
+color: ffffff
+haloRotation: 90
+tri: true
+hollow: true
+shapes: 2
+triLength: 0
+triLengthTo: 25
+radius: 6
+haloRadius: 13
+progress: {
+type: warmup
+op: delay
+amount: 0.25
+}
+}
+{
+type: HaloPart
+y: 3
+color: ffffff
+haloRotation: 90
+tri: true
+hollow: true
+shapes: 4
+haloRotateSpeed: -2
+triLength: 0
+triLengthTo: 7
+radius: 4
+haloRadius: 13
+progress: {
+type: warmup
+op: delay
+amount: 0.25
+}
+}
+]
+}
+recoil: 3
+shake: 6
+size: 4
+liquidCapacity: 45
+research: cut
+coolantMultiplier: 6
+consumes: {
+power: 20
+coolant: {
+amount: 1
+}
+}
