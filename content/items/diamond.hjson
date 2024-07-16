@@ -1,0 +1,7 @@
+name: "Diamond"
+description: '''
+Used for light faction structures and very powerful weaponry.
+'''
+research: graphite
+color: dcdde3
+hiddenOnPlanets: [erekir]
