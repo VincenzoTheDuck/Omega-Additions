@@ -1,0 +1,17 @@
+requirements: [
+magnetite/800
+copper/1000
+]
+category: effect
+unitType: spirit
+health: 1100
+itemCapacity: 4000
+size: 3
+isFirstTier: true
+unitCapModifier: 8
+alwaysUnlocked: true
+research: {
+root: true
+name: xaskin-techtree
+planet: xaskin
+}
