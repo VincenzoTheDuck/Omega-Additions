@@ -37,7 +37,13 @@ scale: 15
 }
 ]
 category: turret
-smokeEffect: fluxVapor
+smokeEffect: [
+fluxVapor
+fluxVapor
+fluxVapor
+fluxVapor
+fluxVapor
+]
 shootEffect: hitLancer
 shootSound: mediumCannon
 reload: 220
@@ -45,6 +51,7 @@ recoil: 0
 shootY: 0
 shake: 6
 size: 2
+targetAir: false
 consumes: {
 power: 12
 coolant: {
