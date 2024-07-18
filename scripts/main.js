@@ -5,6 +5,7 @@ require("units");
 require("production");
 require("unitBlocks");
 require("storage");
+require("environment");
 
 // turrets
 require("turrets/shotgun-i");
