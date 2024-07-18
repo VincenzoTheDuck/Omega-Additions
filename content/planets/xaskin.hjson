@@ -5,8 +5,8 @@ iconColor: 935656
 orbitRadius: 35
 hasAtmosphere: true
 updateLighting: false
-atmosphereRadIn: 1
-atmosphereRadOut: 0.2
+atmosphereRadIn: 0.03
+atmosphereRadOut: 0.02
 atmosphereColor: 935656
 drawOrbit: true
 
@@ -15,7 +15,7 @@ alwaysUnlocked: true
 defaultCore: core-decade
 sectorSeed: 223
 startSector: 12
-sectorSize: 0.8
+sectorSize: 0.65
 
 clearSectorOnLose: true
 allowSectorInvasion: false
@@ -44,8 +44,7 @@ mesh: {
     divisions: 6
     radius: 1.3
     octaves: 9
-thresh: 0.75
-    persistence: 0.75
+    persistence: 1
     scl: 1.2
     mag: 0.4
 }
