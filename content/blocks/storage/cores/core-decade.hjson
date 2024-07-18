@@ -1,3 +1,10 @@
+name: "Core: Decade"
+description: '''
+Core of the base. Once destroyed, the sector is lost.
+'''
+details: '''
+Small, self-replicating, weak. Has single-use thrusters for launching to other sectors.
+'''
 requirements: [
 copper/1000
 ]
