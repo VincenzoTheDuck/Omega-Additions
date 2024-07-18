@@ -1,3 +1,4 @@
+name: "Xaskin"
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 935656
@@ -13,40 +14,40 @@ accessible: true
 alwaysUnlocked: true
 defaultCore: core-decade
 sectorSeed: 0
-startSector: 11
-sectorSize: 1
+startSector: 13
+sectorSize: 0.5
 
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
-	
-/*cloudMesh: {
+
+cloudMesh: {
     type: HexSkyMesh
     planet: xaskin
-    seed: 33
-    speed: 14
-    radius: 0.15
-    divisions: 13
+    seed: 1
+    speed: 7
+    radius: 0.13
+    divisions: 7
     color: e47777
     octaves: 0
     persistence: 1
-    scl: 3
-    thresh: 0.3
+    scl: 2
+    thresh: 0.1
 }
 	
 mesh: {
     type: NoiseMesh
     planet: xaskin
-    seed: 834
+    seed: 562697
     color1: b76363
     color2: 954848
-    divisions: 8
+    divisions: 5
     radius: 0.9
-    octaves: 10
-    persistence: 0.7
-    scl: 0.85
-    mag: 1
-}*/
+    octaves: 9
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
 	
 hiddenItems: [
     lead
