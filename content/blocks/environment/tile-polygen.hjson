@@ -1,7 +1,7 @@
 liquidDrop: polygen
 cacheLayer: water
 isLiquid: true
-solid: true
+//solid: true
 variants: 0
 emitLight: true
 lightRadius: 40
