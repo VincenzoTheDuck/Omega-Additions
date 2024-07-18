@@ -22,7 +22,7 @@ allowLaunchToNumbered: false
 	
 cloudMesh: {
     type: HexSkyMesh
-    planet: UrPlanet
+    planet: xaskin
     seed: 33
     speed: 14
     radius: 0.15
@@ -36,7 +36,7 @@ cloudMesh: {
 	
 mesh: {
     type: NoiseMesh
-    planet: UrPlanet
+    planet: xaskin
     seed: 834
     color1: b76363
     color2: 954848
