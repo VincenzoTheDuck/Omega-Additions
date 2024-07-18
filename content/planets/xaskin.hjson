@@ -7,6 +7,7 @@ updateLighting: false
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 atmosphereColor: d17575
+landCloudCollor: c45b5b
 drawOrbit: true
 
 accessible: true
@@ -22,7 +23,7 @@ allowLaunchToNumbered: false
 	
 cloudMesh: {
     type: HexSkyMesh
-    planet: UrPlanet
+    planet: xaskin
     seed: 33
     speed: 8
     radius: 0.09
@@ -36,7 +37,7 @@ cloudMesh: {
 	
 mesh: {
     type: NoiseMesh
-    planet: UrPlanet
+    planet: xaskin
     seed: 562697
     color1: af4848
     color2: 953535
