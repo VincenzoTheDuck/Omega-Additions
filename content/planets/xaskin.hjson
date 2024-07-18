@@ -20,7 +20,7 @@ clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
 	
-cloudMesh: {
+/*cloudMesh: {
     type: HexSkyMesh
     planet: xaskin
     seed: 33
@@ -46,7 +46,7 @@ mesh: {
     persistence: 0.7
     scl: 0.85
     mag: 1
-}
+}*/
 	
 hiddenItems: [
     lead
