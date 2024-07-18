@@ -1,5 +1,5 @@
 requirements: [
-magnetite/800
+//magnetite/800
 copper/1000
 ]
 category: effect
