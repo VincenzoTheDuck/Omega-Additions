@@ -11,9 +11,9 @@ drawOrbit: true
 
 accessible: true
 alwaysUnlocked: true
-defaultCore: "core-decade"
+defaultCore: core-decade
 sectorSeed: 0
-startSector: 3
+startSector: 11
 sectorSize: 1
 
 clearSectorOnLose: true
