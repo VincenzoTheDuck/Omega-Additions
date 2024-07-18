@@ -4,6 +4,7 @@ require("items/liquids");
 require("units");
 require("production");
 require("unitBlocks");
+require("storage");
 
 // turrets
 require("turrets/shotgun-i");
