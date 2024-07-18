@@ -1,0 +1,9 @@
+name: "Polygen"
+description: '''
+Used for resource synthesis, power generation and ammunition.
+'''
+color: c06262
+explosiveness: 0.25
+flammability: 1
+gas: true
+research: core-decade
