@@ -15,7 +15,7 @@ alwaysUnlocked: true
 defaultCore: core-decade
 sectorSeed: 0
 startSector: 13
-sectorSize: 1
+sectorSize: 1.5
 
 clearSectorOnLose: true
 allowSectorInvasion: false
@@ -26,7 +26,7 @@ cloudMesh: {
     planet: xaskin
     seed: 1
     speed: 7
-    radius: 0.17
+    radius: 0.65
     divisions: 7
     color: e47777
     octaves: 0
@@ -45,8 +45,8 @@ mesh: {
     radius: 1.5
     octaves: 9
     persistence: 1
-    scl: 0.75
-    mag: 1.2
+    scl: 0.55
+    mag: 0.65
 }
 	
 hiddenItems: [
