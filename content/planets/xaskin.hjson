@@ -15,7 +15,7 @@ alwaysUnlocked: true
 defaultCore: core-decade
 sectorSeed: 223
 startSector: 12
-sectorApproxRadius: 2.75
+sectorSize: 3
 
 clearSectorOnLose: true
 allowSectorInvasion: false
