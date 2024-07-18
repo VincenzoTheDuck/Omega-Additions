@@ -7,7 +7,7 @@ hasAtmosphere: true
 updateLighting: false
 atmosphereRadIn: 0.03
 atmosphereRadOut: 0.02
-atmosphereColor: 935656
+atmosphereColor: 93565677
 drawOrbit: true
 
 accessible: true
@@ -15,7 +15,7 @@ alwaysUnlocked: true
 defaultCore: core-decade
 sectorSeed: 223
 startSector: 12
-sectorSize: 0.65
+sectorSize: 0.73
 
 clearSectorOnLose: true
 allowSectorInvasion: false
@@ -28,7 +28,7 @@ cloudMesh: {
     speed: 7
     radius: 0.22
     divisions: 3
-    color: e4777735
+    color: e4777757
     octaves: 0.7
     persistence: 2
     scl: 3
