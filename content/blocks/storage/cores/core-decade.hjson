@@ -10,7 +10,7 @@ isFirstTier: true
 unitCapModifier: 8
 alwaysUnlocked: true
 research: {
-root: true
+/*root: true
 name: xaskin-techtree
-planet: xaskin
+planet: xaskin*/
 }
