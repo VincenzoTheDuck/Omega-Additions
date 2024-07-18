@@ -11,7 +11,7 @@ landCloudCollor: c45b5b
 drawOrbit: true
 
 accessible: false
-alwaysUnlocked: true
+alwaysUnlocked: false
 defaultCore: "core-decade"
 sectorSeed: 0
 startSector: 9
