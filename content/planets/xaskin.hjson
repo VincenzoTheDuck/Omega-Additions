@@ -15,7 +15,7 @@ alwaysUnlocked: true
 defaultCore: core-decade
 sectorSeed: 223
 startSector: 12
-sectorSize: 0.73
+sectorSize: 0.78
 
 clearSectorOnLose: true
 allowSectorInvasion: false
@@ -30,7 +30,7 @@ cloudMesh: {
     divisions: 3
     color: e4777757
     octaves: 0.7
-    persistence: 2
+    persistence: 0.3
     scl: 3
     thresh: 0.8
 }
