@@ -3,9 +3,7 @@ var powerProduction = 2;
 //for stats
 var generationType = Stat.basePowerGeneration;
 
-const windTurbine = extend(PowerBlock, "wind-turbine", {
-    outputsPower: true,
-    consumesPower: false,
+const windTurbine = extend(PowerGenerator, "wind-turbine", {
 	
 	//for stats
     setStats(){
@@ -28,7 +26,7 @@ const windTurbine = extend(PowerBlock, "wind-turbine", {
 
 //efficiency multiplier 
 const productionEfficiency = 1.0;
-windTurbine.buildType = () => extend(CoreBlock.CoreBuild, coreCage, {
+windTurbine.buildType = () => extend(PowerGenerator.PowerGeneratoruild, windTurbine, {
 	//endowing the block with the ability to produce power
         getPowerProduction(){
             return powerProduction * productionEfficiency;
