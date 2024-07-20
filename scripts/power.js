@@ -26,7 +26,7 @@ const windTurbine = extend(PowerGenerator, "wind-turbine", {
 
 //efficiency multiplier 
 const productionEfficiency = 1.0;
-windTurbine.buildType = () => extend(PowerGenerator.PowerGeneratorBuild, windTurbine, {
+windTurbine.buildType = () => extend(PowerGenerator.GeneratorBuild, windTurbine, {
 	//endowing the block with the ability to produce power
         getPowerProduction(){
             return powerProduction * productionEfficiency;
