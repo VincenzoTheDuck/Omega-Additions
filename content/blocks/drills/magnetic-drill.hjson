@@ -1,0 +1,25 @@
+requirements: [
+copper/15
+magnetite/20
+]
+name: "Magnetic Drill"
+description: '''
+Extracts ores with rotating magnet coils.
+'''
+category: production
+drillTime: 500
+tier: 2
+size: 2
+consumes: {
+power: 0.15
+}
+research: {
+parent: core-decade
+research: [
+wind-turbine
+]
+requirements: [
+copper/10
+magnetite/10
+]
+}
