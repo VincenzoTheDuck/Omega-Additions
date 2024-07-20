@@ -32,4 +32,8 @@ windTurbine.buildType = () => extend(PowerGenerator.GeneratorBuild, windTurbine,
         getPowerProduction(){
             return powerProduction * productionEfficiency;
         }
+
+	warmup(){
+            return enabled ? 1;
+        }
 });
