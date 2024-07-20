@@ -8,17 +8,18 @@ const windTurbine = extend(PowerGenerator, "wind-turbine", {
 	//for stats
     setStats(){
         this.super$setStats();
+	this.stats.remove(generationType);
         this.stats.add(generationType, powerProduction * 60, StatUnit.powerSecond);
     },
 	
 	//for bars
     setBars(){
     this.super$setBars();
-        this.addBar("poweroutput", entity => new Bar(
+        /*this.addBar("poweroutput", entity => new Bar(
 	    () => Core.bundle.format("bar.poweroutput", powerProduction * 60), 
 	    () => Pal.powerBar, 
 	    () => 1
-	));
+	));*/
     },
 
     baseExplosiveness: 3,
