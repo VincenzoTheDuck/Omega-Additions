@@ -1,0 +1,70 @@
+generator: SerpuloPlanetGenerator
+parent: sun
+iconColor: d17575
+orbitRadius: 35
+hasAtmosphere: true
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereColor: d17575
+landCloudCollor: c45b5b
+drawOrbit: true
+
+accessible: false
+alwaysUnlocked: false
+defaultCore: "core-decade"
+sectorSeed: 0
+startSector: 9
+sectorSize: 2
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+cloudMesh: {
+    type: HexSkyMesh
+    planet: xaskin
+    seed: 33
+    speed: 8
+    radius: 0.09
+    divisions: 4
+    color: c45b5b
+    octaves: 0
+    persistence: 0.5
+    scl: 2
+    thresh: 0.5
+}
+
+mesh: {
+    type: NoiseMesh
+    planet: xaskin
+    seed: 562697
+    color1: af4848
+    color2: 953535
+    divisions: 7
+    radius: 1
+    octaves: 13
+    persistence: 1
+    scl: 0.76
+    mag: 0.33
+}
+
+rotateTime: 420
+orbitTime: 1620
+
+hiddenItems: [
+    lead
+    scrap
+  coal
+  titanium
+  thorium
+spore-pod
+  surge-alloy
+  plastanium
+phase-fabric
+  pyratite
+blast-compound
+beryllium
+  oxide
+carbide
+]
