@@ -10,8 +10,8 @@ atmosphereColor: d17575
 landCloudCollor: c45b5b
 drawOrbit: true
 
-accessible: false
-alwaysUnlocked: false
+accessible: true
+alwaysUnlocked: true
 defaultCore: "core-decade"
 sectorSeed: 0
 startSector: 9
