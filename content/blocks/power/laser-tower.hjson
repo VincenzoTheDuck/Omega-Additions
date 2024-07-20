@@ -19,5 +19,5 @@ powerBuffered: 1500
 }
 researchCostMultiplier: 0.5
 research: {
-parent: core-decade
+parent: laser-link
 }
