@@ -1,3 +1,9 @@
+const laserNode = extend(BeamNode, "laser-node", {});
+
+const laserLink = extend(PowerNode, "laser-link", {});
+
+const laserTower = extend(BeamNode, "laser-tower", {});
+
 //amount of power per tick * 60 ticks(1 sec.) = 540 units of power in the game per second
 var powerProduction = 2;
 //for stats
