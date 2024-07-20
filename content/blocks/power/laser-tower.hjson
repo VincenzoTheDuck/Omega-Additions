@@ -1,0 +1,23 @@
+requirements: [
+copper/40
+iron/50
+]
+name: "Laser Tower"
+description: '''
+Beams power to other laser nodes. Stores a small amount of power.
+'''
+category: power
+size: 3
+laserColor2: fbd367
+laser: "laser"
+laserEnd: "laser-end"
+range: 13
+pulseScl: 10
+pulseMag: 0.1
+consumes: {
+powerBuffered: 1500
+}
+researchCostMultiplier: 0.5
+research: {
+parent: core-decade
+}
