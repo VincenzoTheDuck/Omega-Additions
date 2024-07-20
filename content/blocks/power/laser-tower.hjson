@@ -1,6 +1,6 @@
 requirements: [
 copper/40
-iron/50
+//iron/50
 ]
 name: "Laser Tower"
 description: '''
