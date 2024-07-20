@@ -14,7 +14,7 @@ consumes: {
 powerBuffered: 250
 }
 research: {
-parent: core-decade
+parent: laser-node
 requirements: [
 copper/10
 magnetite/10
