@@ -2,7 +2,7 @@ requirements: [
 copper/12
 magnetite/20
 ]
-name: "Laser Node"
+name: "Laser Link"
 description: '''
 Beams power to other laser nodes. Stores a tiny amount of power.
 '''
