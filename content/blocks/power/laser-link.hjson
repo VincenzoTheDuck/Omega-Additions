@@ -1,0 +1,24 @@
+requirements: [
+copper/12
+magnetite/20
+]
+name: "Laser Node"
+description: '''
+Beams power to other laser nodes. Stores a tiny amount of power.
+'''
+category: power
+size: 1
+laserRange: 18
+maxNodes: 2
+pulseScl: 10
+pulseMag: 0.1
+consumes: {
+powerBuffered: 250
+}
+research: {
+parent: core-decade
+requirements: [
+copper/10
+magnetite/10
+]
+}
