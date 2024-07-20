@@ -1,6 +1,6 @@
 name: "Magnetite"
 description: '''
-Used for basic structures.
+Used for basic structures. Magnetic.
 '''
 alwaysUnlocked: true
 research: core-decade
