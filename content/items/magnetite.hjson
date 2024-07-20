@@ -7,6 +7,7 @@ research: core-decade
 color: 443e3e
 healthScaling: 1
 cost: 0.85
+hardness: 2
 hiddenOnPlanets: [
 serpulo
 erekir
