@@ -11,7 +11,7 @@ generateEffect: none
 powerOutput: 2
 size: 1
 hasPower: true
-drawer: {
+drawer: [
 DrawDefault
 {
 type: DrawBlurSpin
@@ -22,7 +22,7 @@ blurThresh: 0.1
 type: DrawRegion
 suffix: "-top"
 }
-}
+]
 research: {
 parent: core-decade
 requirements: {
