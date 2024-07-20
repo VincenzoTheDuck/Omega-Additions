@@ -8,7 +8,6 @@ Produces power from the fast wind on Xaskin.
 '''
 category: power
 generateEffect: none
-powerOutput: 2
 size: 1
 hasPower: true
 drawer: [
