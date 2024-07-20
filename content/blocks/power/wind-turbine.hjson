@@ -25,8 +25,8 @@ suffix: "-top"
 ]
 research: {
 parent: core-decade
-requirements: {
+requirements: [
 copper/30
 magnetite/25
-}
+]
 }
