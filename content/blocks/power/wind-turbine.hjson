@@ -15,7 +15,7 @@ DrawDefault
 {
 type: DrawBlurSpin
 suffix: "-rotator"
-blurThresh: 0.1
+blurThresh: 0.01
 }
 {
 type: DrawRegion
