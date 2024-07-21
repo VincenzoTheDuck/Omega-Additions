@@ -13,3 +13,5 @@ const incandesciteMixer = extend(GenericCrafter, "incandescite-mixer", {});
 const incandestoneSmelter = extend(GenericCrafter, "incandestone-smelter", {});
 
 const diamondPress = extend(GenericCrafter, "diamond-press", {});
+
+const magneticDrill = extend(Drill, "magnetic-drill", {});
