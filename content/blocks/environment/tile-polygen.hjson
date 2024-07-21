@@ -1,6 +1,6 @@
 cacheLayer: water
-solid: true
-placeableOn: false
+isLiquid: true
+liquidDrop: polygen
 variants: 0
 emitLight: true
 lightRadius: 40
