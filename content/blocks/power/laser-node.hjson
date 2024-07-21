@@ -1,5 +1,4 @@
 requirements: [
-copper/4
 magnetite/6
 ]
 name: "Laser Node"
@@ -18,7 +17,6 @@ powerBuffered: 750
 research: {
 parent: core-decade
 requirements: [
-copper/2
 magnetite/3
 ]
 }
