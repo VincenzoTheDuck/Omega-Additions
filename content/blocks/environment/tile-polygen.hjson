@@ -1,7 +1,0 @@
-cacheLayer: water
-isLiquid: true
-liquidDrop: polygen
-variants: 0
-emitLight: true
-lightRadius: 40
-lightColor: dc8b8b33
