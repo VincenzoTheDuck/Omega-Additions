@@ -1,5 +1,4 @@
 requirements: [
-copper/15
 magnetite/20
 ]
 name: "Magnetic Drill"
@@ -19,7 +18,6 @@ research: [
 wind-turbine
 ]
 requirements: [
-copper/10
 magnetite/10
 ]
 }
