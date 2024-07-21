@@ -1,5 +1,4 @@
 requirements: [
-copper/20
 magnetite/15
 ]
 name: "Wind Turbine"
@@ -26,7 +25,6 @@ suffix: "-top"
 research: {
 parent: core-decade
 requirements: [
-copper/30
 magnetite/25
 ]
 }
