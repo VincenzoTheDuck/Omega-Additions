@@ -1,5 +1,4 @@
 requirements: [
-graphite/12
 magnetite/20
 ]
 name: "Laser Link"
@@ -16,7 +15,6 @@ powerBuffered: 250
 research: {
 parent: laser-node
 requirements: [
-graphite/10
 magnetite/10
 ]
 }
