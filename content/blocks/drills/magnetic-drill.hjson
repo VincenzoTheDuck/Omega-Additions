@@ -5,6 +5,7 @@ name: "Magnetic Drill"
 description: '''
 Extracts ores with rotating magnet coils.
 '''
+blockedItem: graphite
 category: production
 drillTime: 500
 tier: 2
