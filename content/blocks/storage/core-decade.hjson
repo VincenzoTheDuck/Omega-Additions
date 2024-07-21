@@ -6,7 +6,8 @@ details: '''
 Small, self-replicating, weak. Has single-use thrusters for launching to other sectors.
 '''
 requirements: [
-copper/1000
+magnetite/1000
+graphite/800
 ]
 category: effect
 unitType: spirit
