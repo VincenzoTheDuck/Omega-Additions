@@ -53,6 +53,7 @@ rotateTime: 420
 orbitTime: 1620
 
 hiddenItems: [
+copper
     lead
     scrap
   coal
@@ -66,7 +67,7 @@ phase-fabric
 blast-compound
 beryllium
   oxide
-graphite
+sand
 silicon
 carbide
 ]
