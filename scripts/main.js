@@ -5,6 +5,7 @@ require("units");
 require("production");
 require("unitBlocks");
 require("storage");
+require("power");
 require("environment");
 
 // turrets
