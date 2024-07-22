@@ -1,0 +1,48 @@
+requirements: [
+beryllium/120
+oxide/85
+silicon/120
+tungsten/100
+]
+name: "Hydrogen Combustion Chamber"
+description: '''
+Generates power and heat from hydrogen and ozone. Produces water as a byproduct.
+'''
+category: power
+generateEffect: none
+outputLiquid: water/0.2
+heatOutput: 8
+powerProduction: 16
+size: 3
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: hydrogen
+}
+DrawDefault
+DrawHeatOutput
+{
+type: DrawWarmupRegion
+color: ffffff
+}
+{
+type: DrawWarmupRegion
+color: fc81dd
+alpha: 0.65
+glowScale: 7
+}
+]
+consumes: {
+liquids: {
+liquids: [
+hydrogen/0.45
+ozone/0.3
+]
+}
+}
+liquidCapacity: 30
+research: chemical-combustion-chamber
