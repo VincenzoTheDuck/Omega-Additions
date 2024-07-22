@@ -1,1 +1,1 @@
-const hydrogenCombustionChamber = extend(HeaterGenerator, "hydrogen-combustion-chamber", {});
+const hydrogenCombustionChamber = extend(ConsumeGenerator, "hydrogen-combustion-chamber", {});
