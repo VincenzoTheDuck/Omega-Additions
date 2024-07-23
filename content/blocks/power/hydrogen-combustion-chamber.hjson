@@ -12,6 +12,8 @@ category: power
 generateEffect: none
 outputLiquid: water/0.1
 powerProduction: 16
+loopSound: smelter
+loopSoundVolume: 0.06
 size: 3
 drawer: [
 {
@@ -21,6 +23,7 @@ suffix: "-bottom"
 {
 type: DrawLiquidTile
 drawLiquid: hydrogen
+padding: 10
 }
 DrawDefault
 {
@@ -28,17 +31,17 @@ type: DrawWarmupRegion
 color: ffffff
 }
 {
-type: DrawWarmupRegion
+type: DrawGlowRegion
 color: fc81dd
 alpha: 0.65
-glowScale: 7
+glowScale: 9
 }
 ]
 consumes: {
 liquids: {
 liquids: [
-hydrogen/0.45
-ozone/0.3
+hydrogen/0.27
+ozone/0.15
 ]
 }
 }
