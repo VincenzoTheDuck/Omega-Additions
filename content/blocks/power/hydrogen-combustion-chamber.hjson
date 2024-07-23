@@ -29,11 +29,12 @@ DrawDefault
 {
 type: DrawWarmupRegion
 color: ffffff
+sinMag: 0.25
 }
 {
 type: DrawGlowRegion
 color: fc81dd
-alpha: 0.65
+alpha: 0.5
 glowScale: 9
 }
 ]
