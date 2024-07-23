@@ -6,12 +6,11 @@ tungsten/100
 ]
 name: "Hydrogen Combustion Chamber"
 description: '''
-Generates power and heat from hydrogen and ozone. Produces water as a byproduct.
+Generates power from hydrogen and ozone. Produces water as a byproduct.
 '''
 category: power
 generateEffect: none
-outputLiquid: water/0.2
-heatOutput: 8
+outputLiquid: water/0.1
 powerProduction: 16
 size: 3
 drawer: [
@@ -24,7 +23,6 @@ type: DrawLiquidTile
 drawLiquid: hydrogen
 }
 DrawDefault
-DrawHeatOutput
 {
 type: DrawWarmupRegion
 color: ffffff
