@@ -23,7 +23,7 @@ suffix: "-bottom"
 {
 type: DrawLiquidTile
 drawLiquid: hydrogen
-padding: 25
+padding: 4
 }
 DrawDefault
 {
