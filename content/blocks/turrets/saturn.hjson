@@ -1,0 +1,60 @@
+requirements: [
+oxide/110
+carbide/160
+thorium/120
+tungsten/100
+]
+name: "Saturn"
+description: '''
+Fires a massive artillery shell that shatters and melts the ground where it hits.
+'''
+targetAir: false
+category: turret
+shootEffect: shootTitan
+smokeEffect: shootSmokeTitan
+minWarmup: 0.75
+shootY: 13.5
+shootSound: largeCannon
+reload: 330
+drawer: {
+type: DrawTurret
+basePrefix: "reinforced-"
+parts: [
+{
+suffix: "-barrel"
+heatColor: f03b0e
+progress: recoil
+moveY: -4.5
+}
+{
+suffix: "-side"
+heatColor: ff0000
+mirror: true
+under: true
+progress: warmup
+heatProgress: warmup
+moveX: 1
+moveY: -1
+moveRot: -18
+}
+]
+}
+recoil: 1.2
+shake: 6
+size: 5
+liquidCapacity: 75
+research: titan
+coolantMultiplier: 1.3
+consumes: {
+liquid: {
+liquid: water
+amount: 0.83
+update: false
+booster: true
+optional: true
+}
+liquid: {
+liquid: hydrogen
+amount: 0.2
+}
+}
