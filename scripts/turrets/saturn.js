@@ -24,7 +24,7 @@ const saturnBullet = extend(ArtilleryBulletType, {
   shrinkX: 0.1,
   shrinkY: 0.2,
 	speed: 4,
-	lifetime: 116,
+	lifetime: 120,
   hitSound: Sounds.titanExplosion,
 	hitEffect: new MultiEffect(saturnHit, Fx.titanSmoke),
   despawnHit: true,
@@ -37,7 +37,7 @@ const saturnBullet = extend(ArtilleryBulletType, {
 });
 
 const saturn = extend(ItemTurret, "saturn", {});
-saturn.range = 350;
+saturn.range = 480;
 saturn.shootWarmupSpeed = 0.05;
 saturn.outlineColor = Pal.darkOutline;
 saturn.ammo(
