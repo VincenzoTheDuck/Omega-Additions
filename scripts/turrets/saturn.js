@@ -5,7 +5,7 @@ const saturnShockwave = new Effect(25, e => {
 	Lines.circle(e.x, e.y, e.fin() * 95);
 });
 
-const saturnSparks = new Effect(37, e => {
+const saturnSparks = new Effect(47, e => {
 	Draw.color(Pal.redLight);
 	Lines.stroke(e.fout() * 4.5)
 
@@ -50,5 +50,5 @@ saturn.outlineColor = Pal.darkOutline;
 saturn.ammo(
   Items.thorium, saturnBullet
 );
-saturn.coolant = consume(new ConsumeLiquid(Liquids.water, 50 / 60));
+saturn.coolant = new ConsumeLiquid(Liquids.water, 50 / 60);
 saturn.consumeLiquid(Liquids.hydrogen, 16 / 60);
