@@ -1,3 +1,5 @@
+const items = require("items/items");
+
 const missile = extend(MissileUnitType, "decomposition-missile", {});
 
 const bullet = extend(BulletType, {
@@ -8,5 +10,5 @@ const bullet = extend(BulletType, {
 
 const decomposition = extend(ItemTurret, "decomposition", {});
 decomposition.ammo(
-  Items.plastanium, bullet
+  items.izomite, bullet
 );
