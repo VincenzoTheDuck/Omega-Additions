@@ -39,7 +39,8 @@ const saturnBullet = extend(ArtilleryBulletType, {
   trailColor: Pal.redLight,
 	hitColor: Pal.redLight,
   trailWidth: 2.5,
-  trailLength: 60
+  trailLength: 60,
+	buildingDamageMultiplier: 0.3
 });
 
 const saturn = extend(ItemTurret, "saturn", {});
@@ -49,3 +50,5 @@ saturn.outlineColor = Pal.darkOutline;
 saturn.ammo(
   Items.thorium, saturnBullet
 );
+saturn.coolant = consume(new ConsumeLiquid(Liquids.water, 50 / 60));
+saturn.consumeLiquid(Liquids.hydrogen, 16 / 60);
