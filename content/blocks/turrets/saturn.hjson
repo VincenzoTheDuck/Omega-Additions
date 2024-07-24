@@ -18,6 +18,7 @@ shootSound: largeCannon
 reload: 330
 cooldownTime: 250
 recoilTime: 285
+rotateSpeed: 1.2
 drawer: {
 type: DrawTurret
 basePrefix: "reinforced-"
@@ -47,3 +48,4 @@ size: 5
 liquidCapacity: 85
 research: titan
 coolantMultiplier: 1.3
+scaledHealth: 330
