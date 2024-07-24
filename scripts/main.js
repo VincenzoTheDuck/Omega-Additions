@@ -21,7 +21,7 @@ const reactant = extend(LiquidTurret, "reactant", {});
 require("turrets/ester");
 require("turrets/dissolve");
 require("turrets/redox");
-//TODO merge exothermic and endothermic into a single turret and add plastanium as an ammo type
+//TODO merge exothermic and endothermic into a single turret and add izomite as an ammo type
 require("turrets/exothermic");
 require("turrets/endothermic");
 require("turrets/decomposition");
