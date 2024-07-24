@@ -23,6 +23,7 @@ mirror: true
 layerOffset: 0.001
 progress: warmup
 heatProgress: warmup
+heatColor: ff0000
 moveX: 0.5
 moveY: -3.5
 moveRot: -7
@@ -31,6 +32,7 @@ moveRot: -7
 suffix: "-mid"
 progress: warmup
 heatProgress: warmup
+heatColor: ff0000
 moveY: -3.5
 }
 ]
