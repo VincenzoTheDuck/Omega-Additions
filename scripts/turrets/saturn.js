@@ -1,12 +1,17 @@
-const saturnHit = new Effect(40, e => {
+const saturnShockwave = new Effect(25, e => {
 	Draw.color(Pal.redLight);
 	Lines.stroke(e.fout() * 3)
 	
 	Lines.circle(e.x, e.y, e.fin() * 95);
+});
+
+const saturnSparks = new Effect(37, e => {
+	Draw.color(Pal.redLight);
+	Lines.stroke(e.fout() * 4.5)
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 6);
+      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 7.5);
 	}});
 
   Angles.randLenVectors(e.id, 13, e.finpow() * 110.0, e.rotation, 360.0, hj);
@@ -25,7 +30,7 @@ const saturnBullet = extend(ArtilleryBulletType, {
   shrinkY: 0.2,
 	speed: 4,
 	lifetime: 120,
-  hitSound: Sounds.titanExplosion,
+  hitSound: Sounds.massiveExplosion,
 	hitEffect: new MultiEffect(saturnHit, Fx.titanSmoke),
   despawnHit: true,
 	despawnEffect: Fx.none,
