@@ -4,9 +4,9 @@ izomite/200
 plastanium/140
 thorium/110
 ]
-name: "Exothermic"
+name: "Instability"
 description: '''
-Fires barrages of burning missiles at enemies.
+Fires barrages of burning, freezing or acidic missiles at enemies.
 
 [accent]Faction:[] Acid
 '''
