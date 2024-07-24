@@ -30,7 +30,7 @@ const saturnBullet = extend(ArtilleryBulletType, {
   shrinkY: 0.2,
 	speed: 4,
 	lifetime: 120,
-  hitSound: Sounds.massiveExplosion,
+  hitSound: Sounds.explosionbig,
 	hitEffect: new MultiEffect(saturnShockwave, saturnSparks, Fx.titanSmoke),
   despawnHit: true,
 	despawnEffect: Fx.none,
