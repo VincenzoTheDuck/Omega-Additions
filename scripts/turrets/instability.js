@@ -1,3 +1,5 @@
+//TODO izomite ammo type?
+
 const exoMissile = extend(MissileUnitType, "exothermic-missile", {
 engineLayer: Layer.effect,
 });
