@@ -31,12 +31,13 @@ const saturnBullet = extend(ArtilleryBulletType, {
 	speed: 4,
 	lifetime: 120,
   hitSound: Sounds.massiveExplosion,
-	hitEffect: new MultiEffect(saturnHit, Fx.titanSmoke),
+	hitEffect: new MultiEffect(saturnShockwave, saturnSparks, Fx.titanSmoke),
   despawnHit: true,
 	despawnEffect: Fx.none,
   backColor: Pal.redLight,
   frontColor: Color.white,
   trailColor: Pal.redLight,
+	hitColor: Pal.redLight,
   trailWidth: 2.5,
   trailLength: 60
 });
