@@ -35,6 +35,11 @@ type: DrawLiquidTile
 drawLiquid: water
 padding: 9
 }
+{
+type: DrawCrucibleFlame
+flameColor: 8be8ff
+midColor: b2e9ff
+}
 DrawDefault
 {
 type: DrawGlowRegion
