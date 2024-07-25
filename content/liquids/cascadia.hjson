@@ -1,0 +1,13 @@
+name: "Cascadia"
+description: '''
+Glows intensely with contained energy, yet it is cool to the touch. 
+'''
+research: water
+coolant: false
+color: 67c7e6
+heatCapacity: 0.13
+explosiveness: 0.85
+temperature: 0.35
+boilPoint: 3
+//TODO effect
+effect: freezing
