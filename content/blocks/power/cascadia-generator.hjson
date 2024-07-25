@@ -65,7 +65,7 @@ water/0.7
 ]
 }
 }
-liquidCapacity: 30
+liquidCapacity: 280
 research: {
 parent: thorium-reactor
 objectives: [
