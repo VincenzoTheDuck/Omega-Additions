@@ -4,7 +4,7 @@ copper/9999999999
 ]
 name: "Flux Generator"
 description: '''
-Generates large amounts of power from cascadia. Requires cryofluid as coolant.
+Generates large amounts of power from the powerful particle flux produced inside cascadia. Requires cryofluid as coolant.
 '''
 category: power
 generateEffect: none
