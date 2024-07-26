@@ -16,8 +16,8 @@ color: 8be8ff
 category: power
 generateEffect: none
 powerProduction: 200
-loopSound: hum
-loopSoundVolume: 0.75
+loopSound: flux
+loopSoundVolume: 0.13
 size: 6
 drawer: [
 {
@@ -41,9 +41,9 @@ padding: 17
 type: DrawSoftParticles
 alpha: 0.22
 particleRad: 12
-particleSize: 7
-particleLife: 110
-particles: 35
+particleSize: 8
+particleLife: 180
+particles: 27
 color: 8be8ff
 color2: b2e9ff
 }
