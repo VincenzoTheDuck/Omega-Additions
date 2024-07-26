@@ -6,6 +6,8 @@ name: "Flux Generator"
 description: '''
 Generates large amounts of power from the powerful particle flux produced inside cascadia. Requires cryofluid as coolant.
 '''
+lightColor: b2e9ff
+lightRadius: 120
 category: power
 generateEffect: none
 powerProduction: 200
