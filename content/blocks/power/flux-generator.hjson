@@ -1,8 +1,8 @@
 //TODO make this available at some point
 requirements: [
-
+copper/9999999999
 ]
-buildVisibility: sandboxOnly
+//buildVisibility: sandboxOnly
 name: "Flux Generator"
 description: '''
 Generates large amounts of power from cascadia. Requires cryofluid as coolant.
@@ -19,7 +19,7 @@ generateEffect: none
 powerProduction: 200
 loopSound: hum
 loopSoundVolume: 0.75
-size: 4
+size: 6
 drawer: [
 {
 type: DrawRegion
@@ -51,13 +51,12 @@ color2: b2e9ff
 DrawDefault
 {
 type: DrawFrames
-color: b2e9ff
+frames: 4
 interval: 60
 sine: false
 }
 {
 type: DrawGlowRegion
-frames: 4
 alpha: 0.5
 glowScale: 25
 glowIntensity: 1
