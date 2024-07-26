@@ -1,0 +1,75 @@
+requirements: [
+silicon/160
+metaglass/95
+heavy-alloy/140
+surge-alloy/120
+phase-fabric/60
+thorium/120
+diamond/100
+terralite-alloy/100
+]
+name: "Cascadia Generator"
+description: '''
+Generates large amounts of power from cascadia. Requires water as coolant.
+'''
+category: power
+generateEffect: none
+powerProduction: 155
+loopSound: hum
+loopSoundVolume: 0.75
+size: 4
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: cascadia
+}
+{
+type: DrawRegion
+suffix: "-mid"
+}
+{
+type: DrawLiquidTile
+drawLiquid: water
+padding: 9
+}
+{
+type: DrawCrucibleFlame
+flameColor: 8be8ff
+midColor: b2e9ff
+}
+DrawDefault
+{
+type: DrawGlowRegion
+color: b2e9ff
+alpha: 0.5
+glowScale: 16
+glowIntensity: 1
+}
+{
+type: DrawGlowRegion
+suffix: "-ventglow"
+color: 8be8ff
+alpha: 0.75
+glowScale: 11
+glowIntensity: 1
+}
+]
+consumes: {
+liquids: {
+liquids: [
+cascadia/0.3
+water/0.7
+]
+}
+}
+liquidCapacity: 280
+research: {
+parent: thorium-reactor
+objectives: [
+cascadia
+]
+}
