@@ -43,7 +43,7 @@ alpha: 0.22
 particleRad: 12
 particleSize: 8
 particleLife: 180
-particles: 27
+particles: 40
 color: 8be8ff
 color2: b2e9ff
 }
@@ -67,6 +67,14 @@ suffix: "-ventglow"
 color: 8be8ff
 alpha: 0.75
 glowScale: 18
+glowIntensity: 1
+}
+{
+type: DrawGlowRegion
+suffix: "-midglow"
+color: 8be8ff
+alpha: 0.55
+glowScale: 33
 glowIntensity: 1
 }
 ]
