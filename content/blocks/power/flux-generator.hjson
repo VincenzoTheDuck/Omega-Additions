@@ -2,17 +2,10 @@
 requirements: [
 copper/9999999999
 ]
-//buildVisibility: sandboxOnly
 name: "Flux Generator"
 description: '''
 Generates large amounts of power from cascadia. Requires cryofluid as coolant.
 '''
-warmupSpeed: 0.015
-generateEffect: {
-type: WrapEffect
-effect: fluxVapor
-color: 8be8ff
-}
 category: power
 generateEffect: none
 powerProduction: 200
@@ -41,7 +34,7 @@ padding: 17
 type: DrawSoftParticles
 alpha: 0.22
 particleRad: 12
-particleSize: 8
+particleSize: 11
 particleLife: 180
 particles: 40
 color: 8be8ff
