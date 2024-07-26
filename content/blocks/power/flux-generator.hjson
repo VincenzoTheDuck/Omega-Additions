@@ -51,16 +51,16 @@ color2: b2e9ff
 DrawDefault
 {
 type: DrawFrames
+color: b2e9ff
+interval: 60
+sine: false
+}
+{
+type: DrawGlowRegion
 frames: 4
 alpha: 0.5
 glowScale: 25
 glowIntensity: 1
-}
-{
-type: DrawGlowRegion
-color: b2e9ff
-interval: 60
-sine: false
 }
 {
 type: DrawGlowRegion
