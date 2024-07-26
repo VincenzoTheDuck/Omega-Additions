@@ -4,7 +4,8 @@ metaglass/95
 heavy-alloy/140
 surge-alloy/120
 phase-fabric/60
-thorium/95
+thorium/120
+diamond/100
 terralite-alloy/100
 ]
 name: "Cascadia Generator"
@@ -13,9 +14,9 @@ Generates large amounts of power from cascadia. Requires water as coolant.
 '''
 category: power
 generateEffect: none
-powerProduction: 80
+powerProduction: 155
 loopSound: hum
-loopSoundVolume: 0.5
+loopSoundVolume: 0.75
 size: 4
 drawer: [
 {
