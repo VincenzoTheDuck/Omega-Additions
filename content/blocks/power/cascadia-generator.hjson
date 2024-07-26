@@ -12,6 +12,8 @@ name: "Cascadia Generator"
 description: '''
 Generates large amounts of power from cascadia. Requires water as coolant.
 '''
+lightColor: b2e9ff
+lightRadius: 80
 category: power
 generateEffect: none
 powerProduction: 155
