@@ -8,6 +8,10 @@ const izomite = extend(Item, "izomite", {});
 
 const incandestone = extend(Item, "incandestone", {});
 
+const gartrium = extend(Item, "gartrium", {});
+
+const surgeScrap = extend(Item, "surge-scrap", {});
+
 const diamond = extend(Item, "diamond", {});
 
 const sarium = extend(Item, "sarium", {});
@@ -20,4 +24,6 @@ module.exports = {
   incandestone: incandestone,
   diamond: diamond,
   sarium: sarium,
+  surgeScrap: surgeScrap,
+  gartrium: gartrium,
 }
