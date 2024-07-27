@@ -1,6 +1,11 @@
-//TODO make this available at some point
 requirements: [
-copper/9999999999
+izomite/190
+heavy-alloy/300
+sarium/375
+phase-fabric/160
+thorium/220
+diamond/350
+graphite/250
 ]
 name: "Flux Generator"
 description: '''
