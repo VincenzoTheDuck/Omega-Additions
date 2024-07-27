@@ -18,7 +18,7 @@ category: power
 generateEffect: none
 powerProduction: 155
 ambientSound: hum
-ambientSound: 0.4
+ambientSoundVolume: 0.4
 size: 4
 drawer: [
 {
