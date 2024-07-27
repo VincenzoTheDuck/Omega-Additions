@@ -44,12 +44,6 @@ color2: b2e9ff
 }
 DrawDefault
 {
-type: DrawFrames
-frames: 4
-interval: 60
-sine: false
-}
-{
 type: DrawGlowRegion
 color: b2e9ff
 alpha: 0.5
