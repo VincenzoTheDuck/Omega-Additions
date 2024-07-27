@@ -13,8 +13,8 @@ category: power
 generateEffect: none
 powerProduction: 1230
 //TODO sound
-loopSound: pulse
-loopSoundVolume: 0.1
+ambientSound: pulse
+ambientSoundVolume: 0.1
 warmupSpeed: 0.0006
 size: 10
 drawer: [
