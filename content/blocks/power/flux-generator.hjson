@@ -13,6 +13,11 @@ generateEffect: none
 powerProduction: 200
 ambientSound: flux
 ambientSoundVolume: 0.13
+generateEffect: {
+type: WrapEffect
+effect: fluxVapor
+color: b2e9ff
+}
 size: 6
 drawer: [
 {
