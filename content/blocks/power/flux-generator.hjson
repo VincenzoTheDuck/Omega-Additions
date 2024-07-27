@@ -13,7 +13,7 @@ generateEffect: none
 powerProduction: 200
 ambientSound: flux
 ambientSoundVolume: 0.13
-effectChance: 0.25
+effectChance: 0.06
 generateEffectRange: 1.5
 generateEffect: {
 type: WrapEffect
