@@ -13,8 +13,8 @@ category: power
 generateEffect: none
 powerProduction: 90000
 //TODO sound
-loopSound: pulse
-loopSoundVolume: 0.3
+ambientSound: pulse
+ambientSoundVolume: 0.3
 warmupSpeed: 0.0002
 size: 12
 drawer: [
@@ -40,16 +40,6 @@ type: DrawRegion
 suffix: "-rotator"
 spinSprite: true
 rotateSpeed: -1.2
-}
-{
-type: DrawGlowRegion
-suffix: "-rotator-glow"
-rotateSpeed: -1.2
-rotate: true
-color: b2e9ff
-alpha: 0.3
-glowScale: 17
-glowIntensity: 0.03
 }
 {
 type: DrawRegion
