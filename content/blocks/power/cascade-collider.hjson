@@ -12,6 +12,7 @@ lightRadius: 175
 category: power
 generateEffect: none
 powerProduction: 90000
+hasItems: false
 //TODO sound
 ambientSound: pulse
 ambientSoundVolume: 0.18
