@@ -17,8 +17,8 @@ lightRadius: 80
 category: power
 generateEffect: none
 powerProduction: 155
-loopSound: hum
-loopSoundVolume: 0.75
+ambientSound: hum
+ambientSound: 0.4
 size: 4
 drawer: [
 {
