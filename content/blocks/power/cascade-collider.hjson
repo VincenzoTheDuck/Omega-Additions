@@ -37,6 +37,12 @@ plasma2: b2e9ff
 }
 {
 type: DrawRegion
+suffix: "-rotator"
+spinSprite: true
+rotateSpeed: 1.5
+}
+{
+type: DrawRegion
 suffix: "-inner"
 }
 {
