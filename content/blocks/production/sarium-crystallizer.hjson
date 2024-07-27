@@ -11,14 +11,10 @@ description: '''
 Crystallizes sarium from copper, lead, titanium, silicon, thorium and graphite.
 '''
 category: crafting
-craftEffect: smeltsmoke
+craftEffect: none
 ambientSound: techloop
 ambientSoundVolume: 0.03
-updateEffect: {
-type: WrapEffect
-effect: vapor
-color: fff3a7
-}
+updateEffect: none
 updateEffectChance: 0.05
 craftTime: 300
 size: 5
@@ -34,7 +30,7 @@ type: DrawMultiWeave
 rotateSpeed: 0.7
 rotateSpeed2: -0.5
 fadeWeave: true
-glowColor: fff3a770
+glowColor: 00000000
 }
 DrawDefault
 {
