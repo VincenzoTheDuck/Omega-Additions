@@ -155,11 +155,12 @@ colorTo: c478ff
 recoil: 2
 shake: 6
 size: 4
-liquidCapacity: 30
+liquidCapacity: 180
 research: meltdown
-coolantMultiplier: 3.5
+coolantMultiplier: 1.5
 consumes: {
+power: 30
 coolant: {
-amount: 0.43
+amount: 2
 }
 }
