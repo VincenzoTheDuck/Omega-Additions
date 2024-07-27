@@ -76,6 +76,10 @@ suffix: "-rotator2"
 rotateSpeed: 8
 blurThresh: 0.7
 }
+{
+type: DrawRegion
+suffix: "-top"
+}
 ]
 consumes: {
 power: 90
