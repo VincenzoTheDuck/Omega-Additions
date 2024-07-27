@@ -11,8 +11,8 @@ lightRadius: 120
 category: power
 generateEffect: none
 powerProduction: 200
-loopSound: flux
-loopSoundVolume: 0.13
+ambientSound: flux
+ambientSoundVolume: 0.13
 size: 6
 drawer: [
 {
