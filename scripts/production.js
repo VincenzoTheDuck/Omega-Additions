@@ -8,6 +8,8 @@ const acidMixer = extend(GenericCrafter, "acid-mixer", {});
 
 const izomiteSynthesisChamber = extend(GenericCrafter, "izomite-synthesis-chamber", {});
 
+const dismantler = extend(Seperator, "dismantler", {});
+
 const incandesciteMixer = extend(GenericCrafter, "incandescite-mixer", {});
 
 const incandestoneSmelter = extend(GenericCrafter, "incandestone-smelter", {});
