@@ -39,7 +39,17 @@ plasma2: b2e9ff
 type: DrawRegion
 suffix: "-rotator"
 spinSprite: true
-rotateSpeed: 1.5
+rotateSpeed: -2
+}
+{
+type: DrawGlowRegion
+suffix: "-rotator-glow"
+rotateSpeed: -2
+rotate: true
+color: b2e9ff
+alpha: 0.75
+glowScale: 17
+glowIntensity: 1
 }
 {
 type: DrawRegion
@@ -71,7 +81,7 @@ glowIntensity: 1
 type: DrawGlowRegion
 suffix: "-midglow"
 color: 8be8ff
-alpha: 0.35
+alpha: 0.55
 glowScale: 35
 glowIntensity: 1
 }
