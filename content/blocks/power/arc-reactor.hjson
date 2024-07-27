@@ -1,0 +1,92 @@
+//TODO make this available at some point
+requirements: [
+copper/9999999999
+]
+name: "Arc Reactor"
+description: '''
+Slowly accelerates to incredible speed, generating tremendous amounts of power at peak efficiency. Requires cryofluid as coolant. Requires a large amount of power to start up.
+'''
+healthScaling: 50
+lightColor: b2e9ff
+lightRadius: 175
+category: power
+generateEffect: none
+powerProduction: 1230
+//TODO sound
+loopSound: pulse
+loopSoundVolume: 0.1
+warmupSpeed: 0.0006
+size: 10
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: cascadia
+}
+{
+type: DrawRegion
+suffix: "-mid"
+}
+DrawDefault
+{
+type: DrawFade
+suffix: "-center1"
+alpha: 1
+scale: 30
+}
+{
+type: DrawFade
+suffix: "-center2"
+alpha: 1
+scale: 22
+}
+{
+type: DrawFade
+suffix: "-center3"
+alpha: 1
+scale: 14
+}
+{
+type: DrawGlowRegion
+color: b2e9ff
+alpha: 0.5
+glowScale: 22
+glowIntensity: 1
+}
+{
+type: DrawGlowRegion
+suffix: "-ventglow"
+color: 8be8ff
+alpha: 0.75
+glowScale: 33
+glowIntensity: 1
+}
+{
+type: DrawBlurSpin
+suffix: "-rotator1"
+rotateSpeed: -5.5
+blurThresh: 0.85
+}
+{
+type: DrawBlurSpin
+suffix: "-rotator2"
+rotateSpeed: 8
+blurThresh: 0.7
+}
+]
+consumes: {
+power: 90
+liquids: {
+liquids: [
+cascadia/0.7
+cryofluid/1.5
+]
+}
+}
+liquidCapacity: 600
+research: {
+parent: flux-generator
+}
