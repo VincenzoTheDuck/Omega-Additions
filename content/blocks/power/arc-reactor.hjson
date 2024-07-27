@@ -68,13 +68,13 @@ glowIntensity: 1
 type: DrawBlurSpin
 suffix: "-rotator1"
 rotateSpeed: -5.5
-blurThresh: 0.85
+blurThresh: 0.98
 }
 {
 type: DrawBlurSpin
 suffix: "-rotator2"
 rotateSpeed: 8
-blurThresh: 0.7
+blurThresh: 0.98
 }
 {
 type: DrawRegion
