@@ -1,0 +1,30 @@
+requirements: [
+copper/120
+graphite/135
+silicon/90
+surge-alloy/50
+thorium/100
+]
+name: "Surge Refiner"
+description: '''
+Refines surge alloy from surge scrap and copper.
+'''
+category: crafting
+craftEffect: smeltsmoke
+outputItem: surge-alloy/1
+craftTime: 45
+size: 2
+drawer: [
+DrawDefault
+DrawFlame
+]
+consumes: {
+power: 6
+items: {
+items: [
+surge-scrap/3
+copper/2
+]
+}
+}
+research: surge-smelter
