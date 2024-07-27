@@ -14,6 +14,8 @@ const incandesciteMixer = extend(GenericCrafter, "incandescite-mixer", {});
 
 const incandestoneSmelter = extend(GenericCrafter, "incandestone-smelter", {});
 
+const surgeRefiner = extend(GenericCrafter, "surge-refiner", {});
+
 const diamondPress = extend(GenericCrafter, "diamond-press", {});
 
 const sariumCrystallizer = extend(GenericCrafter, "sarium-crystallizer", {});
