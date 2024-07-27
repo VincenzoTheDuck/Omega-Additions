@@ -12,6 +12,8 @@ Crystallizes sarium from copper, lead, titanium, silicon, thorium and graphite.
 '''
 category: crafting
 craftEffect: smeltsmoke
+ambientSound: techloop
+ambientSoundVolume: 0.03
 updateEffect: {
 type: WrapEffect
 effect: vapor
@@ -47,10 +49,6 @@ color: fff3a7
 itemCapacity: 35
 consumes: {
 power: 10
-liquid: {
-liquid: water
-amount: 0.5
-}
 items: {
 items: [
 copper/9
