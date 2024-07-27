@@ -1,0 +1,12 @@
+name: "Gartrium"
+description: '''
+Used for shadow faction structures.
+'''
+research: thorium
+color: fff3a7
+healthScaling: 6
+cost: 5
+charge: 1.8
+explosiveness: 0.85
+radioactivity: 1.5
+hiddenOnPlanets: [erekir]
