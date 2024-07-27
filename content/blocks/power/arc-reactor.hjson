@@ -30,7 +30,6 @@ drawLiquid: cascadia
 type: DrawRegion
 suffix: "-mid"
 }
-DrawDefault
 {
 type: DrawFade
 suffix: "-center1"
@@ -49,6 +48,7 @@ suffix: "-center3"
 alpha: 1
 scale: 14
 }
+DrawDefault
 {
 type: DrawGlowRegion
 color: b2e9ff
@@ -68,17 +68,25 @@ glowIntensity: 1
 type: DrawBlurSpin
 suffix: "-rotator1"
 rotateSpeed: -5.5
-blurThresh: 0.98
+blurThresh: 2
 }
 {
 type: DrawBlurSpin
 suffix: "-rotator2"
 rotateSpeed: 8
-blurThresh: 0.98
+blurThresh: 2
 }
 {
 type: DrawRegion
 suffix: "-top"
+}
+{
+type: DrawGlowRegion
+suffix: "-topglow"
+color: 8be8ff
+alpha: 0.7
+glowScale: 20
+glowIntensity: 1
 }
 ]
 consumes: {
