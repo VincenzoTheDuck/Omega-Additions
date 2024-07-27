@@ -1,0 +1,52 @@
+requirements: [
+thorium/120
+surge-alloy/95
+heavy-alloy/110
+silicon/75
+lead/80
+plastanium/95
+]
+name: "Dismantler"
+description: '''
+Extracts many different types of items from slag.
+'''
+category: crafting
+craftTime: 60
+size: 4
+results: [
+lead/5
+titanium/3
+graphite/5
+silicon/3
+thorium/2
+sand/3
+scrap/6
+surge-scrap/1
+]
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: slag
+}
+{
+type: DrawRegion
+suffix: "-bottom"
+spinSprite: true
+rotateSpeed: 4.5
+}
+DrawDefault
+]
+liquidCapacity: 120
+itemCapacity: 30
+consumes: {
+power: 6
+liquid: {
+liquid: slag
+amount: 1.5
+}
+}
+research: dissasembler
