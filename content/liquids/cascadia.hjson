@@ -4,7 +4,7 @@ Glows intensely with contained energy, yet it is cool to the touch.
 '''
 research: water
 coolant: false
-color: 67c7e6
+color: 5da2de
 heatCapacity: 0.13
 explosiveness: 0.85
 temperature: 0.35
