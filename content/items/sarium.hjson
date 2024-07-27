@@ -1,0 +1,12 @@
+name: "Sarium"
+description: '''
+A strong crystal substance used for strong structures and star faction structures.
+'''
+research: diamond
+color: fff3a7
+healthScaling: 5
+cost: 3.5
+charge: 3.5
+explosiveness: 0.5
+radioactivity: 1.4
+hiddenOnPlanets: [erekir]
