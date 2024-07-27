@@ -1,0 +1,65 @@
+requirements: [
+thorium/120
+titanium/95
+surge-alloy/100
+diamond/80
+metaglass/45
+silicon/85
+]
+name: "Sarium Crystallizer"
+description: '''
+Crystallizes sarium from copper, lead, titanium, silicon, thorium and graphite.
+'''
+category: crafting
+craftEffect: smeltsmoke
+updateEffect: {
+type: WrapEffect
+effect: vapor
+color: fff3a7
+}
+updateEffectChance: 0.05
+craftTime: 300
+size: 5
+hasPower: true
+outputItem: sarium/3
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawMultiWeave
+rotateSpeed: 0.7
+rotateSpeed2: -0.5
+fadeWeave: true
+glowColor: fff3a770
+}
+DrawDefault
+{
+type: DrawGlowRegion
+suffix: "-ventglow"
+alpha: 0.85
+glowScale: 17
+glowIntensity: 1
+color: fff3a7
+}
+]
+itemCapacity: 35
+consumes: {
+power: 10
+liquid: {
+liquid: water
+amount: 0.5
+}
+items: {
+items: [
+copper/9
+lead/6
+titanium/6
+thorium/9
+silicon/6
+graphite/6
+]
+}
+}
+research: diamond-press
