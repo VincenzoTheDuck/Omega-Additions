@@ -1,0 +1,86 @@
+//TODO make this available at some point
+requirements: [
+copper/9999999999
+]
+name: "Cascade Collider"
+description: '''
+Generates tremendous amounts of power from collisions in superheated cascadia vapor. Requires a massive amount of power to start up.
+'''
+healthScaling: 85
+lightColor: b2e9ff
+lightRadius: 175
+category: power
+generateEffect: none
+powerProduction: 90000
+//TODO sound
+loopSound: pulse
+loopSoundVolume: 0.3
+warmupSpeed: 0.0002
+size: 12
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: cascadia
+}
+{
+type: DrawRegion
+suffix: "-outer"
+}
+{
+type: DrawPlasma
+plasma1: 8be8ff
+plasma2: b2e9ff
+}
+{
+type: DrawRegion
+suffix: "-inner"
+}
+{
+type: DrawLiquidTile
+//TODO supercoolant
+drawLiquid: cryofluid
+padding: 42
+}
+DrawDefault
+{
+type: DrawGlowRegion
+color: b2e9ff
+alpha: 0.5
+glowScale: 22
+glowIntensity: 1
+}
+{
+type: DrawGlowRegion
+suffix: "-ventglow"
+color: 8be8ff
+alpha: 0.75
+glowScale: 33
+glowIntensity: 1
+}
+{
+type: DrawGlowRegion
+suffix: "-midglow"
+color: 8be8ff
+alpha: 0.35
+glowScale: 35
+glowIntensity: 1
+}
+]
+consumes: {
+power: 800
+liquids: {
+liquids: [
+cascadia/3
+//TODO supercoolant
+cryofluid/3.5
+]
+}
+}
+liquidCapacity: 1000
+research: {
+parent: arc-reactor
+}
