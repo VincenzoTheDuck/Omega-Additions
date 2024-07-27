@@ -12,8 +12,8 @@ category: power
 generateEffect: none
 outputLiquid: water/0.1
 powerProduction: 16
-loopSound: smelter
-loopSoundVolume: 0.06
+ambientSound: smelter
+ambientSoundVolume: 0.06
 size: 3
 drawer: [
 {
