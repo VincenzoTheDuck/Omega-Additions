@@ -13,6 +13,8 @@ generateEffect: none
 powerProduction: 200
 ambientSound: flux
 ambientSoundVolume: 0.13
+effectChance: 0.25
+generateEffectRange: 1.5
 generateEffect: {
 type: WrapEffect
 effect: fluxVapor
@@ -26,7 +28,7 @@ suffix: "-bottom"
 }
 {
 type: DrawLiquidTile
-drawLiquid: cascadia
+drawLiquid: cryofluid
 }
 {
 type: DrawRegion
@@ -34,7 +36,7 @@ suffix: "-mid"
 }
 {
 type: DrawLiquidTile
-drawLiquid: cryofluid
+drawLiquid: cascadia
 padding: 17
 }
 {
