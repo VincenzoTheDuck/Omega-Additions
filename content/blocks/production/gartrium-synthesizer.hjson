@@ -1,0 +1,45 @@
+requirements: [
+diamond/80
+graphite/100
+silicon/110
+surge-alloy/90
+thorium/95
+]
+name: "Gartrium Synthesizer"
+description: '''
+Synthesizes gartrium from thorium, silicon and graphite.
+'''
+category: crafting
+craftEffect: none
+outputItem: gartrium/2
+craftTime: 90
+itemCapacity: 15
+size: 3
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawSoftParticles
+alpha: 0.22
+particleRad: 12
+particleSize: 8
+particleLife: 140
+particles: 11
+color: 6640d5
+color2: 9a64ef
+}
+DrawDefault
+]
+consumes: {
+power: 7.5
+items: {
+items: [
+thorium/5
+silicon/3
+graphite/3
+]
+}
+}
+research: diamond-press
