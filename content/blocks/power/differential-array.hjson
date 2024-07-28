@@ -42,8 +42,7 @@ color2: ef883e
 DrawDefault
 {
 type: DrawLiquidRegion
-//TODO supercoolant
-drawLiquid: cryofluid
+drawLiquid: supercoolant
 }
 {
 type: DrawGlowRegion
@@ -55,8 +54,7 @@ color: ffc174
 ]
 consumes: {
 liquid: {
-//TODO supercoolant
-liquid: cryofluid
+liquid: supercoolant
 amount: 0.25
 }
 items: {
