@@ -6,15 +6,13 @@ const brange = range + 15;
 const thorShoot = new Effect(37, e => {
 	Draw.color(Color.white, Pal.redLight, e.fout());
 	Lines.stroke(e.fout() * 2.5)
-	
-	Lines.circle(e.x, e.y, e.fin() * 35);
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
       Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 8);
 	}});
 
-  Angles.randLenVectors(e.id, 14, e.finpow() * 55.0, e.rotation, 70.0, hj);
+  Angles.randLenVectors(e.id, 7, e.finpow() * 30.0, e.rotation, 70.0, hj);
 });
 
 const thorSmoke = new Effect(75, e => {
@@ -27,7 +25,7 @@ const thorSmoke = new Effect(75, e => {
       Fill.circle(e.x + x, e.y + y, rad);
 	}});
 
-  Angles.randLenVectors(e.id, 16, e.fin(Interp.pow10Out) * 40.0, e.rotation, 90.0, hj);
+  Angles.randLenVectors(e.id, 9, e.fin(Interp.pow10Out) * 40.0, e.rotation, 90.0, hj);
 });
 
 const thorBullet = extend(ShrapnelBulletType, {
@@ -43,15 +41,13 @@ const thorBullet = extend(ShrapnelBulletType, {
 const gartShoot = new Effect(37, e => {
 	Draw.color(Color.white, Pal.thoriumPink, e.fout());
 	Lines.stroke(e.fout() * 2.5)
-	
-	Lines.circle(e.x, e.y, e.fin() * 35);
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
       Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 8);
 	}});
 
-  Angles.randLenVectors(e.id, 17, e.finpow() * 63.0, e.rotation, 65.0, hj);
+  Angles.randLenVectors(e.id, 9, e.finpow() * 45.0, e.rotation, 65.0, hj);
 });
 
 const gartSmoke = new Effect(75, e => {
@@ -79,15 +75,13 @@ const gartBullet = extend(ShrapnelBulletType, {
 const phaseShoot = new Effect(37, e => {
 	Draw.color(Color.white, Color.valueOf("f4ba6e"), e.fout());
 	Lines.stroke(e.fout() * 2.5)
-	
-	Lines.circle(e.x, e.y, e.fin() * 35);
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
       Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 8);
 	}});
 
-  Angles.randLenVectors(e.id, 22, e.finpow() * 63.0, e.rotation, 65.0, hj);
+  Angles.randLenVectors(e.id, 10, e.finpow() * 50.0, e.rotation, 65.0, hj);
 });
 
 const phaseSmoke = new Effect(75, e => {
