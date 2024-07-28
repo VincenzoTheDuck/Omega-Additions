@@ -13,7 +13,8 @@ Generates massive amounts of power from the huge temperature differential betwee
 '''
 category: power
 powerProduction: 45
-itemCapacity: 25
+itemCapacity: 40
+liquidCapacity: 100
 itemDuration: 40
 ambientSound: smelter
 ambientSoundVolume: 0.08
@@ -32,9 +33,9 @@ suffix: "-bottom"
 type: DrawSoftParticles
 alpha: 0.22
 particleRad: 12
-particleSize: 8
+particleSize: 16
 particleLife: 140
-particles: 13
+particles: 26
 color: ffd974
 color2: ef883e
 }
