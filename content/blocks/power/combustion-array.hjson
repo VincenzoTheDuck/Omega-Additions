@@ -10,13 +10,15 @@ description: '''
 Generates large amounts of power from burning flammable items.
 '''
 category: power
-powerProduction: 16
+powerProduction: 21
+itemCapacity: 25
 itemDuration: 75
 ambientSound: smelter
 ambientSoundVolume: 0.06
 effectChance: 0.05
 generateEffectRange: 2.5
-generateEffect: smeltsmoke
+generateEffect: generatespark
+consumeEffect: smeltsmoke
 size: 4
 drawer: [
 DrawDefault
