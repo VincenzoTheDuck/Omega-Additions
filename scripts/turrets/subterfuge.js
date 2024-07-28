@@ -36,7 +36,7 @@ const subtTrail = new Effect(85, e => {
 	Fill.circle(e.x, e.y, e.fout() * 7.5);
 });
 
-const subtTrail = extend(BasicBulletType, {
+const subtBullet = extend(BasicBulletType, {
   damage: 0,
 	splashDamage: 2200,
   splashDamageRadius: 85,
