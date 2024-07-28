@@ -9,6 +9,7 @@ name: "Supercoolant Mixer"
 description: '''
 Produces supercoolant from cryofluid and fine pulverized diamond.
 '''
+liquidCapacity: 96
 category: crafting
 craftEffect: none
 outputLiquid: supercoolant/0.2
@@ -27,7 +28,7 @@ drawLiquid: water
 }
 {
 type: DrawLiquidTile
-drawLiquid: acid
+drawLiquid: supercoolant
 }
 DrawDefault
 ]
