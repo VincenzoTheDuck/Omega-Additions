@@ -13,7 +13,7 @@ Fires 3 highly corrosive missiles at enemies.
 '''
 drawer: {
 type: DrawTurret
-basePrefix: "reinforced-"
+basePrefix: "dark-"
 }
 range: 500
 category: turret
