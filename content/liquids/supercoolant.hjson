@@ -1,0 +1,12 @@
+name: "Supercoolant"
+description: '''
+Used extensively as coolant in structures.
+'''
+research: cryofluid
+color: cbf9ff
+lightColor: cbf9ff15
+gasColor: 85baf1
+heatCapacity: 0.98
+temperature: 0.09
+boilPoint: 0.65
+effect: freezing
