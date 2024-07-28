@@ -34,14 +34,14 @@ drawLiquid: slag
 }
 {
 type: DrawRegion
-suffix: "-bottom"
+suffix: "-spinner"
 spinSprite: true
 rotateSpeed: 4.5
 }
 DrawDefault
 ]
 liquidCapacity: 120
-itemCapacity: 30
+itemCapacity: 40
 consumes: {
 power: 6
 liquid: {
