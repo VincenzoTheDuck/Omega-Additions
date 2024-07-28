@@ -55,6 +55,7 @@ sparkColor: 9fe597
 }
 drawer: {
 type: DrawTurret
+basePrefix: "reinforced-"
 parts: [
 {
 suffix: "-barrel"
