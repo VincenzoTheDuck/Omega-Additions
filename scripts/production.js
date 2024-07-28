@@ -18,6 +18,6 @@ const surgeRefiner = extend(GenericCrafter, "surge-refiner", {});
 
 const diamondPress = extend(GenericCrafter, "diamond-press", {});
 
-const gartriumSynthesizer = extend(GenericCrafter, "gartrium-synthesizes", {});
+const gartriumSynthesizer = extend(GenericCrafter, "gartrium-synthesizer", {});
 
 const sariumCrystallizer = extend(GenericCrafter, "sarium-crystallizer", {});
