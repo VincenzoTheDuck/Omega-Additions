@@ -1,0 +1,46 @@
+requirements: [
+diamond/80
+silicon/40
+metaglass/30
+thorium/50
+surge-alloy/35
+]
+name: "Supercoolant Mixer"
+description: '''
+Produces supercoolant from cryofluid and fine pulverized diamond.
+'''
+category: crafting
+craftEffect: none
+outputLiquid: supercoolant/0.2
+craftTime: 180
+size: 3
+hasPower: true
+hasLiquids: true
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: water
+}
+{
+type: DrawLiquidTile
+drawLiquid: acid
+}
+DrawDefault
+]
+consumes: {
+power: 1.5
+liquid: {
+liquid: cryofluid
+amount: 0.2
+}
+items: {
+items: [
+diamond/1
+]
+}
+}
+research: diamond-press
