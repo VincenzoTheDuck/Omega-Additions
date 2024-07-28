@@ -31,8 +31,8 @@ const thorSmoke = new Effect(75, 300, e => {
 const thorBullet = extend(ShrapnelBulletType, {
 	damage: 300,
   toColor: Pal.redLight,
-  shootEffect: thorShoot,
-  smokeEffect: thorSmoke,
+  shootEffect: new MultiEffect(thorShoot, thorSmoke),
+  smokeEffect: Fx.none,
   length: brange,
   ammoMultiplier: 5,
   reloadMultiplier: 1.6
@@ -66,8 +66,8 @@ const gartSmoke = new Effect(75, 300, e => {
 const gartBullet = extend(ShrapnelBulletType, {
 	damage: 470,
   toColor: Pal.thoriumPink,
-  shootEffect: gartShoot,
-  smokeEffect: gartSmoke,
+  shootEffect: new MultiEffect(gartShoot, gartSmoke),
+  smokeEffect: Fx.none,
   length: brange,
   ammoMultiplier: 4
 });
@@ -100,8 +100,8 @@ const phaseSmoke = new Effect(75, 300, e => {
 const phaseBullet = extend(ShrapnelBulletType, {
 	damage: 660,
   toColor: Color.valueOf("f4ba6e"),
-  shootEffect: phaseShoot,
-  smokeEffect: phaseSmoke,
+  shootEffect: new MultiEffect(phaseShoot, phaseSmoke),
+  smokeEffect: Fx.none,
   length: brange,
   ammoMultiplier: 2,
   reloadMultiplier: 0.7
