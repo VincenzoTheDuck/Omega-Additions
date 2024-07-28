@@ -1,0 +1,55 @@
+requirements: [
+thorium/180
+surge-alloy/200
+phase-fabric/90
+metaglass/100
+graphite/120
+silicon/110
+heavy-alloy/150
+]
+name: "Differential Array"
+description: '''
+Generates massive amounts of power from the huge temperature differential between burning pyratite and supercoolant.
+'''
+category: power
+powerProduction: 45
+itemCapacity: 25
+itemDuration: 40
+ambientSound: smelter
+ambientSoundVolume: 0.08
+effectChance: 0.05
+generateEffectRange: 2.5
+generateEffect: generatespark
+consumeEffect: smeltsmoke
+size: 7
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawSoftParticles
+alpha: 0.22
+particleRad: 12
+particleSize: 8
+particleLife: 140
+particles: 13
+color: ffd974
+color2: ef883e
+}
+DrawDefault
+{
+type: DrawLiquidRegion
+drawLiquid: cryofluid
+}
+{
+type: DrawGlowRegion
+alpha: 0.6
+glowScale: 20
+glowIntensity: 1
+color: ffc174
+}
+]
+research: {
+parent: combustion-array
+}
