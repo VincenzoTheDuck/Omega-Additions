@@ -11,6 +11,10 @@ Fires 3 highly corrosive missiles at enemies.
 
 [accent]Faction:[] Acid
 '''
+drawer: {
+type: DrawTurret
+basePrefix: "reinforced-"
+}
 range: 500
 category: turret
 smokeEffect: shootBigSmoke
