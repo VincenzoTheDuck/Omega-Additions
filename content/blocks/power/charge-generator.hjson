@@ -1,0 +1,31 @@
+requirements: [
+thorium/75
+phase-fabric/60
+copper/120
+silicon/85
+surge-alloy/100
+heavy-alloy/75
+plastaium/50
+]
+name: "Charge Generator"
+description: '''
+Generates large amounts of power from charged items.
+'''
+category: power
+powerProduction: 37
+itemCapacity: 15
+itemDuration: 480
+ambientSound: hum
+ambientSoundVolume: 0.09
+effectChance: 0.05
+generateEffectRange: 3.5
+generateEffect: producesmoke
+consumeEffect: pulverizeMedium
+size: 4
+drawer: [
+DrawDefault
+DrawWarmupRegion
+]
+research: {
+parent: differential-generator
+}
