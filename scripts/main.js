@@ -31,6 +31,5 @@ require("turrets/strike");
 require("turrets/barrage");
 require("turrets/excalibur");
 require("turrets/fissure");
-//require("turrets/subterfuge");
 require("turrets/rigel");
 require("turrets/saturn");
