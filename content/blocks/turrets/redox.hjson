@@ -10,6 +10,10 @@ Fires barrages of corrosive missiles at enemies.
 
 [accent]Faction:[] Acid
 '''
+drawer: {
+type: DrawTurret
+basePrefix: "reinforced-"
+}
 category: turret
 smokeEffect: shootBigSmoke
 shootEffect: shootBig
