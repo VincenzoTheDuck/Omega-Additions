@@ -15,7 +15,7 @@ const thorShoot = new Effect(37, e => {
   Angles.randLenVectors(e.id, 7, e.finpow() * 30.0, e.rotation, 70.0, hj);
 });
 
-const thorSmoke = new Effect(75, e => {
+const thorSmoke = new Effect(75, 300, e => {
 	Draw.color(Pal.redLight);
 
   const hj = new Floatc2({get: function(x, y){
@@ -50,7 +50,7 @@ const gartShoot = new Effect(37, e => {
   Angles.randLenVectors(e.id, 9, e.finpow() * 45.0, e.rotation, 65.0, hj);
 });
 
-const gartSmoke = new Effect(75, e => {
+const gartSmoke = new Effect(75, 300, e => {
 	Draw.color(Pal.thoriumPink);
 
   const hj = new Floatc2({get: function(x, y){
@@ -84,7 +84,7 @@ const phaseShoot = new Effect(37, e => {
   Angles.randLenVectors(e.id, 10, e.finpow() * 50.0, e.rotation, 65.0, hj);
 });
 
-const phaseSmoke = new Effect(75, e => {
+const phaseSmoke = new Effect(75, 300, e => {
 	Draw.color(Color.valueOf("f4ba6e"));
 
   const hj = new Floatc2({get: function(x, y){
