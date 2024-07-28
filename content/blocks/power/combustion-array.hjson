@@ -1,5 +1,5 @@
 requirements: [
-graphite: 120
+graphite/120
 thorium/90
 titanium/100
 metaglass/95
