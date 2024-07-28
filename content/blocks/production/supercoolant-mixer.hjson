@@ -24,7 +24,7 @@ suffix: "-bottom"
 }
 {
 type: DrawLiquidTile
-drawLiquid: water
+drawLiquid: cryofluid
 }
 {
 type: DrawLiquidTile
