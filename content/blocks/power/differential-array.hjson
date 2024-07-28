@@ -40,6 +40,7 @@ color2: ef883e
 DrawDefault
 {
 type: DrawLiquidRegion
+//TODO supercoolant
 drawLiquid: cryofluid
 }
 {
@@ -50,6 +51,18 @@ glowIntensity: 1
 color: ffc174
 }
 ]
+consumes: {
+liquid: {
+//TODO supercoolant
+liquid: cryofluid
+amount: 0.25
+}
+items: {
+items: [
+pyratite/1
+]
+}
+}
 research: {
 parent: combustion-array
 }
