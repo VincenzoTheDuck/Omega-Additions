@@ -13,7 +13,7 @@ Fires powerful stars at enemy targets.
 '''
 category: turret
 shootSound: laser
-reload: 70
+reload: 140
 recoil: 2
 shake: 4
 size: 3
@@ -23,5 +23,5 @@ coolant: {
 amount: 0.75
 }
 }
-coolantMultiplier: 1.5
+coolantMultiplier: 1.15
 research: lancer
