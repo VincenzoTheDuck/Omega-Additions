@@ -19,8 +19,8 @@ ambientSound: hum
 ambientSoundVolume: 0.09
 effectChance: 0.05
 generateEffectRange: 3.5
-generateEffect: producesmoke
-consumeEffect: pulverizeMedium
+generateEffect: smokePuff
+consumeEffect: smeltsmoke
 size: 4
 drawer: [
 DrawDefault
