@@ -1,0 +1,27 @@
+requirements: [
+copper/160
+silicon/90
+surge-alloy/110
+starium/90
+thorium/100
+]
+name: "Rigel"
+description: '''
+Fires powerful stars at enemy targets.
+
+[accent]Faction:[] Star
+'''
+category: turret
+shootSound: laser
+reload: 70
+recoil: 2
+shake: 4
+size: 3
+consumes: {
+power: 14
+coolant: {
+amount: 0.75
+}
+}
+coolantMultiplier: 1.5
+research: lancer
