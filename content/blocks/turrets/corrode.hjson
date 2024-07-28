@@ -10,7 +10,7 @@ Fires acid shells at ground enemies.
 '''
 drawer: {
 type: DrawTurret
-basePrefix: "reinforced-"
+basePrefix: "dark-"
 }
 extinguish: false
 category: turret
