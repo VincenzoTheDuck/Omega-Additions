@@ -12,7 +12,7 @@ Fires highly corrosive missiles at enemies.
 '''
 drawer: {
 type: DrawTurret
-basePrefix: "reinforced-"
+basePrefix: "dark-"
 }
 range: 300
 category: turret
