@@ -5,6 +5,8 @@ combustionArray.consume(new ConsumeItemExplode());
 const chargeGen = extend(ConsumeGenerator, "charge-generator", {});
 chargeGen.consume(new ConsumeItemCharged());
 
+const differentialArray = extend(ConsumeGenerator, "differential-array", {});
+
 const cascadiaGen = extend(ConsumeGenerator, "cascadia-generator", {});
 
 const fluxGen = extend(ConsumeGenerator, "flux-generator", {});
