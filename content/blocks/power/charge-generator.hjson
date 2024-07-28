@@ -19,7 +19,7 @@ ambientSound: hum
 ambientSoundVolume: 0.09
 effectChance: 0.05
 generateEffectRange: 3.5
-generateEffect: smokePuff
+generateEffect: generatespark
 consumeEffect: smeltsmoke
 size: 4
 drawer: [
