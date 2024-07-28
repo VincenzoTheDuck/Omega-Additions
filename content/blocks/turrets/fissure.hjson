@@ -1,0 +1,34 @@
+requirements: [
+heavy-alloy/85
+diamond/60
+gartrium/75
+lead/80
+]
+name: "Fissure"
+description: '''
+Fires 3 close-range piercing blasts at enemy targets.
+
+[accent]Faction:[] Shadow
+'''
+category: turret
+smokeEffect: none
+shootY: 5
+shootSound: shotgun
+reload: 110
+recoilTime: 150
+cooldownTime: 85
+shoot: {
+shots: 3
+spread: 15
+}
+recoil: 3
+shake: 6
+size: 2
+liquidCapacity: 60
+research: fuse
+coolantMultiplier: 1.4
+consumes: {
+coolant: {
+amount: 0.5
+}
+}
