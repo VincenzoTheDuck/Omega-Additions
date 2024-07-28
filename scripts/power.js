@@ -1,3 +1,7 @@
+const combustionArray = extend(ConsumeGenerator, "combustion-array", {});
+combustionArray.consume(new ConsumeItemFlammable());
+combustionArray.consume(new ConsumeItemExplode());
+
 const cascadiaGenerator = extend(ConsumeGenerator, "cascadia-generator", {});
 
 const fluxGenerator = extend(ConsumeGenerator, "flux-generator", {});
