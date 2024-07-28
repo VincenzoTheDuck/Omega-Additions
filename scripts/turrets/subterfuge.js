@@ -22,7 +22,7 @@ const subtSmoke = new Effect(300, 300, e => {
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-    var rad = (e.fout(Interp.pow5Out) * rand.random(0.5, 1)) * 7;
+    var rad = (e.fout(Interp.pow5Out) * Mathf.random(0.5, 1)) * 7;
     
       Fill.circle(e.x + x, e.y + y, rad);
 	}});
