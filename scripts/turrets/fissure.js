@@ -4,7 +4,7 @@ const range = 110;
 const brange = range + 15;
 
 const thorShoot = new Effect(37, e => {
-	Draw.color(Color.white, Pal.redLight, e.fout());
+	Draw.color(Color.white, Pal.redLight, e.fin());
 	Lines.stroke(e.fout() * 2.5)
 
   const hj = new Floatc2({get: function(x, y){
@@ -20,7 +20,7 @@ const thorSmoke = new Effect(75, e => {
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-    var rad = e.fout(Interp.pow5Out) * 2.5;
+    var rad = e.fout(Interp.pow5Out) * 4;
     
       Fill.circle(e.x + x, e.y + y, rad);
 	}});
@@ -39,7 +39,7 @@ const thorBullet = extend(ShrapnelBulletType, {
 });
 
 const gartShoot = new Effect(37, e => {
-	Draw.color(Color.white, Pal.thoriumPink, e.fout());
+	Draw.color(Color.white, Pal.thoriumPink, e.fin());
 	Lines.stroke(e.fout() * 2.5)
 
   const hj = new Floatc2({get: function(x, y){
@@ -55,7 +55,7 @@ const gartSmoke = new Effect(75, e => {
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-    var rad = e.fout(Interp.pow5Out) * 2.5;
+    var rad = e.fout(Interp.pow5Out) * 4;
     
       Fill.circle(e.x + x, e.y + y, rad);
 	}});
@@ -73,7 +73,7 @@ const gartBullet = extend(ShrapnelBulletType, {
 });
 
 const phaseShoot = new Effect(37, e => {
-	Draw.color(Color.white, Color.valueOf("f4ba6e"), e.fout());
+	Draw.color(Color.white, Color.valueOf("f4ba6e"), e.fin());
 	Lines.stroke(e.fout() * 2.5)
 
   const hj = new Floatc2({get: function(x, y){
@@ -89,7 +89,7 @@ const phaseSmoke = new Effect(75, e => {
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-    var rad = e.fout(Interp.pow5Out) * 2.5;
+    var rad = e.fout(Interp.pow5Out) * 4;
     
       Fill.circle(e.x + x, e.y + y, rad);
 	}});
