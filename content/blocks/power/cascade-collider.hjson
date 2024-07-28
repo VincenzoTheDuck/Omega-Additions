@@ -48,8 +48,7 @@ suffix: "-inner"
 }
 {
 type: DrawLiquidTile
-//TODO supercoolant
-drawLiquid: cryofluid
+drawLiquid: supercoolant
 padding: 42
 }
 DrawDefault
