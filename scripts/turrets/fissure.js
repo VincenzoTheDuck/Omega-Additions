@@ -12,7 +12,7 @@ const thorShoot = new Effect(37, e => {
       Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 8);
 	}});
 
-  Angles.randLenVectors(e.id, 7, e.finpow() * 30.0, e.rotation, 70.0, hj);
+  Angles.randLenVectors(e.id, 7, e.finpow() * 30.0, e.rotation, 30.0, hj);
 });
 
 const thorSmoke = new Effect(75, 300, e => {
@@ -25,7 +25,7 @@ const thorSmoke = new Effect(75, 300, e => {
       Fill.circle(e.x + x, e.y + y, rad);
 	}});
 
-  Angles.randLenVectors(e.id, 9, e.fin(Interp.pow10Out) * 40.0, e.rotation, 90.0, hj);
+  Angles.randLenVectors(e.id, 5, e.fin(Interp.pow10Out) * 50.0, e.rotation, 90.0, hj);
 });
 
 const thorBullet = extend(ShrapnelBulletType, {
@@ -47,7 +47,7 @@ const gartShoot = new Effect(37, e => {
       Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 8);
 	}});
 
-  Angles.randLenVectors(e.id, 9, e.finpow() * 45.0, e.rotation, 65.0, hj);
+  Angles.randLenVectors(e.id, 9, e.finpow() * 43.0, e.rotation, 42.0, hj);
 });
 
 const gartSmoke = new Effect(75, 300, e => {
@@ -60,7 +60,7 @@ const gartSmoke = new Effect(75, 300, e => {
       Fill.circle(e.x + x, e.y + y, rad);
 	}});
 
-  Angles.randLenVectors(e.id, 19, e.fin(Interp.pow10Out) * 45.0, e.rotation, 97.0, hj);
+  Angles.randLenVectors(e.id, 8, e.fin(Interp.pow10Out) * 45.0, e.rotation, 40.0, hj);
 });
 
 const gartBullet = extend(ShrapnelBulletType, {
@@ -81,7 +81,7 @@ const phaseShoot = new Effect(37, e => {
       Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 8);
 	}});
 
-  Angles.randLenVectors(e.id, 10, e.finpow() * 50.0, e.rotation, 65.0, hj);
+  Angles.randLenVectors(e.id, 10, e.finpow() * 40.0, e.rotation, 44.0, hj);
 });
 
 const phaseSmoke = new Effect(75, 300, e => {
@@ -94,7 +94,7 @@ const phaseSmoke = new Effect(75, 300, e => {
       Fill.circle(e.x + x, e.y + y, rad);
 	}});
 
-  Angles.randLenVectors(e.id, 26, e.fin(Interp.pow10Out) * 45.0, e.rotation, 97.0, hj);
+  Angles.randLenVectors(e.id, 9, e.fin(Interp.pow10Out) * 45.0, e.rotation, 44.0, hj);
 });
 
 const phaseBullet = extend(ShrapnelBulletType, {
