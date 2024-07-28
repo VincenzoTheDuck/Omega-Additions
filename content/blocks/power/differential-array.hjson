@@ -19,7 +19,7 @@ itemDuration: 40
 ambientSound: smelter
 ambientSoundVolume: 0.08
 effectChance: 0.05
-generateEffectRange: 2.5
+generateEffectRange: 7
 generateEffect: generatespark
 consumeEffect: smeltsmoke
 hasLiquids: true
