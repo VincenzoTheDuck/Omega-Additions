@@ -17,6 +17,7 @@ shootSound: shootBig
 reload: 85
 drawer: {
 type: DrawTurret
+basePrefix: "reinforced-"
 parts: [
 {
 suffix: "-wing"
