@@ -1,0 +1,27 @@
+requirements: [
+graphite: 120
+thorium/90
+titanium/100
+metaglass/95
+copper/80
+]
+name: "Combustion Array"
+description: '''
+Generates large amounts of power from burning flammable items.
+'''
+category: power
+powerProduction: 16
+itemDuration: 75
+ambientSound: smelter
+ambientSoundVolume: 0.06
+effectChance: 0.05
+generateEffectRange: 2.5
+generateEffect: smeltsmoke
+size: 4
+drawer: [
+DrawDefault
+DrawWarmupRegion
+]
+research: {
+parent: differential-generator
+}
