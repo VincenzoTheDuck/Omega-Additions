@@ -2,7 +2,7 @@ const combustionArray = extend(ConsumeGenerator, "combustion-array", {});
 combustionArray.consume(new ConsumeItemFlammable());
 combustionArray.consume(new ConsumeItemExplode());
 
-const chargeGen = extend(ConsumeGenerator, "combustion-array", {});
+const chargeGen = extend(ConsumeGenerator, "charge-generator", {});
 chargeGen.consume(new ConsumeItemCharged());
 
 const cascadiaGen = extend(ConsumeGenerator, "cascadia-generator", {});
