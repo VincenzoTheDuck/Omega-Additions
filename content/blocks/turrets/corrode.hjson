@@ -8,6 +8,10 @@ Fires acid shells at ground enemies.
 
 [accent]Faction:[] Acid
 '''
+drawer: {
+type: DrawTurret
+basePrefix: "reinforced-"
+}
 extinguish: false
 category: turret
 smokeEffect: shootBigSmoke
