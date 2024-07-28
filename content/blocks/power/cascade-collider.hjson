@@ -82,8 +82,7 @@ power: 800
 liquids: {
 liquids: [
 cascadia/3
-//TODO supercoolant
-cryofluid/3.5
+supercoolant/3.5
 ]
 }
 }
