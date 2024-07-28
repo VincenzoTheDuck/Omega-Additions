@@ -2,7 +2,7 @@ requirements: [
 copper/160
 silicon/90
 surge-alloy/110
-starium/90
+sarium/90
 thorium/100
 ]
 name: "Rigel"
