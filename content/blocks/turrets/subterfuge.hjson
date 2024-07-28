@@ -36,7 +36,7 @@ progress: recoil
 moveY: -4.5
 }
 {
-suffix: "-warmup"
+suffix: "-wing"
 mirror: true
 under: true
 progress: charge
@@ -67,8 +67,8 @@ moves: [
 {
 type: PartMove
 progress: recoil
-colorFrom: 7e3aff00
-colorTo: c478ff
+colorFrom: c478ff
+colorTo: 7e3aff00
 }
 ]
 }
@@ -86,8 +86,8 @@ moves: [
 {
 type: PartMove
 progress: recoil
-colorFrom: 7e3aff00
-colorTo: c478ff
+colorFrom: c478ff
+colorTo: 7e3aff00
 }
 ]
 }
@@ -105,8 +105,8 @@ moves: [
 {
 type: PartMove
 progress: recoil
-colorFrom: 7e3aff00
-colorTo: c478ff
+colorFrom: c478ff
+colorTo: 7e3aff00
 }
 ]
 }
@@ -124,8 +124,8 @@ moves: [
 {
 type: PartMove
 progress: recoil
-colorFrom: 7e3aff00
-colorTo: c478ff
+colorFrom: c478ff
+colorTo: 7e3aff00
 }
 ]
 }
@@ -143,8 +143,8 @@ moves: [
 {
 type: PartMove
 progress: recoil
-colorFrom: 7e3aff00
-colorTo: c478ff
+colorFrom: c478ff
+colorTo: 7e3aff00
 }
 ]
 }
