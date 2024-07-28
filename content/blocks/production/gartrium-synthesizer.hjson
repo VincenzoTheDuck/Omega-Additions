@@ -21,14 +21,9 @@ type: DrawRegion
 suffix: "-bottom"
 }
 {
-type: DrawSoftParticles
-alpha: 0.22
-particleRad: 12
-particleSize: 8
-particleLife: 140
-particles: 11
-color: 6640d5
-color2: 9a64ef
+type: DrawCrucibleFlame
+flameColor: 6640d5
+midColor: 9a64ef
 }
 DrawDefault
 ]
