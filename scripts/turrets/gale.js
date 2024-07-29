@@ -48,7 +48,7 @@ const galeBullet = extend(BasicBulletType, {
 	ammoMultiplier: 1,
 	draw(b){
 		Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
-		Fill.poly(e.x, e.y, 4, e.fout(Interp.pow5Out), 45);
+		Fill.poly(b.x, b.y, 4, e.fout(Interp.pow5Out), 45);
 		Draw.reset();
 	}
 });
