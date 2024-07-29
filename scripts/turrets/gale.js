@@ -33,7 +33,7 @@ const galeSmoke = new Effect(100, 300, e => {
 const galeTrail = new Effect(60, e => {
 	Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
 	
-	Fill.poly(e.x + x, e.y + y, 3, e.fout(Interp.pow5Out), 45);
+	Fill.poly(e.x, e.y, 3, e.fout(Interp.pow5Out), 45);
 });
 
 const galeBullet = extend(BasicBulletType, {
