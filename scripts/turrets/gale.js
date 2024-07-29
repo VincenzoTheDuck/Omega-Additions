@@ -68,12 +68,12 @@ gale.buildType = () => extend(PowerTurret.PowerTurretBuild, gale,  {
   draw() {
 	  Draw.rect(gale.baseRegion, this.x, this.y, 0);
 	  Draw.rect(gale.region, this.x, this.y, this.rotation - 90);
-    Draw.blend(Blending.additive())
+    Draw.blend(Blending.additive)
 	  Draw.color(Color.valueOf("ff7272").shiftHue(Time.time).alpha(this.shootWarmup));
           Draw.rect(gale.rainbowRegion, this.x, this.y, this.rotation - 90);
     Draw.color(this.heatColor.alpha(this.heat));
           Draw.rect(gale.heatRegion, this.x, this.y, this.rotation - 90);
-    Draw.blend(Blending.normal())
+    Draw.blend(Blending.normal)
           Draw.color()
   }
 });
