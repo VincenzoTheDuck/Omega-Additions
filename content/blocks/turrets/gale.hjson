@@ -1,0 +1,33 @@
+requirements: [
+heavy-alloy/160
+diamond/90
+thorium/100
+gartrium/75
+copper/50
+]
+name: "Gale"
+description: '''
+Fires barrages of rainbow darts at enemy targets.
+
+[accent]Faction:[] Light
+'''
+category: turret
+smokeEffect: none
+shootWarmupSpeed: 0.11
+minWarmup: 0.85
+shootSound: lasergun
+reload: 75
+shoot: {
+shots: 8
+shotDelay: 4
+}
+shake: 5
+size: 2
+liquidCapacity: 90
+research: cut
+coolantMultiplier: 1.2
+consumes: {
+coolant: {
+amount: 0.5
+}
+}
