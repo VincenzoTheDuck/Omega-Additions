@@ -22,7 +22,7 @@ shots: 8
 shotDelay: 4
 }
 shake: 5
-size: 2
+size: 3
 liquidCapacity: 90
 research: cut
 coolantMultiplier: 1.2
