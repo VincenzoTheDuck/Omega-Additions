@@ -48,8 +48,8 @@ const galeBullet = extend(BasicBulletType, {
 	ammoMultiplier: 1,
 	draw(b){
 		Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
-		Drawf.tri(e.x, e.y, 3, 5, b.rotation);
-    Drawf.tri(e.x, e.y, 3, 5, b.rotation + 180);
+		Drawf.tri(b.x, b.y, 3, 5, b.rotation);
+    Drawf.tri(b.x, b.y, 3, 5, b.rotation + 180);
 		Draw.reset();
 	}
 });
