@@ -5,7 +5,7 @@ const galeShock = new Effect(17, e => {
 	Lines.circle(e.x, e.y, e.fin() * 12);
 });
 
-const galeSpark = new Effect(35, e => {
+const galeSpark = new Effect(20, e => {
 	Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
 	Lines.stroke(e.fout() * 3)
 
@@ -30,14 +30,14 @@ const galeSmoke = new Effect(100, 300, e => {
   Angles.randLenVectors(e.id, 8, e.fin(Interp.pow10Out) * 25.0, 0, 180.0, hj);
 });
 
-const galeTrail = new Effect(60, e => {
+const galeTrail = new Effect(30, e => {
 	Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
 	
-	Fill.poly(e.x, e.y, 3, e.fout(Interp.pow5Out), 45);
+	Fill.poly(e.x, e.y, 4, e.fout(Interp.pow5Out), 45);
 });
 
 const galeBullet = extend(BasicBulletType, {
-  damage: 300,
+  damage: 150,
   pierce: true,
 	speed: 6,
 	lifetime: 30,
@@ -48,8 +48,7 @@ const galeBullet = extend(BasicBulletType, {
 	ammoMultiplier: 1,
 	draw(b){
 		Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
-		Drawf.tri(b.x, b.y, 3, 5, b.rotation);
-    Drawf.tri(b.x, b.y, 3, 5, b.rotation + 180);
+		Fill.poly(e.x, e.y, 4, e.fout(Interp.pow5Out), 45);
 		Draw.reset();
 	}
 });
@@ -68,11 +67,11 @@ gale.buildType = () => extend(PowerTurret.PowerTurretBuild, gale,  {
   draw() {
 	  Draw.rect(gale.baseRegion, this.x, this.y, 0);
 	  Draw.rect(gale.region, this.x, this.y, this.rotation - 90);
-    Draw.blend(Blending.additive)
+    Draw.blend(Blending.normal)
 	  Draw.color(Color.valueOf("ff7272").shiftHue(Time.time).alpha(this.shootWarmup));
           Draw.rect(gale.rainbowRegion, this.x, this.y, this.rotation - 90);
     Draw.color(gale.heatColor.alpha(this.heat));
-          Draw.rect(gale.heatRegion, this.x, this.y, this.rotation - 90);
+          Draw.rect(gale.normal, this.x, this.y, this.rotation - 90);
     Draw.blend(Blending.normal)
           Draw.color()
   }
