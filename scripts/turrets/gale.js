@@ -45,8 +45,6 @@ const galeBullet = extend(BasicBulletType, {
   hitEffect: galeSpark,
 	trailEffect: galeTrail,
 	trailInterval: 3,
-	despawnEffect: Fx.none,
-	despawnHit: true,
 	ammoMultiplier: 1,
 	draw(b){
 		Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
