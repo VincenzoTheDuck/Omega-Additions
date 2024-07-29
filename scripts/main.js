@@ -27,6 +27,7 @@ require("turrets/collapse");
 require("turrets/glow");
 require("turrets/sparkle");
 require("turrets/cut");
+require("turrets/gale");
 require("turrets/strike");
 require("turrets/barrage");
 require("turrets/excalibur");
