@@ -27,7 +27,7 @@ const galeSmoke = new Effect(100, 300, e => {
       Fill.poly(e.x + x, e.y + y, 4, rad, 0);
 	}});
   
-  Angles.randLenVectors(e.id, 8, e.fin(Interp.pow10Out) * 25.0, 0, 180.0, hl);
+  Angles.randLenVectors(e.id, 8, e.fin(Interp.pow10Out) * 25.0, 0, 180.0, hj);
 });
 
 const galeTrail = new Effect(60, e => {
