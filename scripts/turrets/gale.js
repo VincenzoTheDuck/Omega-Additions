@@ -7,11 +7,11 @@ const galeShock = new Effect(17, e => {
 
 const galeSpark = new Effect(20, e => {
 	Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
-	Lines.stroke(e.fout() * 3)
+	Lines.stroke(e.fout() * 1.5)
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 25);
+      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 4.5);
 	}});
 
   Angles.randLenVectors(e.id, 19, e.finpow() * 14.0, e.rotation, 360.0, hj);
