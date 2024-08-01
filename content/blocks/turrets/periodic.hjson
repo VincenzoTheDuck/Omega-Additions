@@ -1,0 +1,48 @@
+requirements: [
+heavy-alloy/160
+diamond/90
+thorium/100
+gartrium/75
+copper/50
+]
+name: "Periodic"
+description: '''
+Fires healing bolts that periodically release healing arcs.
+
+[accent]Faction:[] Healing
+'''
+category: turret
+shootWarmupSpeed: 0.11
+minWarmup: 0.85
+shootSound: lasergun
+reload: 90
+shoot: {
+shots: 8
+shotDelay: 4
+}
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: FlarePart
+color1: 8bffce
+radius: 0
+stroke: 0
+strokeTo: 2
+radiusTo: 6
+y: 2.5
+}
+]
+}
+shake: 5
+size: 3
+shootY: 2.5
+liquidCapacity: 90
+research: cut
+coolantMultiplier: 1.07
+consumes: {
+power: 9.5
+coolant: {
+amount: 0.5
+}
+}
