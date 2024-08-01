@@ -1,3 +1,23 @@
+const cyclCharge = new Effect(40, e => {
+	Draw.color(Pal.heal);
+	Lines.stroke(e.fin() * 4);
+	
+	Lines.circle(e.x, e.y, e.fout() * 16);
+
+	Lines.stroke(e.fin() * 3)
+
+  const hj = new Floatc2({get: function(x, y){
+		var ang = Mathf.angle(x, y);
+      Lines.lineAngle(e.x + x, e.y + y, ang, e.fin() * 7.5);
+	}});
+
+  Angles.randLenVectors(e.id, 10, e.fout() * 20.0, e.rotation, 360.0, hj);
+
+	Fill.poly(e.x, e.y, 6, e.fin() * 2.5, Time.time * 0.3);
+});
+
+
+
 const cyclShock = new Effect(20, e => {
 	Draw.color(Pal.heal);
 	Lines.stroke(e.fout() * 2)
@@ -49,6 +69,7 @@ const cyclTrail = new Effect(20, e => {
 });
 
 const cyclBullet = extend(BasicBulletType, {
+	chargeEffect: cyclCharge,
 	shootEffect: cyclShoot,
 	smokeEffect: Fx.none,
   damage: 120,
@@ -62,9 +83,6 @@ const cyclBullet = extend(BasicBulletType, {
 	trailEffect: perTrail,
 	trailInterval: 5,
 	ammoMultiplier: 1,
-  intervalBullet: perInterval,
-  bulletInterval: 15,
-  intervalBullets: 3,
 	draw(b){
 		Draw.color(Pal.heal);
 		Fill.poly(b.x, b.y, 6, 3.5, Time.time * 0.2);
@@ -76,3 +94,4 @@ const cycl = extend(PowerTurret, "cyclical", {});
 cycl.range = 220;
 cycl.shootType = cyclBullet;
 cycl.targetHealing = true;
+cycl.shoot.firstShotDelay = cyclCharge.lifetime;
