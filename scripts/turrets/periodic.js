@@ -51,8 +51,9 @@ const perInterval = extend(BasicBulletType, {
 	despawnEffect: Fx.none,
   hitEffect: perShock,
 	trailEffect: perIntTrail,
-	trailInterval: 5,
+	trailInterval: 2,
 	ammoMultiplier: 1,
+  homingPower: 0.04,
 	draw(b){
 		Draw.color(Pal.heal);
 		Fill.poly(b.x, b.y, 6, 1, Time.time * 0.5);
@@ -74,10 +75,7 @@ const perBullet = extend(BasicBulletType, {
 	ammoMultiplier: 1,
   intervalBullet: perInterval,
   bulletInterval: 15,
-  intervalBullets: 2,
-  intervalRandomSpread: 5,
-  intervalSpread: 180,
-  homingPower: 0.04,
+  intervalBullets: 3,
 	draw(b){
 		Draw.color(Pal.heal);
 		Fill.poly(b.x, b.y, 6, 2.5, Time.time * 0.3);
