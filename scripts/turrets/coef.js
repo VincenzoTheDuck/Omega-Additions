@@ -1,20 +1,20 @@
-const coefShock = new Effect(60, e => {
+const coefShock = new Effect(30, e => {
 	Draw.color(Pal.heal);
-	Lines.stroke(e.fout() * 7)
+	Lines.stroke(e.fout() * 3)
 	
-	Lines.circle(e.x, e.y, 75);
+	Lines.circle(e.x, e.y, 30);
 });
 
-const coefSpark = new Effect(45, e => {
+const coefSpark = new Effect(22, e => {
 	Draw.color(Pal.heal);
-	Lines.stroke(e.fout() * 4)
+	Lines.stroke(e.fout() * 2)
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 10);
+      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 6);
 	}});
 
-  Angles.randLenVectors(e.id, 9, e.finpow() * 90.0, e.rotation, 360.0, hj);
+  Angles.randLenVectors(e.id, 9, e.finpow() * 44.0, e.rotation, 360.0, hj);
 });
 
 const coefShoot = new Effect(22, e => {
@@ -36,11 +36,11 @@ const coefTrail = new Effect(30, e => {
 });
 
 const coefBullet = extend(EmpBulletType, {
-  radius: 75,
-  splashDamageRadius: 75,
+  radius: 30,
+  splashDamageRadius: 30,
   splashDamage: 200,
   scaleLife: true,
-  timeIncrease: 3,
+  timeIncrease: 0.3,
   timeDuration: 8 * 60,
   powerDamageScl: 3,
   powerSclDecrease: 0.17,
