@@ -1,0 +1,10 @@
+name: "Crysolium"
+description: '''
+Used for potent repairing structures. Highly stable and slightly charged.
+'''
+research: plastanium
+color: 5affab
+healthScaling: 3.5
+cost: 3
+charge: 0.5
+hiddenOnPlanets: [erekir]
