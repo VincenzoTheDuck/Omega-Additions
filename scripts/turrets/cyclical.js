@@ -79,8 +79,8 @@ const cyclBullet = extend(BasicBulletType, {
 	speed: 4,
 	lifetime: 55,
 	despawnEffect: new MultiEffect(cyclShock, cyclSpark, cyclSmoke),
-  hitEffect: perSpark,
-	trailEffect: perTrail,
+  hitEffect: cyclSpark,
+	trailEffect: cyclTrail,
 	trailInterval: 5,
 	ammoMultiplier: 1,
 	draw(b){
