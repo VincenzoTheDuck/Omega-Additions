@@ -12,6 +12,7 @@ Charges and fires a potent healing orb.
 [accent]Faction:[] Healing
 '''
 category: turret
+chargeSound: lasercharge2
 shootSound: laser
 recoil: 4
 reload: 160
