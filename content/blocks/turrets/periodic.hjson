@@ -2,7 +2,7 @@ requirements: [
 heavy-alloy/160
 diamond/90
 thorium/100
-gartrium/75
+crysolium/75
 copper/50
 ]
 name: "Periodic"
@@ -17,10 +17,6 @@ minWarmup: 0.85
 shootSound: lasergun
 recoil: 4
 reload: 90
-shoot: {
-shots: 8
-shotDelay: 4
-}
 drawer: {
 type: DrawTurret
 parts: [
