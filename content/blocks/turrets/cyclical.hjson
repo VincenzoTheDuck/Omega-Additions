@@ -1,0 +1,29 @@
+requirements: [
+heavy-alloy/125
+surge-alloy/120
+phase-fabric/35
+thorium/50
+crysolium/90
+]
+name: "Cyclical"
+description: '''
+Charges and fires a potent healing orb.
+
+[accent]Faction:[] Healing
+'''
+category: turret
+shootSound: laser
+recoil: 4
+reload: 160
+shake: 5
+size: 3
+shootY: 4
+liquidCapacity: 140
+research: periodic
+coolantMultiplier: 1.03
+consumes: {
+power: 17
+coolant: {
+amount: 0.75
+}
+}
