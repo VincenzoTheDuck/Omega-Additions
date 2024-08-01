@@ -76,6 +76,7 @@ const perInterval = extend(BasicBulletType, {
 	despawnEffect: Fx.none,
   hitEffect: perShock,
 	trailEffect: perIntTrail,
+	despawnHit: true,
 	trailInterval: 1,
 	ammoMultiplier: 1,
   homingPower: 0.04,
