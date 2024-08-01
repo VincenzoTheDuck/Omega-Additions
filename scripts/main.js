@@ -33,6 +33,7 @@ require("turrets/barrage");
 require("turrets/excalibur");
 require("turrets/periodic");
 require("turrets/cyclical");
+require("turrets/coef");
 require("turrets/fissure");
 require("turrets/rigel");
 require("turrets/saturn");
