@@ -88,4 +88,4 @@ const perBullet = extend(BasicBulletType, {
 const per = extend(PowerTurret, "periodic", {});
 per.range = 180;
 per.shootType = perBullet;
-per.targetHealing = true,
+per.targetHealing = true;
