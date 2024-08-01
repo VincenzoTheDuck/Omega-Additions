@@ -1,6 +1,6 @@
 const perCharge = new Effect(40, e => {
 	Draw.color(Pal.heal);
-	Lines.stroke(e.fin() * 4)
+	Lines.stroke(e.fin() * 4);
 	
 	Lines.circle(e.x, e.y, e.fout() * 16);
 
@@ -8,7 +8,7 @@ const perCharge = new Effect(40, e => {
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 7.5);
+      Lines.lineAngle(e.x + x, e.y + y, ang, e.fin() * 7.5);
 	}});
 
   Angles.randLenVectors(e.id, 10, e.fout() * 20.0, e.rotation, 360.0, hj);
@@ -85,26 +85,6 @@ const perIntTrail = new Effect(13, e => {
 	Fill.poly(e.x, e.y, 6, e.fout(Interp.pow5Out), Time.time * 0.3);
 });
 
-const perInterval = extend(BasicBulletType, {
-  damage: 30,
-  healPercent: 1.5,
-  collidesTeam: true,
-	speed: 6,
-	lifetime: 20,
-	despawnEffect: Fx.none,
-  hitEffect: perShock,
-	trailEffect: perIntTrail,
-	despawnHit: true,
-	trailInterval: 1,
-	ammoMultiplier: 1,
-  homingPower: 0.04,
-	draw(b){
-		Draw.color(Pal.heal);
-		Fill.poly(b.x, b.y, 6, 1, Time.time * 0.5);
-		Draw.reset();
-	}
-});
-
 const perBullet = extend(BasicBulletType, {
 	shootEffect: perShoot,
 	smokeEffect: Fx.none,
@@ -120,9 +100,6 @@ const perBullet = extend(BasicBulletType, {
 	trailEffect: perTrail,
 	trailInterval: 5,
 	ammoMultiplier: 1,
-  intervalBullet: perInterval,
-  bulletInterval: 15,
-  intervalBullets: 3,
 	draw(b){
 		Draw.color(Pal.heal);
 		Fill.poly(b.x, b.y, 6, 2.5, Time.time * 0.3);
