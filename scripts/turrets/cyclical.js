@@ -78,7 +78,7 @@ const cyclBullet = extend(BasicBulletType, {
   pierce: true,
 	speed: 4,
 	lifetime: 55,
-	despawnEffect: new MultiEffect(perShock, perSpark, perSmoke),
+	despawnEffect: new MultiEffect(cyclShock, cyclSpark, cyclSmoke),
   hitEffect: perSpark,
 	trailEffect: perTrail,
 	trailInterval: 5,
