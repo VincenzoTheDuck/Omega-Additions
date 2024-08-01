@@ -111,4 +111,4 @@ const per = extend(PowerTurret, "periodic", {});
 per.range = 180;
 per.shootType = perBullet;
 per.targetHealing = true;
-per.shoot.firstShotDelay = perCharge.lifetime;
+per.shoot.firstShotDelay = 40;
