@@ -1,3 +1,21 @@
+const perCharge = new Effect(40, e => {
+	Draw.color(Pal.heal);
+	Lines.stroke(e.fin() * 4)
+	
+	Lines.circle(e.x, e.y, e.fout() * 16);
+
+	Lines.stroke(e.fin() * 3)
+
+  const hj = new Floatc2({get: function(x, y){
+		var ang = Mathf.angle(x, y);
+      Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 7.5);
+	}});
+
+  Angles.randLenVectors(e.id, 10, e.fout() * 20.0, e.rotation, 360.0, hj);
+
+	Fill.poly(e.x, e.y, 6, e.fin() * 2.5, Time.time * 0.3);
+});
+
 const perShock = new Effect(17, e => {
 	Draw.color(Pal.heal);
 	Lines.stroke(e.fout() * 2)
@@ -89,7 +107,8 @@ const perInterval = extend(BasicBulletType, {
 
 const perBullet = extend(BasicBulletType, {
 	shootEffect: perShoot,
-	smokeEffect: perShootSmoke,
+	smokeEffect: Fx.none,
+	chargeEffect: perCharge,
   damage: 90,
   healPercent: 4.5,
   collidesTeam: true,
@@ -115,3 +134,4 @@ const per = extend(PowerTurret, "periodic", {});
 per.range = 180;
 per.shootType = perBullet;
 per.targetHealing = true;
+per.shoot.firstShotDelay = perCharge.lifetime;
