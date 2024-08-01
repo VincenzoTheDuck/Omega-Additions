@@ -23,9 +23,9 @@ parts: [
 {
 type: FlarePart
 color1: 98ffa9
+color2: ffffff
 radius: 0
-stroke: 0
-strokeTo: 2
+stroke: 2
 radiusTo: 6
 y: 2.5
 }
