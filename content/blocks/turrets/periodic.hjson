@@ -15,6 +15,7 @@ category: turret
 shootWarmupSpeed: 0.11
 minWarmup: 0.85
 shootSound: lasergun
+recoil: 4
 reload: 90
 shoot: {
 shots: 8
@@ -35,7 +36,7 @@ y: 2.5
 ]
 }
 shake: 5
-size: 3
+size: 2
 shootY: 2.5
 liquidCapacity: 90
 research: cut
