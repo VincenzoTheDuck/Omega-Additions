@@ -47,9 +47,9 @@ const perShootSmoke = new Effect(50, 300, e => {
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
-    var rad = e.fout(Interp.pow5Out) * 3.5;
+    var rad = e.fout(Interp.pow5Out) * 2;
     
-      Fill.poly(e.x + x, e.y + y, 8, rad, Time.time * -0.45);
+      Fill.poly(e.x + x, e.y + y, 8, rad, Time.time * (e.fin(Interp.pow5In) * 1.5));
 	}});
   
   Angles.randLenVectors(e.id, 7, e.fin(Interp.pow10Out) * 24.0, e.rotation, 55.0, hj);
