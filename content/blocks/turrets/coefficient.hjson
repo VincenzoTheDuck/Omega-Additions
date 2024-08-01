@@ -1,0 +1,38 @@
+requirements: [
+heavy-alloy/100
+surge-alloy/90
+phase-fabric/60
+thorium/110
+gartrium/130
+crysolium/140
+]
+name: "Coefficient"
+description: '''
+Fires a powerful EMP orb that deals massive damage to power grids and boosts allied structures.
+
+[accent]Faction:[] Healing
+'''
+category: turret
+shootSound: laser
+recoil: 6
+reload: 90
+shoot: {
+type: ShootBarrel
+barrels: [
+-3, -1, 0
+0, 0, 0
+3, -1, 0
+]
+}
+shake: 5
+size: 3
+shootY: 6
+liquidCapacity: 140
+research: periodic
+coolantMultiplier: 1.03
+consumes: {
+power: 17
+coolant: {
+amount: 0.75
+}
+}
