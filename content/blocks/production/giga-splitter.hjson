@@ -1,0 +1,61 @@
+requirements: [
+thorium/95
+surge-alloy/130
+diamond/80
+plastanium/140
+copper/90
+lead/120
+silicon/90
+graphite/140
+]
+name: "Giga Splitter"
+description: '''
+Extracts almost any naturally occuring resource from massive amounts of slag.
+'''
+category: crafting
+craftTime: 50
+size: 7
+results: [
+copper/8
+lead/8
+silicon/4
+surge-scrap/1
+scrap/3
+sand/5
+graphite/10
+thorium/4
+titanium/6
+]
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: slag
+}
+{
+type: DrawRegion
+suffix: "-spinner"
+spinSprite: true
+rotateSpeed: -5.5
+}
+{
+type: DrawRegion
+suffix: "-spinner"
+spinSprite: true
+rotateSpeed: 3
+}
+DrawDefault
+]
+liquidCapacity: 960
+itemCapacity: 110
+consumes: {
+power: 12
+liquid: {
+liquid: slag
+amount: 4
+}
+}
+research: dismantler
