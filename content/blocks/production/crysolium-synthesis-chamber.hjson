@@ -27,6 +27,13 @@ flameColor: 72ffd7
 midColor: 2dbe7b
 }
 DrawDefault
+{
+type: DrawGlowRegion
+alpha: 0.8
+glowScale: 15
+glowIntensity: 1
+color: 72ffd7
+}
 ]
 consumes: {
 power: 5.5
