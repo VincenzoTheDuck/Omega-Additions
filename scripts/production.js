@@ -20,6 +20,8 @@ const diamondPress = extend(GenericCrafter, "diamond-press", {});
 
 const supercoolantMixer = extend(GenericCrafter, "supercoolant-mixer", {});
 
+const crysoliumChamber = extend(GenericCrafter, "crysolium-synthesis-chamber", {});
+
 const gartriumSynthesizer = extend(GenericCrafter, "gartrium-synthesizer", {});
 
 const sariumCrystallizer = extend(GenericCrafter, "sarium-crystallizer", {});
