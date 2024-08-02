@@ -1,0 +1,41 @@
+requirements: [
+diamond/60
+lead/120
+metaglass/115
+thorium/90
+surge-alloy/150
+silicon/90
+]
+name: "Crysolium Synthesis Chamber"
+description: '''
+Synthesizes crysolium from silicon, copper and graphite.
+'''
+category: crafting
+craftEffect: none
+outputItem: crysolium/1
+craftTime: 75
+itemCapacity: 20
+size: 3
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawCrucibleFlame
+flameColor: 72ffd7
+midColor: 2dbe7b
+}
+DrawDefault
+]
+consumes: {
+power: 5.5
+items: {
+items: [
+copper/4
+silicon/2
+graphite/5
+]
+}
+}
+research: diamond-press
