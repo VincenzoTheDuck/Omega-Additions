@@ -48,6 +48,18 @@ spinSprite: true
 rotateSpeed: 3
 }
 DrawDefault
+{
+type: DrawFade
+alpha: 0.4
+scale: 10
+}
+{
+type: DrawGlowRegion
+alpha: 0.4
+glowScale: 9
+glowIntensity: 1
+color: f0511d
+}
 ]
 liquidCapacity: 960
 itemCapacity: 110
