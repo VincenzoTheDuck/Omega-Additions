@@ -62,13 +62,14 @@ const gale = extend(PowerTurret, "gale", {
 	  	this.baseRegion = Core.atlas.find("block-" + this.size)
   	}
 });
-gale.heatColor = Color.valueOf("ff9a76"),
+//gale.heatColor = Color.valueOf("ff9a76"),
 gale.buildType = () => extend(PowerTurret.PowerTurretBuild, gale,  {
   draw() {
 	  Draw.rect(gale.baseRegion, this.x, this.y, 0);
 	  Draw.rect(gale.region, this.x, this.y, this.rotation - 90);
-	  Draw.alpha(0.5);
-	  Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
+	  Draw.blend(Blending.additive)
+	  Draw.alpha(this.shootWarmup);
+	  Draw.color(Color.red.shiftHue(Time.time));
           Draw.rect(gale.rainbowRegion, this.x, this.y, this.rotation - 90);
 	  
     Draw.blend(Blending.additive)
