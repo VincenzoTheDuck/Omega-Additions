@@ -3,7 +3,7 @@ description: '''
 Used for shadow faction structures.
 '''
 research: thorium
-color: fff3a7
+color: 9a41de
 healthScaling: 6
 cost: 5
 charge: 1.8
