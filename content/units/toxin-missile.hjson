@@ -1,0 +1,50 @@
+trailColor: a56bff
+engineColor: a56bff
+engineSize: 1.5
+engineOffset: 2
+speed: 4
+maxRange: 10
+lifetime: 75
+health: 100
+lowAltitude: true
+outlineColor: 565666
+targetAir: false
+targetUnderBlocks: false
+weapons: [
+{
+shootOnDeath: true
+mirror: false
+reload: 1
+shootCone: 360
+shootSound: none
+bullet: {
+type: ExplosionBulletType
+collidesAir: false
+splashDamage: 100
+status: sapped
+statusDuration: 170
+splashDamageRadius: 34
+shootEffect: [blastExplosion,
+{
+type: ExplosionEffect
+waveRad: 25
+waveLife: 20
+waveColor: 8041e2
+sparks: 5
+sparkColor: a56bff
+sparkRad: 12
+sparkStroke: 3
+sparkLen: 7
+smokes: 6
+smokeSize: 8
+smokeRad: 15
+smokeColor: 8674a2
+}]
+fragBullets: 4
+fragLifeMin: 0.15
+fragBullet: {
+type: ArtilleryBulletType
+}
+}
+}
+]
