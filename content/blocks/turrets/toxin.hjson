@@ -1,10 +1,8 @@
 requirements: [
 heavy-alloy/100
-surge-alloy/90
-phase-fabric/60
-thorium/110
-gartrium/130
-crysolium/140
+diamond/90
+thorium/75
+gartrium/110
 ]
 name: "Toxin"
 description: '''
