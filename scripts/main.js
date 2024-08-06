@@ -35,5 +35,6 @@ require("turrets/periodic");
 require("turrets/cyclical");
 require("turrets/coef");
 require("turrets/fissure");
+require("turrets/toxin");
 require("turrets/rigel");
 require("turrets/saturn");
