@@ -21,7 +21,7 @@ shootSound: none
 bullet: {
 type: ExplosionBulletType
 splashDamage: 240
-status: dissolving
+status: corroded
 statusDuration: 400
 splashDamageRadius: 67
 shootEffect: [blastExplosion,
