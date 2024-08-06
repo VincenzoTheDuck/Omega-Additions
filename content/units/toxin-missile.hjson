@@ -2,6 +2,7 @@ trailColor: a56bff
 engineColor: a56bff
 engineSize: 1.5
 engineOffset: 2
+rotateSpeed: 2.2
 speed: 4
 maxRange: 10
 lifetime: 75
