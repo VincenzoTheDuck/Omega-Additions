@@ -1,0 +1,38 @@
+requirements: [
+heavy-alloy/100
+surge-alloy/90
+phase-fabric/60
+thorium/110
+gartrium/130
+crysolium/140
+]
+name: "Toxin"
+description: '''
+Fires 3 missiles that explode into artillery shells.
+
+[accent]Faction:[] Shadow
+'''
+category: turret
+shootSound: missile
+recoil: 2
+reload: 150
+shoot: {
+type: ShootBarrel
+barrels: [
+-5, -3, -45
+0, 0, 0
+5, -3, 45
+]
+}
+shake: 2
+size: 3
+shootY: 6
+range: 225
+liquidCapacity: 200
+research: fissure
+coolantMultiplier: 1.03
+consumes: {
+coolant: {
+amount: 0.75
+}
+}
