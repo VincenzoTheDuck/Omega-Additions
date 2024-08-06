@@ -18,10 +18,11 @@ recoil: 2
 reload: 150
 shoot: {
 type: ShootBarrel
+shots: 3
 barrels: [
--5, -3, -45
+-5, -3, 45
 0, 0, 0
-5, -3, 45
+5, -3, -45
 ]
 }
 shake: 2
