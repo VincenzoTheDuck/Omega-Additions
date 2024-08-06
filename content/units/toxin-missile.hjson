@@ -24,6 +24,10 @@ splashDamage: 100
 status: sapped
 statusDuration: 170
 splashDamageRadius: 34
+lightningColor: a56bff
+lightningLength: 4
+lightning: 5
+lightningDamage: 20
 shootEffect: [blastExplosion,
 {
 type: ExplosionEffect
@@ -44,6 +48,42 @@ fragBullets: 4
 fragLifeMin: 0.15
 fragBullet: {
 type: ArtilleryBulletType
+lightningColor: a56bff
+lightningLength: 2
+lightning: 2
+lightningDamage: 12
+backColor: 744db1
+frontColor: 986cde
+sprite: shell
+damage: 50
+splashDamage: 110
+splashDamageRadius: 20
+width: 5.5
+height: 7
+speed: 2
+lifetime: 17
+trailColor: 744db1
+trailWidth: 1.2
+trailLength: 7
+despawnEffect: none
+despawnHit: true
+status: sapped
+statusDuration: 75
+hitEffect: {
+type: ExplosionEffect
+waveRad: 20
+waveLife: 18
+waveColor: 8041e2
+sparks: 5
+sparkColor: a56bff
+sparkRad: 17
+sparkStroke: 2
+sparkLen: 7
+smokes: 9
+smokeSize: 6
+smokeRad: 23
+smokeColor: 8674a2
+}
 }
 }
 }
