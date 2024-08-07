@@ -1,0 +1,40 @@
+requirements: [
+copper/90
+diamond/120
+thorium/85
+sarium/100
+gartrium/75
+]
+name: "Discharge"
+description: '''
+Fires a continuous jet of energy at enemy targets.
+
+[accent]Faction:[] Energy
+'''
+rotateSpeed: 2.5
+shootY: 3.5
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-blade"
+mirror: true
+under: true
+progress: warmup
+moveX: 1
+moveY: -2.5
+moveRot: -25
+}
+]
+}
+category: turret
+shootSound: none
+loopSound: glow
+loopSoundVolume: 1
+recoil: 2
+size: 3
+range: 180
+consumes: {
+power: 13
+}
+research: meltdown
