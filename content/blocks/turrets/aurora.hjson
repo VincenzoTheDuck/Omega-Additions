@@ -1,0 +1,70 @@
+requirements: [
+copper/90
+diamond/120
+thorium/85
+sarium/100
+gartrium/75
+]
+name: "Aurora"
+description: '''
+
+
+[accent]Faction:[] Energy
+'''
+rotateSpeed: 2.5
+shootY: 5.5
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-main"
+progress: warmup
+moveY: -1
+heatColor: b8efff
+heatProgress: warmup
+}
+{
+suffix: "-blade"
+mirror: true
+layerOffset: -0.001
+progress: warmup
+heatColor: b8efff
+heatProgress: warmup
+moveX: 0.3
+moveY: -1.2
+moveRot: -10
+}
+{
+suffix: "-back"
+mirror: true
+layerOffset: -0.002
+progress: warmup
+moveX: 0.45
+moveY: -1.35
+moveRot: -13
+}
+{
+suffix: "-frontcoil"
+mirror: true
+layerOffset: -0.002
+progress: warmup
+color: 89e5ff
+heatColor: b8efff
+heatProgress: warmup
+moveX: 0.3
+moveY: -1.2
+moveRot: -10
+}
+]
+}
+category: turret
+shootSound: none
+loopSound: glow
+loopSoundVolume: 1
+recoil: 0.6
+size: 3
+range: 180
+consumes: {
+power: 13
+}
+research: meltdown
