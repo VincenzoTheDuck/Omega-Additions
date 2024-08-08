@@ -21,7 +21,7 @@ parts: [
 {
 suffix: "-main"
 progress: warmup
-moveY: -2
+moveY: -3
 heatColor: 3ad4ff35
 heatProgress: warmup
 }
@@ -41,7 +41,7 @@ suffix: "-back"
 mirror: true
 layerOffset: -0.002
 progress: warmup
-moveX: 0.4
+moveX: 0.15
 moveY: -1
 moveRot: 10
 }
@@ -52,7 +52,7 @@ layerOffset: -0.002
 heatLayerOffset: -0.001
 progress: warmup
 color: c9f3ff
-heatColor: 3ad4ff35
+heatColor: 3ad4ff
 heatProgress: warmup
 moveX: 1.5
 moveY: 0.2
@@ -65,9 +65,9 @@ layerOffset: -0.002
 heatLayerOffset: -0.001
 progress: warmup
 color: c9f3ff
-heatColor: 3ad4ff35
+heatColor: 3ad4ff
 heatProgress: warmup
-moveX: 1.5
+moveX: 3
 moveY: 0.2
 moveRot: -47
 }
