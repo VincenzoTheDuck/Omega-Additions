@@ -69,8 +69,8 @@ const aurBullet = extend(BasicBulletType, {
 	speed: 3,
 	lifetime: 60,
 	despawnEffect: new MultiEffect(aurShock, aurSpark, aurSmoke),
-  hitEffect: perSpark,
-	trailEffect: perTrail,
+  hitEffect: aurSpark,
+	trailEffect: aurTrail,
 	trailInterval: 5,
 	ammoMultiplier: 1,
 	draw(b){
