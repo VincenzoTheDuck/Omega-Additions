@@ -35,15 +35,27 @@ heatProgress: warmup
 moveX: 0.3
 moveY: -1.2
 moveRot: -10
+moves: [
+{
+progress: recoil
+moveRot: -3
+}
+]
 }
 {
 suffix: "-back"
 mirror: true
 layerOffset: -0.002
 progress: warmup
-moveX: -3
+moveX: -3.5
 moveY: -7
 moveRot: 25
+moves: [
+{
+progress: recoil
+moveRot: -3
+}
+]
 }
 {
 suffix: "-frontcoil"
@@ -57,6 +69,12 @@ heatProgress: warmup
 moveX: 1.5
 moveY: 0.2
 moveRot: -33
+moves: [
+{
+progress: recoil
+moveRot: -3
+}
+]
 }
 {
 suffix: "-backcoil"
@@ -70,6 +88,12 @@ heatProgress: warmup
 moveX: 5.5
 moveY: 0.2
 moveRot: -50
+moves: [
+{
+progress: recoil
+moveRot: -3
+}
+]
 }
 ]
 }
