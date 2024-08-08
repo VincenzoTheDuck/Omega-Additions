@@ -39,7 +39,7 @@ moves: [
 {
 type: PartMove
 progress: recoil
-rot: -8
+rot: -4
 }
 ]
 }
@@ -55,7 +55,7 @@ moves: [
 {
 type: PartMove
 progress: recoil
-rot: -13
+rot: -7
 x: -0.6
 y: -0.4
 }
@@ -77,7 +77,7 @@ moves: [
 {
 type: PartMove
 progress: recoil
-rot: -10
+rot: -7
 }
 ]
 }
@@ -97,7 +97,7 @@ moves: [
 {
 type: PartMove
 progress: recoil
-rot: -15
+rot: -10
 }
 ]
 }
