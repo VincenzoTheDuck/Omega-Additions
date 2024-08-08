@@ -12,7 +12,6 @@ const hitSpark = new Effect(30, e => {
 
 const bullet = extend(ContinuousBulletType, {
 	length: 250,
-	shake: 1,
   damage: 30,
   shake: 2,
   draw(b){
