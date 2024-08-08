@@ -1,12 +1,14 @@
 const aurShock = new Effect(17, e => {
-	Draw.color(Color.valueOf("89e5ff"));
+	Draw.blend(Blending.additive);
+	Draw.color(Color.valueOf("3ad4ff"));
 	Lines.stroke(e.fout() * 2)
 	
 	Lines.circle(e.x, e.y, e.fin() * 14);
 });
 
 const aurSpark = new Effect(23, e => {
-	Draw.color(Color.valueOf("89e5ff"));
+	Draw.blend(Blending.additive);
+	Draw.color(Color.valueOf("3ad4ff"));
 	Lines.stroke(e.fout() * 1.25)
 
   const hj = new Floatc2({get: function(x, y){
@@ -18,7 +20,8 @@ const aurSpark = new Effect(23, e => {
 });
 
 const aurSmoke = new Effect(75, 300, e => {
-	Draw.color(Color.valueOf("89e5ff"));
+	Draw.blend(Blending.additive);
+	Draw.color(Color.valueOf("3ad4ff"));
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
@@ -31,7 +34,8 @@ const aurSmoke = new Effect(75, 300, e => {
 });
 
 const aurShoot = new Effect(22, e => {
-	Draw.color(Color.valueOf("89e5ff"));
+	Draw.blend(Blending.additive);
+	Draw.color(Color.valueOf("3ad4ff"));
 	Lines.stroke(e.fout() * 1.25)
 
   const hj = new Floatc2({get: function(x, y){
@@ -43,7 +47,8 @@ const aurShoot = new Effect(22, e => {
 });
 
 const aurShootSmoke = new Effect(50, 300, e => {
-	Draw.color(Color.valueOf("89e5ff"));
+	Draw.blend(Blending.additive);
+	Draw.color(Color.valueOf("3ad4ff"));
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
@@ -56,7 +61,8 @@ const aurShootSmoke = new Effect(50, 300, e => {
 });
 
 const aurTrail = new Effect(17, e => {
-	Draw.color(Color.valueOf("89e5ff"));
+	Draw.blend(Blending.additive);
+	Draw.color(Color.valueOf("3ad4ff"));
 	
 	Fill.poly(e.x, e.y, 8, e.fout(Interp.pow5Out) * 2.5, Time.time * 0.5);
 });
@@ -74,7 +80,8 @@ const aurBullet = extend(BasicBulletType, {
 	trailInterval: 5,
 	ammoMultiplier: 1,
 	draw(b){
-		Draw.color(Color.valueOf("89e5ff"));
+		Draw.blend(Blending.additive);
+	Draw.color(Color.valueOf("3ad4ff"));
 		Fill.poly(b.x, b.y, 8, 2.5, Time.time * 0.5);
 		Draw.reset();
 	}
