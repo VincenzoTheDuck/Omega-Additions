@@ -54,6 +54,7 @@ const bullet = extend(ContinuousBulletType, {
 			shootParticle.at(b.x, b.y, b.rotation())
 		}
 	},
+	hitEffect: hitSpark
 });
 
 const disch = extend(ContinuousTurret, "discharge", {});
