@@ -14,7 +14,7 @@ description: '''
 rotateSpeed: 2.5
 minWarmup: 0.9
 shootWarmupSpeed: 0.035
-shootY: 0
+shootY: -0.7
 drawer: {
 type: DrawTurret
 parts: [
@@ -39,7 +39,7 @@ moves: [
 {
 type: PartMove
 progress: recoil
-moveRot: -8
+rot: -8
 }
 ]
 }
@@ -55,9 +55,9 @@ moves: [
 {
 type: PartMove
 progress: recoil
-moveRot: -13
-moveX: -0.6
-moveY: -0.4
+rot: -13
+x: -0.6
+y: -0.4
 }
 ]
 }
@@ -77,7 +77,7 @@ moves: [
 {
 type: PartMove
 progress: recoil
-moveRot: -10
+rot: -10
 }
 ]
 }
@@ -97,7 +97,7 @@ moves: [
 {
 type: PartMove
 progress: recoil
-moveRot: -15
+rot: -15
 }
 ]
 }
