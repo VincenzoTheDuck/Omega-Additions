@@ -12,7 +12,7 @@ Fires a continuous jet of energy at enemy targets.
 [accent]Faction:[] Energy
 '''
 rotateSpeed: 2.5
-shootY: 3.5
+shootY: 5.5
 drawer: {
 type: DrawTurret
 parts: [
