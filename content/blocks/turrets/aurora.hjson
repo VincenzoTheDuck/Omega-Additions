@@ -21,8 +21,8 @@ parts: [
 {
 suffix: "-main"
 progress: warmup
-moveY: -1
-heatColor: 3ad4ff
+moveY: -2
+heatColor: 3ad4ff35
 heatProgress: warmup
 }
 {
@@ -30,7 +30,7 @@ suffix: "-blade"
 mirror: true
 layerOffset: -0.001
 progress: warmup
-heatColor: 3ad4ff
+heatColor: 3ad4ff35
 heatProgress: warmup
 moveX: 0.3
 moveY: -1.2
@@ -41,9 +41,9 @@ suffix: "-back"
 mirror: true
 layerOffset: -0.002
 progress: warmup
-moveX: 0.45
+moveX: 0.5
 moveY: -1
-moveRot: -7
+moveRot: -5
 }
 {
 suffix: "-frontcoil"
@@ -52,11 +52,11 @@ layerOffset: -0.002
 heatLayerOffset: -0.001
 progress: warmup
 color: c9f3ff
-heatColor: 3ad4ff
+heatColor: 3ad4ff35
 heatProgress: warmup
-moveX: 1
+moveX: 1.5
 moveY: 0.2
-moveRot: -15
+moveRot: -25
 }
 {
 suffix: "-backcoil"
@@ -65,11 +65,11 @@ layerOffset: -0.002
 heatLayerOffset: -0.001
 progress: warmup
 color: c9f3ff
-heatColor: 3ad4ff
+heatColor: 3ad4ff35
 heatProgress: warmup
-moveX: 1
+moveX: 1.5
 moveY: 0.2
-moveRot: -15
+moveRot: -25
 }
 ]
 }
@@ -78,7 +78,7 @@ category: turret
 shootSound: laser
 loopSound: glow
 loopSoundVolume: 1
-recoil: 0.6
+recoil: 1
 size: 4
 reload: 100
 range: 180
