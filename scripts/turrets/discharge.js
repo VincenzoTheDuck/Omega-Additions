@@ -37,6 +37,7 @@ const hitSpark = new Effect(30, e => {
 
 const bullet = extend(ContinuousBulletType, {
 	length: 250,
+	shake: 1
   damage: 30,
   shake: 2,
   draw(b){
@@ -54,16 +55,15 @@ const bullet = extend(ContinuousBulletType, {
 			shootParticle.at(b.x, b.y, b.rotation())
 		}
 		
-		if(b.timer(1, damageInterval)){
+		if(b.timer.get(1, b.damageInterval)){
             b.applyDamage(b);
-        }
-
-        if(shake > 0){
-            Effect.shake(shake, shake, b);
-        }
+		};
+		if(b.shake > 0){
+            Effect.shake(b.shake, b.shake, b);
+        };
 
         b.updateBulletInterval(b);
-	},
+        },
 	hitEffect: hitSpark
 });
 
