@@ -46,11 +46,11 @@ const bullet = extend(ContinuousBulletType, {
 		Draw.reset();
 	},
 	update(b){
-		if(Mathf.chance(0.66)){
+		if(Mathf.chance(0.33)){
 			shootSpark.at(b.x, b.y, b.rotation())
 		}
 
-		if(Mathf.chance(0.48)){
+		if(Mathf.chance(0.2)){
 			shootParticle.at(b.x, b.y, b.rotation())
 		}
 	},
