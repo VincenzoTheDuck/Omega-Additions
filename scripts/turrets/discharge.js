@@ -7,7 +7,7 @@ const hitSpark = new Effect(30, e => {
       Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 10);
 	}});
 
-  Angles.randLenVectors(e.id, 3, e.finpow() * 27.0, e.rotation, 40.0, hj);
+  Angles.randLenVectors(e.id, 3, e.finpow() * 19.0, e.rotation, 360.0, hj);
 });
 
 const bullet = extend(ContinuousBulletType, {
