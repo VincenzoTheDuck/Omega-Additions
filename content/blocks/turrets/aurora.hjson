@@ -38,7 +38,7 @@ moveRot: -10
 moves: [
 {
 progress: recoil
-moveRot: -3
+moveRot: -7
 }
 ]
 }
@@ -53,7 +53,9 @@ moveRot: 25
 moves: [
 {
 progress: recoil
-moveRot: -3
+moveRot: -10
+moveX: -0.6
+moveY: -0.4
 }
 ]
 }
@@ -72,7 +74,7 @@ moveRot: -33
 moves: [
 {
 progress: recoil
-moveRot: -3
+moveRot: -6
 }
 ]
 }
@@ -91,7 +93,7 @@ moveRot: -50
 moves: [
 {
 progress: recoil
-moveRot: -3
+moveRot: -8
 }
 ]
 }
