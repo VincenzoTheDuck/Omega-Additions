@@ -42,8 +42,8 @@ mirror: true
 layerOffset: -0.002
 progress: warmup
 moveX: -1.5
-moveY: -1
-moveRot: 10
+moveY: -1.7
+moveRot: 13
 }
 {
 suffix: "-frontcoil"
@@ -67,9 +67,9 @@ progress: warmup
 color: c9f3ff
 heatColor: 3ad4ff
 heatProgress: warmup
-moveX: 5
+moveX: 5.5
 moveY: 0.2
-moveRot: -47
+moveRot: -50
 }
 ]
 }
