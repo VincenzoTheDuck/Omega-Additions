@@ -22,7 +22,7 @@ parts: [
 suffix: "-main"
 progress: warmup
 moveY: -1
-heatColor: 00c7ff
+heatColor: 3ad4ff
 heatProgress: warmup
 }
 {
@@ -30,7 +30,7 @@ suffix: "-blade"
 mirror: true
 layerOffset: -0.001
 progress: warmup
-heatColor: 00c7ff
+heatColor: 3ad4ff
 heatProgress: warmup
 moveX: 0.3
 moveY: -1.2
@@ -51,11 +51,11 @@ mirror: true
 layerOffset: -0.002
 progress: warmup
 color: c9f3ff
-heatColor: 00c7ff
+heatColor: 3ad4ff
 heatProgress: warmup
-moveX: 2.5
+moveX: 1
 moveY: 0.2
-moveRot: 90
+moveRot: 30
 }
 {
 suffix: "-backcoil"
@@ -63,11 +63,11 @@ mirror: true
 layerOffset: -0.002
 progress: warmup
 color: c9f3ff
-heatColor: 00c7ff
+heatColor: 3ad4ff
 heatProgress: warmup
-moveX: 2.5
+moveX: 1
 moveY: 0.3
-moveRot: 90
+moveRot: 30
 }
 ]
 }
