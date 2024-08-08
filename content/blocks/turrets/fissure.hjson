@@ -12,7 +12,7 @@ Fires 3 close-range piercing blasts at enemy targets.
 '''
 drawer: {
 type: DrawTurret
-basePrefix: "dark-"
+basePrefix: "shadow-"
 }
 category: turret
 smokeEffect: none
