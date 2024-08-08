@@ -70,7 +70,8 @@ moveRot: 90
 ]
 }
 category: turret
-shootSound: none
+//TODO sounds
+shootSound: laser
 loopSound: glow
 loopSoundVolume: 1
 recoil: 0.6
