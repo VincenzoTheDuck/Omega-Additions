@@ -31,7 +31,7 @@ const aurSmoke = new Effect(75, 300, e => {
 });
 
 const aurShoot = new Effect(22, e => {
-	Draw.color(Draw.color(Color.valueOf("38d3ff")));
+	Draw.color(Color.valueOf("38d3ff"));
 	Lines.stroke(e.fout() * 1.25)
 
   const hj = new Floatc2({get: function(x, y){
