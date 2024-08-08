@@ -10,6 +10,10 @@ Fires 3 missiles that explode into artillery shells.
 
 [accent]Faction:[] Shadow
 '''
+drawer: {
+type: DrawTurret
+basePrefix: "shadow-"
+}
 category: turret
 shootSound: missile
 recoil: 2
