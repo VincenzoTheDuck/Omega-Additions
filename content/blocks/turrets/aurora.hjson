@@ -37,6 +37,7 @@ moveY: -1.2
 moveRot: -10
 moves: [
 {
+type: PartMove
 progress: recoil
 moveRot: -7
 }
@@ -52,6 +53,7 @@ moveY: -7
 moveRot: 25
 moves: [
 {
+type: PartMove
 progress: recoil
 moveRot: -10
 moveX: -0.6
@@ -73,6 +75,7 @@ moveY: 0.2
 moveRot: -33
 moves: [
 {
+type: PartMove
 progress: recoil
 moveRot: -6
 }
@@ -92,6 +95,7 @@ moveY: 0.2
 moveRot: -50
 moves: [
 {
+type: PartMove
 progress: recoil
 moveRot: -8
 }
