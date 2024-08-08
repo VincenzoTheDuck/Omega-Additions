@@ -4,6 +4,7 @@ const aurShock = new Effect(17, e => {
 	Lines.stroke(e.fout() * 2)
 	
 	Lines.circle(e.x, e.y, e.fin() * 14);
+	Draw.blend();
 });
 
 const aurSpark = new Effect(23, e => {
@@ -17,6 +18,7 @@ const aurSpark = new Effect(23, e => {
 	}});
 
   Angles.randLenVectors(e.id, 8, e.finpow() * 17.0, e.rotation, 360.0, hj);
+	Draw.blend();
 });
 
 const aurSmoke = new Effect(75, 300, e => {
@@ -31,6 +33,7 @@ const aurSmoke = new Effect(75, 300, e => {
 	}});
   
   Angles.randLenVectors(e.id, 7, e.fin(Interp.pow10Out) * 29.0, e.rotation + (Time.time * 0.18), 180.0, hj);
+	Draw.blend();
 });
 
 const aurShoot = new Effect(22, e => {
@@ -44,6 +47,7 @@ const aurShoot = new Effect(22, e => {
 	}});
 
   Angles.randLenVectors(e.id, 5, e.finpow() * 20.0, e.rotation, 40.0, hj);
+	Draw.blend();
 });
 
 const aurShootSmoke = new Effect(50, 300, e => {
@@ -58,6 +62,7 @@ const aurShootSmoke = new Effect(50, 300, e => {
 	}});
   
   Angles.randLenVectors(e.id, 7, e.fin(Interp.pow10Out) * 24.0, e.rotation, 55.0, hj);
+	Draw.blend();
 });
 
 const aurTrail = new Effect(17, e => {
@@ -65,6 +70,7 @@ const aurTrail = new Effect(17, e => {
 	Draw.color(Color.valueOf("3ad4ff"));
 	
 	Fill.poly(e.x, e.y, 8, e.fout(Interp.pow5Out) * 2.5, Time.time * 0.5);
+	Draw.blend();
 });
 
 const aurBullet = extend(BasicBulletType, {
@@ -83,6 +89,7 @@ const aurBullet = extend(BasicBulletType, {
 		Draw.blend(Blending.additive);
 	Draw.color(Color.valueOf("3ad4ff"));
 		Fill.poly(b.x, b.y, 8, 2.5, Time.time * 0.5);
+	Draw.blend();
 		Draw.reset();
 	}
 });
