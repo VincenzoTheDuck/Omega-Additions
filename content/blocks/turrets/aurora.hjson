@@ -14,7 +14,7 @@ description: '''
 rotateSpeed: 2.5
 minWarmup: 0.9
 shootWarmupSpeed: 0.035
-shootY: 5.5
+shootY: 1
 drawer: {
 type: DrawTurret
 parts: [
