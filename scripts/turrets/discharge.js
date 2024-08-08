@@ -20,24 +20,6 @@ const bullet = extend(ContinuousBulletType, {
         Drawf.tri(b.x, b.y, 7, 10, b.rotation() + 180);
 		Draw.reset();
 	},
-	update(b){
-		if(Mathf.chance(0.33)){
-			shootSpark.at(b.x, b.y, b.rotation())
-		}
-
-		if(Mathf.chance(0.2)){
-			shootParticle.at(b.x, b.y, b.rotation())
-		}
-		
-		if(b.timer.get(1, b.damageInterval)){
-            b.applyDamage(b);
-		};
-		if(b.shake > 0){
-            Effect.shake(b.shake, b.shake, b);
-        };
-
-        b.updateBulletInterval(b);
-        },
 	hitEffect: hitSpark
 });
 
