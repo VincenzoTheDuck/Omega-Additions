@@ -41,7 +41,7 @@ suffix: "-back"
 mirror: true
 layerOffset: -0.002
 progress: warmup
-moveX: -2.5
+moveX: -3
 moveY: -7
 moveRot: 25
 }
