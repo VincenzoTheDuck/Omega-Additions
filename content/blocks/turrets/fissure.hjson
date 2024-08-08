@@ -10,6 +10,10 @@ Fires 3 close-range piercing blasts at enemy targets.
 
 [accent]Faction:[] Shadow
 '''
+drawer: {
+type: DrawTurret
+basePrefix: "dark-"
+}
 category: turret
 smokeEffect: none
 shootY: 5
