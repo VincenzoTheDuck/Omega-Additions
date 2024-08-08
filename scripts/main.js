@@ -38,4 +38,5 @@ require("turrets/fissure");
 require("turrets/toxin");
 require("turrets/rigel");
 require("turrets/discharge");
+require("turrets/aurora");
 require("turrets/saturn");
