@@ -21,9 +21,9 @@ suffix: "-blade"
 mirror: true
 under: true
 progress: warmup
-moveX: 1
-moveY: -2.5
-moveRot: -25
+moveX: 0.6
+moveY: -0.5
+moveRot: -17
 }
 ]
 }
@@ -31,7 +31,7 @@ category: turret
 shootSound: none
 loopSound: glow
 loopSoundVolume: 1
-recoil: 2
+recoil: 0.6
 size: 3
 range: 180
 consumes: {
