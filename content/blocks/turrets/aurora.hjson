@@ -12,6 +12,8 @@ description: '''
 [accent]Faction:[] Energy
 '''
 rotateSpeed: 2.5
+minWarmup: 0.9
+shootWarmupSpeed: 0.035
 shootY: 5.5
 drawer: {
 type: DrawTurret
