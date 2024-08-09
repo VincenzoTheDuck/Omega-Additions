@@ -56,7 +56,7 @@ const silenceBullet = extend(RailBulletType, {
   splashDamage: 2000,
   splashDamageRadius: 50,
   ammoMultiplier: 1,
-  lifetime: 320,
+  speed: 320,
   status: StatusEffects.sapped,
   statusDuration: 120,
 	hitEffect: new MultiEffect(silenceHit1, silenceHit2),
