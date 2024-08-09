@@ -45,7 +45,9 @@ fluxVapor
 fluxVapor
 ]
 shootEffect: hitLancer
-shootSound: mediumCannon
+shootSound: railgun2
+loopSound: crystalglow
+loopSoundVolume: 0.1
 reload: 220
 recoil: 0
 shootY: 0
