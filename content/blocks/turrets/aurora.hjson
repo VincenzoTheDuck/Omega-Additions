@@ -7,7 +7,7 @@ gartrium/75
 ]
 name: "Aurora"
 description: '''
-
+Fires long-range explosive bolts at enemy targets.
 
 [accent]Faction:[] Energy
 '''
@@ -116,6 +116,10 @@ consumes: {
 power: 13
 coolant: {
 amount: 0.6
+}
+liquid: {
+liquid: cascadia
+amount: 0.55
 }
 }
 research: meltdown
