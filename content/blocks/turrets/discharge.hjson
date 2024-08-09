@@ -36,5 +36,9 @@ size: 3
 range: 180
 consumes: {
 power: 13
+liquid: {
+liquid: cascadia
+amount: 0.25
+}
 }
 research: meltdown
