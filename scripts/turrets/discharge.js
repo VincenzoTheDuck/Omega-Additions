@@ -17,7 +17,7 @@ const bullet = extend(ContinuousBulletType, {
   draw(b){
 		Draw.color(Color.valueOf("81e1ff"));
         Drawf.tri(b.x, b.y, 7, bullet.length, b.rotation());
-        Drawf.tri(b.x, b.y, 7, 10, b.rotation() + 180);
+        Drawf.tri(b.x, b.y, 7, 7, b.rotation() + 180);
 		Draw.reset();
 	},
 	hitEffect: hitSpark
