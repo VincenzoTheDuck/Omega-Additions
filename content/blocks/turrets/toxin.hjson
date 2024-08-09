@@ -17,6 +17,7 @@ basePrefix: "shadow-"
 category: turret
 heatColor: ff6262
 shootSound: missile
+targetAir: false
 recoil: 2
 reload: 150
 shoot: {
