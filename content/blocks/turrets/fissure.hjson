@@ -15,6 +15,7 @@ type: DrawTurret
 basePrefix: "shadow-"
 }
 category: turret
+heatColor: ff6262
 smokeEffect: none
 shootY: 5
 shootSound: shotgun
