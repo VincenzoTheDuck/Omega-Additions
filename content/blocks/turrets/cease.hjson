@@ -11,6 +11,7 @@ Fires piercing bolts at enemy targets.
 [accent]Faction:[] Shadow
 '''
 category: turret
+heatColor: ff6262
 smokeEffect: none
 shootY: 5
 shootSound: bladeshoot
