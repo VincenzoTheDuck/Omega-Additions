@@ -6,7 +6,7 @@ thorium/75
 ]
 name: "Excalibur"
 description: '''
-Fires barrages of corrosive bullets at enemies.
+Fires a powerful explosive orb at enemy targets.
 
 [accent]Faction:[] Light
 '''
@@ -16,7 +16,9 @@ smokeEffect: fluxVapor
 shootWarmupSpeed: 0.065
 minWarmup: 0.9
 shootY: 3
-shootSound: shootSmite
+shootSound: railgun2
+loopSound: crystalglow
+loopSoundVolume: 0.12
 reload: 75
 drawer: {
 type: DrawTurret
