@@ -37,6 +37,7 @@ require("turrets/coef");
 require("turrets/cease");
 require("turrets/fissure");
 require("turrets/toxin");
+require("turrets/silence");
 require("turrets/rigel");
 require("turrets/discharge");
 require("turrets/aurora");
