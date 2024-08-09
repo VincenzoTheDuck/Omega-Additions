@@ -21,7 +21,7 @@ const ceaseTrail = new Effect(20, e => {
       Lines.lineAngleCenter(e.x, e.y, e.rotation, e.fout() * 10);
 	}});
 
-  Angles.randLenVectors(e.id, 1, e.finpow() * 4.0, e.rotation, 2.0, hj);
+  Angles.randLenVectors(e.id, 1, e.finpow() * 4.0, e.rotation, 360.0, hj);
 });
 
 const ceaseEnd = new Effect(20, e => {
