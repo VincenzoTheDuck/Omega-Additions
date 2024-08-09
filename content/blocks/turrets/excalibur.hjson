@@ -33,9 +33,11 @@ moveY: -2
 moveRot: -5
 moves: [
 {
+type: PartMove
+progress: recoil
 x: 0.5
 y: -0.5
-rot: -3
+rot: -4
 }
 ]
 }
@@ -51,7 +53,7 @@ strokeTo: 1.25
 progress: {
 type: warmup
 op: delay
-amount: 0.25
+amount: 0.55
 }
 }
 {
@@ -69,7 +71,7 @@ haloRadius: 16
 progress: {
 type: warmup
 op: delay
-amount: 0.25
+amount: 0.55
 }
 }
 {
@@ -88,7 +90,7 @@ haloRadius: 16
 progress: {
 type: warmup
 op: delay
-amount: 0.25
+amount: 0.55
 }
 }
 {
@@ -107,7 +109,7 @@ haloRadius: 16
 progress: {
 type: warmup
 op: delay
-amount: 0.25
+amount: 0.55
 }
 }
 {
@@ -127,7 +129,7 @@ haloRadius: 16
 progress: {
 type: warmup
 op: delay
-amount: 0.25
+amount: 0.55
 }
 }
 ]
