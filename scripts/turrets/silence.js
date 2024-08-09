@@ -12,7 +12,7 @@ const silenceHit1 = new Effect(23, e => {
   Angles.randLenVectors(e.id, 4, e.finpow() * 50.0, e.rotation, 360.0, hj);
 });
 
-const silenceHit2 = new Effect(30, e => {
+const silenceHit2 = new Effect(10, e => {
 	Draw.color(Color.valueOf("a56bff"));
 	Lines.stroke(e.fout() * 3);
 
