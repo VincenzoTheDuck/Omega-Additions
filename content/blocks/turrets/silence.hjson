@@ -25,7 +25,7 @@ type: DrawTurret
 basePrefix: "shadow-"
 parts: [
 {
-suffix: "-main"
+suffix: "-mid"
 progress: warmup
 moveY: -2.5
 heatProgress: warmup
