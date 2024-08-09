@@ -35,7 +35,7 @@ const silenceShoot = new Effect(20, e => {
 	Draw.color(Color.valueOf("a56bff"));
 
   for(let i = 0; i < 2; i++){
-        Drawf.tri(e.x, e.y, 2.5 * e.fout(), 23 * e.fout(), e.rotation + (i * 90));
+        Drawf.tri(e.x, e.y, 3.0 * e.fout(), 30 * e.fout(), e.rotation + 90 + (i * 180));
     }
 });
 
@@ -51,7 +51,7 @@ const silenceShoot2 = new Effect(17, e => {
   Angles.randLenVectors(e.id, 9, e.finpow() * 40.0, e.rotation, 75.0, hj);
 });
 
-const silenceBullet = extend(RailBulletType, {
+const silenceBullet = extend(PointBulletType, {
 	damage: 300,
   splashDamage: 2000,
   splashDamageRadius: 50,
