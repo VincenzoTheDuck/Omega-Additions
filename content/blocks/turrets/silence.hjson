@@ -16,10 +16,9 @@ smokeEffect: none
 shootY: 2
 shootSound: railgun2
 reload: 260
-shoot: {
-shots: 3
-shotDelay: 2
-}
+rotateSpeed: 1.5
+shootWarmupSpeed: 0.04
+minWarmup: 0.9
 drawer: {
 type: DrawTurret
 basePrefix: "shadow-"
