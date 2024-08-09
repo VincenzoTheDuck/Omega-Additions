@@ -2,14 +2,14 @@ const items = require("items/items")
 
 const silenceHit1 = new Effect(23, e => {
 	Draw.color(Color.valueOf("a56bff"));
-	Lines.stroke(e.fout() * 2);
+	Lines.stroke(e.fout() * 1.25);
 
   const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
       Lines.lineAngle(e.x + x, e.y + y, ang, e.fout() * 7);
 	}});
 
-  Angles.randLenVectors(e.id, 4, e.finpow() * 50.0, e.rotation, 360.0, hj);
+  Angles.randLenVectors(e.id, 11, e.finpow() * 50.0, e.rotation, 360.0, hj);
 });
 
 const silenceHit2 = new Effect(10, e => {
