@@ -1,0 +1,79 @@
+requirements: [
+heavy-alloy/30
+diamond/40
+gartrium/50
+lead/65
+]
+name: "Silence"
+description: '''
+
+
+[accent]Faction:[] Shadow
+'''
+category: turret
+heatColor: ff6262
+smokeEffect: none
+shootY: 2
+shootSound: railgun2
+reload: 260
+shoot: {
+shots: 3
+shotDelay: 2
+}
+drawer: {
+type: DrawTurret
+basePrefix: "shadow-"
+parts: [
+{
+suffix: "-main"
+progress: warmup
+moveY: -2.5
+heatProgress: warmup
+}
+{
+suffix: "-blade"
+mirror: true
+layerOffset: -0.002
+progress: warmup
+heatProgress: warmup
+moveX: 0.5
+moveY: -1.5
+moveRot: -10
+moves: [
+{
+type: PartMove
+progress: recoil
+rot: -5
+}
+]
+}
+{
+suffix: "-back"
+mirror: true
+layerOffset: -0.001
+progress: warmup
+heatProgress: warmup
+moveX: 0.3
+moveY: -1.2
+moveRot: -6
+moves: [
+{
+type: PartMove
+progress: recoil
+rot: -2
+}
+]
+}
+]
+}
+recoil: 1.5
+shake: 6
+size: 4
+liquidCapacity: 20
+research: toxin
+coolantMultiplier: 1.03
+consumes: {
+coolant: {
+amount: 1.25
+}
+}
