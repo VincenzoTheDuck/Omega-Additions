@@ -35,7 +35,7 @@ const ceaseShoot = new Effect(15, e => {
 	Draw.color(Color.valueOf("a56bff"));
 
   for(let i = 0; i < 2; i++){
-        Drawf.tri(e.x, e.y, 2 * e.fout(), 18 * e.fout(), e.rotation + (i * 90));
+        Drawf.tri(e.x, e.y, 2 * e.fout(), 18 * e.fout(), e.rotation + 90 + (i * 180));
     }
 });
 
