@@ -30,7 +30,7 @@ recoil: 3
 shake: 6
 size: 2
 liquidCapacity: 60
-research: fuse
+research: cease
 coolantMultiplier: 1.4
 consumes: {
 coolant: {
