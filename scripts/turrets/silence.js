@@ -16,26 +16,28 @@ const silenceHit2 = new Effect(30, e => {
 	Draw.color(Color.valueOf("a56bff"));
 	Lines.stroke(e.fout() * 3);
 
-  Lines.circle(e.x, e.y, 55.0 * e.fout());
+  Lines.circle(e.x, e.y, 55.0 * e.fin());
 });
 
 const silenceTrail = new Effect(30, e => {
 	Draw.color(Color.valueOf("a56bff"));
 	Lines.stroke(e.fout() * 2);
 
+	Lines.lineAngleCenter(e.x, e.y, e.rotation, 13 + (e.fout() * 7));
+
 	const hj = new Floatc2({get: function(x, y){
 		var ang = Mathf.angle(x, y);
       Lines.lineAngleCenter(e.x + x, e.y + y, e.rotation, e.fout() * 20);
 	}});
 
-  Angles.randLenVectors(e.id, 1, e.finpow() * 7.0, e.rotation, 2.0, hj);
+  Angles.randLenVectors(e.id, 3, e.finpow() * 7.0, e.rotation, 10.0, hj);
 });
 
 const silenceShoot = new Effect(20, e => {
 	Draw.color(Color.valueOf("a56bff"));
 
   for(let i = 0; i < 2; i++){
-        Drawf.tri(e.x, e.y, 3.0 * e.fout(), 30 * e.fout(), e.rotation + 90 + (i * 180));
+        Drawf.tri(e.x, e.y, 5.0 * e.fout(), 35 * e.fout(), e.rotation + 90 + (i * 180));
     }
 });
 
