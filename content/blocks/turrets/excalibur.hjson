@@ -18,7 +18,7 @@ minWarmup: 0.9
 shootY: 3
 shootSound: railgun2
 loopSound: crystalglow
-loopSoundVolume: 0.12
+loopSoundVolume: 0.14
 reload: 75
 drawer: {
 type: DrawTurret
@@ -31,6 +31,13 @@ progress: warmup
 moveX: 2
 moveY: -2
 moveRot: -5
+moves: [
+{
+x: 0.5
+y: -0.5
+rot: -3
+}
+]
 }
 {
 type: ShapePart
