@@ -25,6 +25,7 @@ basePrefix: "shadow-"
 parts: [
 {
 suffix: "-mid"
+layerOffset: 0.001
 progress: warmup
 moveY: -2.5
 heatProgress: warmup
@@ -32,7 +33,7 @@ heatProgress: warmup
 {
 suffix: "-blade"
 mirror: true
-layerOffset: -0.002
+layerOffset: -0.001
 progress: warmup
 heatProgress: warmup
 moveX: 0.5
@@ -49,7 +50,6 @@ rot: -5
 {
 suffix: "-back"
 mirror: true
-layerOffset: -0.001
 progress: warmup
 heatProgress: warmup
 moveX: 0.3
