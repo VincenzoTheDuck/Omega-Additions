@@ -28,7 +28,9 @@ smokeEffect: none
 shootWarmupSpeed: 0.12
 minWarmup: 0.9
 shootY: 4
-shootSound: missile
+shootSound: bladeshoot2
+loopSound: crystalglow
+loopSoundVolume: 0.08
 reload: 80
 shoot: {
 shots: 6
