@@ -15,6 +15,7 @@ type: DrawTurret
 basePrefix: "shadow-"
 }
 category: turret
+heatColor: ff6262
 shootSound: missile
 recoil: 2
 reload: 150
