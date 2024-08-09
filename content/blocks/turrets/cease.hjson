@@ -1,0 +1,36 @@
+requirements: [
+heavy-alloy/30
+diamond/40
+gartrium/50
+lead/65
+]
+name: "Cease"
+description: '''
+Fires piercing bolts at enemy targets.
+
+[accent]Faction:[] Shadow
+'''
+category: turret
+smokeEffect: none
+shootY: 5
+shootSound: bladeshoot
+reload: 60
+shoot: {
+shots: 3
+shotDelay: 2
+}
+drawer: {
+type: DrawTurret
+basePrefix: "shadow-"
+}
+recoil: 1.5
+shake: 3
+size: 1
+liquidCapacity: 20
+research: fuse
+coolantMultiplier: 1.1
+consumes: {
+coolant: {
+amount: 0.4
+}
+}
