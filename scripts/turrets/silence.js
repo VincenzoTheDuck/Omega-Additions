@@ -52,8 +52,8 @@ const silenceShoot2 = new Effect(17, e => {
 });
 
 const silenceBullet = extend(RailBulletType, {
-	damage: 100,
-  splashDamage: 350,
+	damage: 300,
+  splashDamage: 2000,
   splashDamageRadius: 50,
   ammoMultiplier: 1,
   lifetime: 320,
