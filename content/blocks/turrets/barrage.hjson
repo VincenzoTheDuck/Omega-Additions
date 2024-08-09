@@ -67,7 +67,7 @@ shake: 3
 size: 3
 liquidCapacity: 45
 ammoCapacity: 20
-research: cut
+research: bladeshoot2
 coolantMultiplier: 3
 consumes: {
 coolant: {
