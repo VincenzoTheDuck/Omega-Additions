@@ -71,6 +71,6 @@ const silenceBullet = extend(RailBulletType, {
 const silence = extend(ItemTurret, "silence", {});
 silence.range = 320;
 silence.shootCone = 2;
-cease.ammo(
+silence.ammo(
   items.gartrium, silenceBullet
 );
