@@ -29,7 +29,7 @@ smokeEffect: none
 shootWarmupSpeed: 0.15
 minWarmup: 0.9
 shootY: 8.5
-shootSound: shootBig
+shootSound: bladeshoot2
 reload: 40
 shoot: {
 shots: 5
@@ -67,7 +67,7 @@ shake: 3
 size: 3
 liquidCapacity: 45
 ammoCapacity: 20
-research: bladeshoot2
+research: cut
 coolantMultiplier: 3
 consumes: {
 coolant: {
