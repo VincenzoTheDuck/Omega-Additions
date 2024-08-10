@@ -20,7 +20,7 @@ heatColor: ff6262
 smokeEffect: none
 shootY: 4.5
 shootSound: railgun2
-reload: 600
+reload: 500
 cooldownTime: 140
 rotateSpeed: 1.2
 recoil: 2.3
