@@ -21,6 +21,7 @@ smokeEffect: none
 shootY: 4.5
 shootSound: railgun2
 reload: 600
+cooldownTime: 140
 rotateSpeed: 1.2
 recoil: 2.3
 shake: 10
