@@ -89,5 +89,5 @@ strokeTo: 0
 range: 210
 researchCostMultiplier: 0
 research: {
-parent: support-air-assembler
+parent: light-naval-assembler
 }
