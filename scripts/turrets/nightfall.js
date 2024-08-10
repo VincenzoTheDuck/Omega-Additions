@@ -55,17 +55,17 @@ const bullet = extend(RailBulletType, {
 	damage: 3000,
   ammoMultiplier: 1,
   length: 260,
-	hitEffect: ceaseHit,
-  endEffect: ceaseEnd,
+	hitEffect: hit,
+  endEffect: end,
   pointEffectSpace: 20,
-  pointEffect: ceaseTrail,
-  shootEffect: ceaseShoot
+  pointEffect: trail,
+  shootEffect: shoot
 });
 
 const nightfall = extend(ItemTurret, "nightfall", {});
 nightfall.range = 260;
 nightfall.shootCone = 3;
-nightfall.smokeEffect = ceaseShoot2;
+nightfall.smokeEffect = shoot2;
 nightfall.ammo(
   Items.surgeAlloy, bullet
 );
