@@ -18,6 +18,7 @@ x: 0
 y: 3.5
 top: false
 shootY: 0
+rotationLimit: 360
 reload: 20
 recoil: 1
 shootSound: missile
@@ -31,7 +32,7 @@ speed: 6
 frontColor: ffffff
 backColor: ffdd8d
 trailColor: ffdd8d
-trailWidth: 0.3
+trailWidth: 1
 trailLength: 10
 lifetime: 35
 lightColor: ffdd8d
@@ -78,7 +79,7 @@ healEffect: none
 sameTypeHealMult: 0
 displayHeal: false
 blinkSize: 0.05
-effectRadius: 1.25
+effectRadius: 2.75
 hitEffect: {
 type: WaveEffect
 sizeFrom: 0
