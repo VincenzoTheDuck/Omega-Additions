@@ -2,6 +2,7 @@ name: "Edge"
 description: '''
 
 '''
+naval: true
 health: 300
 rotateSpeed: 5
 speed: 3.5
