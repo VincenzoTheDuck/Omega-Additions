@@ -1,4 +1,4 @@
-const hit = new Effect(15, e => {
+const hit = new Effect(20, e => {
 	Draw.color(Pal.surge);
 	Lines.stroke(e.fout() * 1.5);
 
@@ -10,9 +10,9 @@ const hit = new Effect(15, e => {
   Angles.randLenVectors(e.id, 6, e.finpow() * 23.0, e.rotation, 360.0, hj);
 });
 
-const trail = new Effect(20, e => {
+const trail = new Effect(35, e => {
 	Draw.color(Pal.surge);
-	Lines.stroke(e.fout() * 2);
+	Lines.stroke(e.fout() * 3.5);
 
 	Lines.lineAngleCenter(e.x, e.y, e.rotation, 13 + (e.fout() * 7));
 
@@ -24,14 +24,14 @@ const trail = new Effect(20, e => {
   Angles.randLenVectors(e.id, 3, e.finpow() * 7.0, e.rotation, 10.0, hj);
 });
 
-const end = new Effect(20, e => {
+const end = new Effect(35, e => {
 	Draw.color(Pal.surge);
 
-  Drawf.tri(e.x, e.y, 2 * e.fout(), 25 * e.fout(), e.rotation);
-  Drawf.tri(e.x, e.y, 2 * e.fout(), 13 * e.fout(), e.rotation + 180);
+  Drawf.tri(e.x, e.y, 3.5 * e.fout(), 55 * e.fout(), e.rotation);
+  Drawf.tri(e.x, e.y, 3.5 * e.fout(), 20 * e.fout(), e.rotation + 180);
 });
 
-const shoot = new Effect(15, e => {
+const shoot = new Effect(20, e => {
 	Draw.color(Pal.surge);
 
   for(let i = 0; i < 2; i++){
@@ -39,7 +39,7 @@ const shoot = new Effect(15, e => {
     }
 });
 
-const shoot2 = new Effect(20, e => {
+const shoot2 = new Effect(25, e => {
 	Draw.color(Pal.surge);
 	Lines.stroke(e.fout() * 1.5);
 
