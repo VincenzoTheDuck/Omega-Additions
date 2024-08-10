@@ -18,7 +18,7 @@ A massive experimental kinetic weapon created by Faction D. Accelerates a sphere
 category: turret
 heatColor: ff6262
 smokeEffect: none
-shootY: 2
+shootY: 4.5
 shootSound: railgun2
 reload: 600
 rotateSpeed: 1.2
@@ -28,7 +28,7 @@ size: 6
 liquidCapacity: 300
 ammoCapacity: 60
 ammoUse: 15
-ammoUseEffect: casing4Double
+ammoUseEffect: casing3Double
 research: foreshadow
 coolantMultiplier: 1.002
 consumes: {
