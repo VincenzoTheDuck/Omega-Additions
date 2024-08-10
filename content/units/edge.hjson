@@ -18,7 +18,7 @@ x: 0
 y: 3.5
 top: false
 shootY: 0
-rotationLimit: 360
+rotate: true
 reload: 20
 recoil: 1
 shootSound: missile
@@ -39,7 +39,7 @@ lightColor: ffdd8d
 shootEffect: {
 type: WaveEffect
 sizeFrom: 0
-sizeTo: 10
+sizeTo: 5
 colorFrom: ffffff
 colorTo: ffdd8d
 lifetime: 17
@@ -83,7 +83,7 @@ effectRadius: 2.75
 hitEffect: {
 type: WaveEffect
 sizeFrom: 0
-sizeTo: 10
+sizeTo: 5
 colorFrom: ffffff
 colorTo: ffdd8d
 lifetime: 17
