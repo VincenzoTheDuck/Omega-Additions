@@ -9,7 +9,7 @@ category: crafting
 hasLiquids: true
 craftEffect: none
 outputItem: beryllium/3
-craftTime: 160
+craftTime: 180
 itemCapacity: 35
 liquidCapacity: 100
 heatRequirement: 20
