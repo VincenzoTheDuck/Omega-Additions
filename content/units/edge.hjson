@@ -1,6 +1,6 @@
 name: "Edge"
 description: '''
-
+Fires energy missiles and energy arcs at enemy targets.
 '''
 naval: true
 health: 300
