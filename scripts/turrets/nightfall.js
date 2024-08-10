@@ -32,10 +32,10 @@ const end = new Effect(20, e => {
 });
 
 const shoot = new Effect(15, e => {
-	Draw.color(Color.valueOf("a56bff"));
+	Draw.color(Pal.surge);
 
   for(let i = 0; i < 2; i++){
-        Drawf.tri(e.x, e.y, 2 * e.fout(), 18 * e.fout(), e.rotation + 90 + (i * 180));
+        Drawf.tri(e.x, e.y, 5.5 * e.foutpow(), 35 * e.fout(), e.rotation + 90 + (i * 180));
     }
 });
 
@@ -54,7 +54,7 @@ const shoot2 = new Effect(20, e => {
 const bullet = extend(RailBulletType, {
 	damage: 3000,
   ammoMultiplier: 1,
-  length: 260,
+  length: 400,
 	hitEffect: hit,
   endEffect: end,
   pointEffectSpace: 20,
@@ -63,7 +63,7 @@ const bullet = extend(RailBulletType, {
 });
 
 const nightfall = extend(ItemTurret, "nightfall", {});
-nightfall.range = 260;
+nightfall.range = 400;
 nightfall.shootCone = 3;
 nightfall.smokeEffect = shoot2;
 nightfall.ammo(
