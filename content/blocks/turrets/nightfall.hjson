@@ -1,0 +1,38 @@
+requirements: [
+heavy-alloy/320
+surge-alloy/200
+plastanium/140
+metaglass/90
+silicon/150
+copper/230
+lead/180
+phase-fabric/90
+]
+name: "GC-11 Nightfall"
+description: '''
+A massive experimental kinetic weapon created by Faction D. Accelerates a sphere of surge alloy to hypersonic speed using a series of stationary permanent magnet sections.
+
+[accent]Faction:[] D
+[accent]Division:[] Kinetic
+'''
+category: turret
+heatColor: ff6262
+smokeEffect: none
+shootY: 2
+shootSound: railgun2
+reload: 600
+rotateSpeed: 1.2
+recoil: 2.3
+shake: 10
+size: 6
+liquidCapacity: 300
+ammoCapacity: 60
+ammoUse: 15
+ammoUseEffect: casing4Double
+research: foreshadow
+coolantMultiplier: 1.002
+consumes: {
+coolant: {
+amount: 2
+}
+}
