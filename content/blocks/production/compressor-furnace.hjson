@@ -1,0 +1,51 @@
+requirements: [
+
+]
+name: "Compressor Furnace"
+description: '''
+
+'''
+category: crafting
+craftEffect: none
+outputItem: beryllium/3
+craftTime: 160
+itemCapacity: 35
+liquidCapacity: 100
+heatRequirement: 20
+ambientSound: smelter
+ambientSoundVolume: 0.9
+size: 5
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidRegion
+drawLiquid: cyanogen
+}
+DrawDefault
+DrawHeatInput
+{
+type: DrawHeatRegion
+color: ff6060
+}
+{
+type: DrawHeatRegion
+suffix: "-vents"
+color: ff3838
+}
+]
+consumes: {
+power: 15
+items: {
+items: [
+beryllium/1
+]
+}
+liquid: {
+liquid: cyanogen
+amount: 0.4
+}
+}
+research: surge-crucible
