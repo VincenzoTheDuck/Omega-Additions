@@ -24,6 +24,7 @@ require("turrets/redox");
 require("turrets/instability");
 require("turrets/decomposition");
 require("turrets/collapse");
+require("turrets/nightfall");
 require("turrets/glow");
 require("turrets/sparkle");
 require("turrets/cut");
