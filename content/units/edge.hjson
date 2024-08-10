@@ -7,7 +7,6 @@ rotateSpeed: 5
 speed: 3.5
 accel: 0.02
 drag: 0.07
-controller: repairAI
 lightRadius: 45
 lightColor: ffdd8d
 trailLength: 13
@@ -27,11 +26,13 @@ shake: 1
 bullet: {
 type: MissileBulletType
 damage: 35
-recoil: 0.35
 reflectable: false
 speed: 6
 frontColor: ffffff
 backColor: ffdd8d
+trailColor: ffdd8d
+trailWidth: 0.3
+trailLength: 10
 lifetime: 35
 lightColor: ffdd8d
 shootEffect: {
@@ -71,9 +72,13 @@ sector: 4
 rotateSpeed: 1.5
 reload: 25
 blinkScl: 12
-statusEffect: shocked
+status: shocked
 healPercent: 0
 healEffect: none
+sameTypeHealMult: 0
+displayHeal: false
+blinkSize: 0.05
+effectRadius: 1.25
 hitEffect: {
 type: WaveEffect
 sizeFrom: 0
