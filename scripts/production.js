@@ -27,3 +27,5 @@ const crysoliumChamber = extend(GenericCrafter, "crysolium-synthesis-chamber", {
 const gartriumSynthesizer = extend(GenericCrafter, "gartrium-synthesizer", {});
 
 const sariumCrystallizer = extend(GenericCrafter, "sarium-crystallizer", {});
+
+const compressorFurnace = extend(HeatCrafter, "compressor-furnace", {});
