@@ -65,7 +65,7 @@ const bullet = extend(RailBulletType, {
 const nightfall = extend(ItemTurret, "nightfall", {});
 nightfall.range = 260;
 nightfall.shootCone = 3;
-nightfall.smokeEffect: ceaseShoot2;
+nightfall.smokeEffect = ceaseShoot2;
 nightfall.ammo(
   Items.surgeAlloy, bullet
 );
